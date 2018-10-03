@@ -27,6 +27,14 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/notes`,
+        name: 'notes'
+      }
+    },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`
   ]
 };
