@@ -1,3 +1,14 @@
-import React from "react"
+import React from 'react';
 
-export default () => <div>Hello world!</div>
+// components
+import Container from '../components/Container';
+
+export default ({ data }) => {
+  var pageTitle = 'Hello IAAC!';
+
+  return (
+    <Container>
+      <h1>{pageTitle}</h1>
+    </Container>
+  );
+};

@@ -1,0 +1,83 @@
+@import './variables.css';
+
+html {
+  --some-length: 32px;
+  background-color: var(--color-bg);
+  box-sizing: border-box;
+  font-size: var(--font-base-size);
+  font-family: var(--font-family);
+  font-weight: var(--fw-base);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: var(--font-size-0);
+}
+
+/* headings */
+:--headings {
+  color: var(--color-heading);
+  font-weight: var(--fw-bold);
+  font-family: var(--font-family-heading);
+  line-height: var(--line-height-heading);
+}
+
+h1,
+.h1 {
+  font-size: var(--font-size-3);
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+h2,
+.h2 {
+  font-size: var(--font-size-2);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h3,
+.h3 {
+  font-size: var(--font-size-1);
+}
+
+/* text body */
+p {
+  font-size: var(--font-size-0);
+  margin: 0;
+}
+
+p + p {
+  margin-top: 0.75rem;
+}
+
+small {
+  font-size: var(--font-size-sub-1);
+}
+
+a {
+  color: var(--color-link);
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    color: var(--color-link-hover);
+  }
+}
+
+strong {
+  font-weight: var(--fw-bold);
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}

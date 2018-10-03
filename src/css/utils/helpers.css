@@ -1,0 +1,98 @@
+@import './variables.css';
+
+/* layout */
+.wrap {
+  max-width: var(--wrap);
+  margin: 0 auto;
+}
+
+.wrap-s {
+  max-width: var(--wrap-s);
+  margin: 0 auto;
+}
+
+.wrap-l {
+  max-width: var(--wrap-l);
+  margin: 0 auto;
+}
+
+.wrap-xl {
+  max-width: var(--wrap-xl);
+  margin: 0 auto;
+}
+
+.body-text {
+  max-width: var(--wrap-s);
+}
+
+/* text */
+.fs-small,
+.fs-small * {
+  font-size: var(--font-size-sub-1);
+}
+
+.fs-large,
+.fs-large * {
+  font-size: var(--font-size-1);
+}
+
+.fw-base {
+  font-weight: var(--fw-base);
+}
+
+.fw-medium {
+  font-weight: var(--fw-medium);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.ta-center {
+  text-align: center;
+}
+
+/* visibility */
+.sr-only {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+/* margin */
+.m-1 {
+  margin-top: 1.5rem;
+}
+
+.m-2 {
+  margin-top: 3rem;
+}
+
+.m-3 {
+  margin-top: 4.5rem;
+}
+
+.m-4 {
+  margin-top: 6rem;
+}
+
+.m-5 {
+  margin-top: 7.5rem;
+}
+
+.m-6 {
+  margin-top: 9rem;
+}
+
+.m-7 {
+  margin-top: 10.5rem;
+}
+
+.m-8 {
+  margin-top: 12rem;
+}

@@ -3,13 +3,25 @@
   "description": "Gatsby hello world starter",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve"
+    "develop": "del .cache/ && gatsby develop",
+    "developLocal": "del .cache/ && gatsby develop --host $(ifconfig | awk '/inet 192.168.[0-9]+.[0-9]+/{print $2}') --port 8000",
+    "build": "del .cache/ && gatsby build",
+    "serve": "gatsby serve",
+    "clear": "del .cache/"
   },
   "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "del-cli": "^1.1.0",
     "gatsby": "^2.0.0",
+    "gatsby-plugin-postcss": "^2.0.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "postcss-calc": "^6.0.2",
+    "postcss-color-function": "^4.0.1",
+    "postcss-css-variables": "^0.10.0",
+    "postcss-custom-media": "^7.0.4",
+    "postcss-custom-selectors": "^5.1.2",
+    "postcss-import": "^12.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0"

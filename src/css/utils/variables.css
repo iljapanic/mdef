@@ -1,0 +1,97 @@
+:root {
+  /* https://coolors.co/01161e-58a4b0-171716-7b9e96-ac3931 */
+  --color-primary: #fdf3ec;
+  --shade-0: #e6ddd7;
+  --shade-1: #d0c7c2;
+  --shade-2: #b9b1ac;
+  --shade-3: #a29b97;
+  --shade-4: #8b8581;
+  --shade-5: #736f6c;
+  --shade-6: #5c5956;
+  --shade-7: #454341;
+  --shade-8: #454341;
+  --shade-9: #171716;
+  --tint-0: #fdf4ed;
+  --tint-1: #fdf5ef;
+  --tint-2: #fdf6f1;
+  --tint-3: #fdf7f2;
+  --tint-4: #fdf8f4;
+  --tint-5: #fef9f6;
+  --tint-6: #fefaf8;
+  --tint-7: #fefbf9;
+  --tint-8: #fefcfb;
+  --tint-9: #fefcfb;
+
+  --color-base: var(--shade-9);
+  --color-heading: var(--shade-7);
+
+  --color-bg: var(--tint-9);
+  --color-link: #87a69f;
+  --color-link-hover: #5a736e;
+  --color-button: var(--color-primary);
+  --color-button-hover: var(--shade-0);
+
+  --color-red: #ac3931;
+  --color-green: #7b9e96;
+
+  --color-facebook: #546ba6;
+  --color-instagram: #d1617e;
+
+  /* colors - grays */
+  --gray1: #3c3c3d;
+  --gray2: #5a5a5b;
+  --gray3: #7d7d7e;
+  --gray4: #cdcdce;
+  --gray5: #dededf;
+  --gray6: #efeff0;
+
+  /* font */
+  --font-family: 'Nunito', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif';
+  --font-family-heading: 'Nunito Sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial',
+    'sans-serif';
+  --fw-base: 300;
+  --fw-medium: 400;
+  --fw-bold: 700;
+
+  --font-base-size: 14px;
+  --line-height: 1.6;
+  --line-height-heading: 1.25;
+  --letter-spacing: 0.1em;
+  --border-radius: 0.15rem;
+
+  /* scale for 1.2 */
+  --font-size-0: 1rem;
+  --font-size-1: 1.2rem;
+  --font-size-2: 1.44rem;
+  --font-size-3: 1.728rem;
+  --font-size-sub-1: 0.889rem;
+  --font-size-sub-2: 0.79rem;
+
+  /* wraps */
+  --wrap: 960px;
+  --wrap-s: 640px;
+  --wrap-l: 54em;
+  --wrap-xl: 68em;
+}
+
+@media screen and (min-width: 800px) {
+  :root {
+    --font-base-size: 19px;
+    --line-height: 1.7;
+    --line-height-heading: 1.35;
+
+    /* scale for 1.25 */
+    --font-size-0: 1rem;
+    --font-size-1: 1.25rem;
+    --font-size-2: 1.563rem;
+    --font-size-3: 1.953rem;
+    --font-size-sub-1: 0.8rem;
+    --font-size-sub-2: 0.64rem;
+  }
+}
+
+/* custom media queries */
+@custom-media --desktop (min-width: 940px);
+
+/* custom CSS selectors */
+@custom-selector :--headings h1, h2, h3, h4, h5, h6;
