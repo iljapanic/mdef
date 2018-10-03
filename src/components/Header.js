@@ -5,7 +5,7 @@ import styles from '../css/components/Header.module.css';
 
 const ListLink = props => (
   <li>
-    <Link to={props.to} activeClassName="active">
+    <Link to={props.to} activeClassName={styles.active}>
       {props.children}
     </Link>
   </li>
@@ -15,12 +15,13 @@ export default ({ children }) => (
   <header className={styles.header}>
     <div className={styles.logo}>
       <Link to="/">
-        <span className={styles.name}>Ilja Panic</span>
-        <span className={styles.subtitle}> MDEF Diary</span>
+        <span className={styles.subtitle}>MDEF Diary</span>
+        <span className={styles.name}> by Ilja Panic</span>
       </Link>
     </div>
     <nav className={styles.nav}>
       <ul>
+        <ListLink to="/notes/">Notes</ListLink>
         <ListLink to="/about/">About</ListLink>
       </ul>
     </nav>

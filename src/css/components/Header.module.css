@@ -33,23 +33,33 @@
   text-decoration: none;
 }
 
-.name {
-  opacity: 0.75;
+.logo:hover .subtitle {
+  opacity: 1;
 }
 
 .subtitle {
-  margin-left: 0.5rem;
+  opacity: 0.65;
+  font-weight: var(--fw-medium);
+  transition: all 0.25s ease-in-out;
+}
+
+.name {
   opacity: 0.35;
+  font-size: var(--font-size-sub-1);
+  margin-left: 0.25rem;
 }
 
 .nav ul {
   padding: 0;
-  /* margin-top: 2rem; */
 }
 
 .nav li {
   display: inline-block;
-  margin: 0 2rem;
+  margin-right: 3rem;
+}
+
+.nav li:last-of-type {
+  margin-right: 0;
 }
 
 .nav a {
@@ -62,7 +72,8 @@
   color: var(--gray2);
 }
 
-.nav a.active {
+.active,
+a.active {
   color: var(--gray1);
-  font-weight: var(--fw-bold);
+  border-bottom: 1px solid var(--gray1);
 }
