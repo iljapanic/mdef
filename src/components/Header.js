@@ -13,9 +13,12 @@ const ListLink = props => (
 
 export default ({ children }) => (
   <header className={styles.header}>
-    <Link to="/">
-      <span>Ilja Panic - MDEF</span>
-    </Link>
+    <div className={styles.logo}>
+      <Link to="/">
+        <span className={styles.name}>Ilja Panic</span>
+        <span className={styles.subtitle}> MDEF Diary</span>
+      </Link>
+    </div>
     <nav className={styles.nav}>
       <ul>
         <ListLink to="/about/">About</ListLink>

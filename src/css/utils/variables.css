@@ -46,12 +46,11 @@
   --gray6: #efeff0;
 
   /* font */
-  --font-family: 'Nunito', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif';
-  --font-family-heading: 'Nunito Sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial',
-    'sans-serif';
+  --font-family: 'Rubik', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif';
+  --font-family-heading: 'Rubik', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif';
   --fw-base: 300;
   --fw-medium: 400;
-  --fw-bold: 700;
+  --fw-bold: 500;
 
   --font-base-size: 14px;
   --line-height: 1.6;
