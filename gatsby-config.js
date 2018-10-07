@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/ilja.panic`,
   siteMetadata: {
-    title: `Ilja Panic | MDEF`,
+    name: `MDEF Diary`,
     email: `ilja.aleksandar.panic@iaac.net`
   },
   plugins: [
@@ -34,7 +34,36 @@ module.exports = {
         name: 'notes'
       }
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: './src/images/favicon.png'
+      }
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1000,
+              quality: 75,
+              showCaptions: true
+            }
+          },
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+              rel: null
+            }
+          }
+        ]
+      }
+    },
     `gatsby-plugin-react-helmet`
   ]
 };

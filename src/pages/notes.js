@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
 
 // components
 import Container from '../components/Container';
@@ -12,6 +13,9 @@ export default ({ data }) => {
 
   return (
     <Container>
+      <Helmet>
+        <title>Notes</title>
+      </Helmet>
       <div className="wrap">
         <h1>{pageTitle}</h1>
         <div className="ta-center m-1">{Notes}</div>
@@ -33,7 +37,7 @@ export const query = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "D MMMM")
-            endDate(formatString: "D MMMM, YYYY")
+            endDate(formatString: "D MMMM YYYY")
             slug
             title
           }
