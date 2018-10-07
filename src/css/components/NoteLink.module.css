@@ -1,0 +1,14 @@
+@import '../utils/variables.css';
+
+.noteLink a {
+  text-decoration: none;
+}
+
+.noteLink__title {
+  margin-bottom: 0;
+  color: inherit;
+}
+
+.noteLink__meta {
+  color: var(--gray3);
+}

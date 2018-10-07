@@ -1,0 +1,9 @@
+.maze,
+.maze svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.maze path {
+  stroke-width: 2;
+}

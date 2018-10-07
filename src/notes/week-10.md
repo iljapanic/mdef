@@ -2,7 +2,9 @@
 title: "10. An Introduction to Futures"
 slug: "10-an-introduction-to-futures"
 date: "2018-12-03"
+endDate: "2018-12-09"
 lastUpdated: "2018-10-03"
+published: false
 ---
 
 Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper.

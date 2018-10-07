@@ -8,7 +8,6 @@ import Footer from './Footer';
 import '../css/utils/normalize.css';
 import '../css/utils/base.css';
 import '../css/utils/helpers.css';
-import '../css/utils/form.css';
 
 // component CSS
 import styles from '../css/components/Container.module.css';

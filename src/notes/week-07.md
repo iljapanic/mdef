@@ -2,7 +2,9 @@
 title: "07. The Way Things Work"
 slug: "07-the-way-things-work"
 date: "2018-11-12"
+endDate: "2018-11-18"
 lastUpdated: "2018-10-03"
+published: false
 ---
 
 Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper.

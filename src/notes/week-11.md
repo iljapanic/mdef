@@ -2,7 +2,9 @@
 title: "11. From Bits to Atoms"
 slug: "11-from-bits-to-atoms"
 date: "2018-12-10"
+endDate: "2018-12-16"
 lastUpdated: "2018-10-03"
+published: false
 ---
 
 Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper.

@@ -8,8 +8,9 @@ export default ({ data }) => {
 
   return (
     <Container>
-      <div className="wrap">
+      <div className="wrap ta-center">
         <h1>{pageTitle}</h1>
+        <p>Soul searching in progress...</p>
       </div>
     </Container>
   );

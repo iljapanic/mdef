@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql, link } from 'gatsby';
+import { graphql } from 'gatsby';
 import ReactHtmlParser from 'react-html-parser';
 
 // components
@@ -14,6 +14,7 @@ export default function Template({ data }) {
     <Container>
       <artilce className="note">
         <div className="wrap-s">
+          <div className="breadcrumb" />
           <h1>{meta.title}</h1>
           <div className="note__text">{noteHtml}</div>
         </div>

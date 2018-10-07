@@ -6,7 +6,7 @@ import Container from '../components/Container';
 import NoteLink from '../components/NoteLink';
 
 export default ({ data }) => {
-  const pageTitle = 'Notes';
+  const pageTitle = 'Term 1';
   const allNotes = data.allMarkdownRemark.edges;
   const Notes = allNotes.map(edge => <NoteLink key={edge.node.id} note={edge.node} />);
 
@@ -14,7 +14,7 @@ export default ({ data }) => {
     <Container>
       <div className="wrap">
         <h1>{pageTitle}</h1>
-        {Notes}
+        <div className="ta-center m-1">{Notes}</div>
       </div>
     </Container>
   );
@@ -22,13 +22,18 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }, limit: 1000) {
+    allMarkdownRemark(
+      sort: { order: ASC, fields: [frontmatter___date] }
+      limit: 1000
+      filter: { frontmatter: { published: { eq: true } } }
+    ) {
       edges {
         node {
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "D MMMM")
+            endDate(formatString: "D MMMM, YYYY")
             slug
             title
           }

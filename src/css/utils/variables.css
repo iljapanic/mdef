@@ -1,35 +1,13 @@
 :root {
   /* https://coolors.co/01161e-58a4b0-171716-7b9e96-ac3931 */
-  --color-primary: #fdf3ec;
-  --shade-0: #e6ddd7;
-  --shade-1: #d0c7c2;
-  --shade-2: #b9b1ac;
-  --shade-3: #a29b97;
-  --shade-4: #8b8581;
-  --shade-5: #736f6c;
-  --shade-6: #5c5956;
-  --shade-7: #454341;
-  --shade-8: #454341;
-  --shade-9: #171716;
-  --tint-0: #fdf4ed;
-  --tint-1: #fdf5ef;
-  --tint-2: #fdf6f1;
-  --tint-3: #fdf7f2;
-  --tint-4: #fdf8f4;
-  --tint-5: #fef9f6;
-  --tint-6: #fefaf8;
-  --tint-7: #fefbf9;
-  --tint-8: #fefcfb;
-  --tint-9: #fefcfb;
+  --color-primary: #cb5760;
 
-  --color-base: var(--shade-9);
-  --color-heading: var(--shade-7);
+  --color-base: #2a2928;
+  --color-heading: #535250;
 
-  --color-bg: var(--tint-9);
-  --color-link: #87a69f;
-  --color-link-hover: #5a736e;
-  --color-button: var(--color-primary);
-  --color-button-hover: var(--shade-0);
+  --color-bg: #faf9f8;
+  --color-link: #cb5760;
+  --color-link-hover: #a7484f;
 
   --color-red: #ac3931;
   --color-green: #7b9e96;
