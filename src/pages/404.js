@@ -13,7 +13,7 @@ export default ({ data }) => {
     <Container>
       <div className="wrap">
         <h1>{pageTitle}</h1>
-        <div className="ta-center m-2">
+        <div className="ta-center m-1">
           <img src={notFound} alt="confused John Travolta" />
         </div>
       </div>
