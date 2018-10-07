@@ -34,12 +34,6 @@ module.exports = {
         name: 'notes'
       }
     },
-    {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: './src/images/favicon.png'
-      }
-    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
