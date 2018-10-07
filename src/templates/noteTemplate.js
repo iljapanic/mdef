@@ -12,13 +12,13 @@ export default function Template({ data }) {
 
   return (
     <Container>
-      <artilce className="note">
+      <article className="note">
         <div className="wrap-s">
           <div className="breadcrumb" />
           <h1>{meta.title}</h1>
           <div className="note__text">{noteHtml}</div>
         </div>
-      </artilce>
+      </article>
     </Container>
   );
 }
