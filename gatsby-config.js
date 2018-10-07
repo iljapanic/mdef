@@ -1,5 +1,9 @@
+require('dotenv').config({
+  path: `.env`
+});
+
 module.exports = {
-  pathPrefix: `/ilja.panic`,
+  pathPrefix: process.env.GATSBY_PATH_PREFIX,
   siteMetadata: {
     name: `MDEF Diary`,
     email: `ilja.aleksandar.panic@iaac.net`
@@ -46,6 +50,7 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-smartypants`,
+          `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-images`,
             options: {
