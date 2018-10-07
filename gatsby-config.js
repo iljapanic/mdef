@@ -1,9 +1,5 @@
-require('dotenv').config({
-  path: `.env`
-});
-
 module.exports = {
-  pathPrefix: process.env.GATSBY_PATH_PREFIX,
+  pathPrefix: '/ilja.panic',
   siteMetadata: {
     name: `MDEF Diary`,
     email: `ilja.aleksandar.panic@iaac.net`
@@ -49,8 +45,6 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-smartypants`,
-          `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -65,7 +59,9 @@ module.exports = {
               target: '_blank',
               rel: null
             }
-          }
+          },
+          `gatsby-remark-smartypants`,
+          `gatsby-remark-copy-linked-files`
         ]
       }
     },

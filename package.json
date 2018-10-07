@@ -5,7 +5,7 @@
   "scripts": {
     "develop": "del .cache/ && gatsby develop",
     "developLocal": "del .cache/ && gatsby develop --host $(ifconfig | awk '/inet 192.168.[0-9]+.[0-9]+/{print $2}') --port 8000",
-    "build": "del .cache/ && gatsby build --prefix-paths",
+    "build": "del .cache/ && gatsby build",
     "serve": "gatsby serve",
     "clear": "del .cache/"
   },
