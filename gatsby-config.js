@@ -5,6 +5,9 @@ module.exports = {
     email: `ilja.aleksandar.panic@iaac.net`
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
@@ -34,17 +37,19 @@ module.exports = {
         name: 'notes'
       }
     },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-smartypants`,
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1000,
+              maxWidth: 800,
               quality: 75,
-              showCaptions: true
+              backgroundColor: 'transparent',
+              showCaptions: true,
+              wrapperStyle: 'background-image:none;'
             }
           },
           {
@@ -53,12 +58,9 @@ module.exports = {
               target: '_blank',
               rel: null
             }
-          },
-          `gatsby-remark-smartypants`,
-          `gatsby-remark-copy-linked-files`
+          }
         ]
       }
-    },
-    `gatsby-plugin-react-helmet`
+    }
   ]
 };

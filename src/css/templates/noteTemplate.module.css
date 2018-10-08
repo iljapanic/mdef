@@ -34,3 +34,7 @@
   font-size: var(--font-size-sub-1);
   color: var(--gray3);
 }
+
+.note figure {
+  margin: 2rem auto;
+}
