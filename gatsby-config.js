@@ -48,15 +48,13 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-smartypants`,
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
               quality: 75,
               backgroundColor: 'transparent',
-              showCaptions: true,
-              wrapperStyle: 'background-image:none;'
+              showCaptions: true
             }
           },
           {
@@ -65,7 +63,9 @@ module.exports = {
               target: '_blank',
               rel: null
             }
-          }
+          },
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`
         ]
       }
     }
