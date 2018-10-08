@@ -1,40 +1,57 @@
+const _ = require('lodash');
 const path = require('path');
+const Promise = require('bluebird');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  const noteTemplate = path.resolve(`./src/templates/noteTemplate.js`);
+  return new Promise((resolve, reject) => {
+    const postTemplate = path.resolve(`./src/templates/post.js`);
 
-  return graphql(`
-    {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-        filter: { frontmatter: { published: { eq: true } } }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              slug
+    resolve(
+      graphql(`
+        {
+          allMarkdownRemark(
+            sort: { order: DESC, fields: [frontmatter___date] }
+            limit: 1000
+            filter: { frontmatter: { published: { eq: true } } }
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  slug
+                  title
+                }
+              }
             }
           }
         }
-      }
-    }
-  `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors);
-    }
-
-    result.data.allMarkdownRemark.edges.forEach(({ node: note }) => {
-      createPage({
-        path: `notes/${note.frontmatter.slug}`,
-        component: noteTemplate,
-        context: {
-          slug: note.frontmatter.slug
+      `).then(result => {
+        if (result.errors) {
+          console.log(result.errors);
+          reject(result.errors);
         }
-      });
-    });
+
+        // create Note pages
+
+        const reflections = result.data.allMarkdownRemark.edges;
+
+        _.each(reflections, (reflection, index) => {
+          const previous = index === reflections.length - 1 ? null : reflections[index + 1].node;
+          const next = index === 0 ? null : reflections[index - 1].node;
+
+          createPage({
+            path: `reflections/${reflection.node.frontmatter.slug}`,
+            component: postTemplate,
+            context: {
+              slug: reflection.node.frontmatter.slug,
+              previous,
+              next
+            }
+          });
+        });
+      })
+    );
   });
 };

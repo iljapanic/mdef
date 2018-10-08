@@ -1,14 +1,14 @@
 @import '../utils/variables.css';
 
-.noteLink a {
+.reflectionLink a {
   text-decoration: none;
 }
 
-.noteLink__title {
+.reflectionLink__title {
   margin-bottom: 0;
   color: inherit;
 }
 
-.noteLink__meta {
+.reflectionLink__meta {
   color: var(--gray3);
 }

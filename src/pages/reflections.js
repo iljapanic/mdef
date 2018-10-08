@@ -4,21 +4,23 @@ import { Helmet } from 'react-helmet';
 
 // components
 import Container from '../components/Container';
-import NoteLink from '../components/NoteLink';
+import ReflectionLink from '../components/ReflectionLink';
 
 export default ({ data }) => {
   const pageTitle = 'Term 1';
-  const allNotes = data.allMarkdownRemark.edges;
-  const Notes = allNotes.map(edge => <NoteLink key={edge.node.id} note={edge.node} />);
+  const allReflections = data.allMarkdownRemark.edges;
+  const Reflections = allReflections.map(edge => (
+    <ReflectionLink key={edge.node.id} reflection={edge.node} />
+  ));
 
   return (
     <Container>
       <Helmet>
-        <title>Notes</title>
+        <title>Reflections</title>
       </Helmet>
       <div className="wrap">
         <h1>{pageTitle}</h1>
-        <div className="ta-center m-1">{Notes}</div>
+        <div className="ta-center m-1">{Reflections}</div>
       </div>
     </Container>
   );

@@ -21,7 +21,7 @@ export default ({ children }) => (
     </div>
     <nav className={styles.nav}>
       <ul>
-        <ListLink to="/notes/">Notes</ListLink>
+        <ListLink to="/reflections/">Reflections</ListLink>
         <ListLink to="/about/">About</ListLink>
       </ul>
     </nav>

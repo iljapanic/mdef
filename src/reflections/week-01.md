@@ -11,7 +11,7 @@ published: true
 And so it begins. My journey at IAAC has officially started. The course kicked off with MDEF Bootcamp which provided us with a broad overview of the programme and served as a sort of cultural and visionary anchor of the Fab Lab and what it stands for. 
 
 ## Stimulating environment
-IAAC and the Fab Lab have a strong vision for the future of human life on Earth. It is a vision that is aligned with many of the values that I hold close to my heart.
+IAAC and the Fab Lab have a strong vision for the future of human existence on Earth. It is a vision that is aligned with many of the values that I hold close to my heart.
 
 The communication and interaction with the group has been tremendous so far. It was inspiring to see people coming from a wide range of fields and backgrounds. The group seem to hold different ideas and opinions but everyone is united around the ideal of making the Earth a better and more liveable place.
 
