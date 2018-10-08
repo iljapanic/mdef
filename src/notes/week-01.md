@@ -37,17 +37,14 @@ Unfortunately, many spaces seemed uninviting from the outside and felt isolated 
 
 
 ### Superblock version 0.1
-The visit to the Barcelona's first ['superblock'](https://www.theguardian.com/cities/2016/may/17/superblocks-rescue-barcelona-spain-plan-give-streets-back-residents) was particularly interesting. While the promise of superblocks and its positive impact of the city's public life is clear, the execution seems to be lacking. There is still a demarcation between the sidewalk and the road and the entire space is dominated by bare concrete with. A feeble attempt to humanise the space was done by placing around a few plastic buckets with small trees
-
- a few small trees in plastic buckets
+The visit to the Barcelona's first ['superblock'](https://www.theguardian.com/cities/2016/may/17/superblocks-rescue-barcelona-spain-plan-give-streets-back-residents) was particularly interesting. While the promise of superblocks and its positive impact of the city's public life is clear, the execution seems to be lacking. There is still a demarcation between the sidewalk and the road and the entire space is dominated by bare concrete with. A feeble attempt to humanise the space was done by placing around a few plastic buckets with tiny trees and building a standard children's playground.
 
 While I understand that such large-scale intervention requires time and resources, my concern is that the net effect may not be significant enough to merit the development of more superblocks around the city.
 
+<img src="./images/week-01/superblock.jpg" title="MDEF group standing at the superblock" alt="The MDEF group standing at the superblock">
+
 ### Scavenging materials
-
-
-Some of the passages presented here might have an overly critical undertone. The truth is that I have tremendously enjoyed every day of the bootcamp and that most cities of a similar scale pale in the comparison to the quality of public spaces and civic life in comparasence to Barcelona. 
-
+When I heard that we will go around the neighbourhood I was quite excited. It ended up being even more exciting than I have expected. The exercise immediately makes a person engage with a city in a different way. Rather than just as provider of services and goods, the city has out of a sudden become a resource in itself. It was also a very tangible manifestation of how wasteful modern urban life style has become. We were able to collect a lot of quality material in a surprisingly short time. It was a fun and eye-opening experience.
 
 ## The Green Fab Lab
 
@@ -57,6 +54,8 @@ The impromptu visit to the [Green Fab Lab](http://greenfablab.org/) was the high
 
 
 ## Takeaways
+
+Some of the passages presented here might have an overly critical undertone. The truth is that I have tremendously enjoyed every day of the bootcamp and that most cities of a similar scale pale in comparasence to Barcelona in terms of the quality of public spaces and civic life. 
 
 
 
@@ -74,6 +73,9 @@ how is it relevant for me?
 
 The bootcamp reassured me that I made a good decision by attending this course.
 
+
+## Conclusion
+Some of the passages presented here might have an overly critical undertone. The truth is that I have tremendously enjoyed every day of the bootcamp and that most cities of a similar scale pale in comparasence to Barcelona in terms of the quality of public spaces and civic life. 
 
 
 

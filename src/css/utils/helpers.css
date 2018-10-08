@@ -52,6 +52,18 @@
   text-align: center;
 }
 
+/* color */
+.gray,
+a.gray,
+.gray * {
+  color: var(--gray3);
+}
+
+.no-underline a,
+a.no-underline {
+  text-decoration: none;
+}
+
 /* visibility */
 .sr-only {
   margin: -1px;
