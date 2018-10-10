@@ -1,31 +1,21 @@
 import React from 'react';
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import P5Wrapper from 'react-p5-wrapper';
 
 // components
 import Container from '../components/Container';
 
-export default ({ data }) => {
-  // var pageTitle = 'Hello IAAC!';
-  var helloIaac = data.file.childImageSharp.fluid;
+// styles
+import styles from '../css/pages/index.module.css';
 
+// sketches
+import sphere from '../sketches/sphere';
+
+export default ({ data }) => {
   return (
     <Container>
-      <div className="wrap-l">
-        <Img fluid={helloIaac} />
+      <div className={styles.hero}>
+        <P5Wrapper sketch={sphere} />
       </div>
     </Container>
   );
 };
-
-export const query = graphql`
-  query {
-    file(relativePath: { eq: "hello-iaac.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1600) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;

@@ -1,4 +1,9 @@
 .container {
   padding: 0 1rem;
-  min-height: 100vh;
+}
+
+@media (--desktop) {
+  .container {
+    padding: 0;
+  }
 }
