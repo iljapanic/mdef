@@ -1,6 +1,11 @@
 @import '../utils/variables.css';
 
 .post {
+  max-width: var(--wrap-l);
+  margin: 0 auto;
+}
+
+.body {
   max-width: var(--wrap);
   margin: 0 auto;
 }
@@ -10,31 +15,37 @@
 .post ol,
 .post h2,
 .post h3,
-.post__footer {
+.footer {
   max-width: var(--wrap-s);
   margin-left: auto;
   margin-right: auto;
 }
 
-.post__title {
-  margin-bottom: 0;
+.post figure {
+  margin: 2rem auto;
 }
 
-.post__date {
-  color: var(--gray3);
-}
-
-.post__header {
+/* header area */
+.header {
   text-align: center;
   margin-bottom: 1.25rem;
 }
 
-.post__footer {
-  margin-top: 3rem;
-  font-size: var(--font-size-sub-1);
+.title {
+  margin-bottom: 0.5rem;
+}
+
+.date {
   color: var(--gray3);
 }
 
-.post figure {
-  margin: 2rem auto;
+.hero {
+  margin: 2rem auto 3rem auto;
+}
+
+/* footer area */
+.footer {
+  margin-top: 3rem;
+  font-size: var(--font-size-sub-1);
+  color: var(--gray3);
 }

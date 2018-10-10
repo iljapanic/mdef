@@ -1,5 +1,6 @@
 ---
 title: "01. MDEF Bootcamp"
+hero: "hero.jpg"
 slug: "01-mdef-bootcamp"
 date: "2018-10-01"
 endDate: "2018-10-07"
