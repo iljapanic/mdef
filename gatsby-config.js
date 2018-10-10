@@ -25,6 +25,9 @@ module.exports = {
       options: {
         google: {
           families: [`Rubik:300,400,500`]
+        },
+        typekit: {
+          id: 'qal5cyi'
         }
       }
     },
