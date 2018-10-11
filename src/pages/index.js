@@ -1,8 +1,8 @@
 import React from 'react';
-import P5Wrapper from 'react-p5-wrapper';
 
 // components
 import Container from '../components/Container';
+import P5Wrapper from '../components/P5Wrapper';
 
 // styles
 import styles from '../css/pages/index.module.css';
@@ -10,6 +10,7 @@ import styles from '../css/pages/index.module.css';
 // sketches
 import sphere from '../sketches/sphere';
 
+// index.js
 export default ({ data }) => {
   return (
     <Container>
