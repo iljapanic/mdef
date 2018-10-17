@@ -70,6 +70,7 @@
 
 /* custom media queries */
 @custom-media --desktop (min-width: 940px);
+@custom-media --large (min-width: 1400px);
 
 /* custom CSS selectors */
 @custom-selector :--headings h1, h2, h3, h4, h5, h6;

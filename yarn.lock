@@ -1130,6 +1130,11 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+anchor-js@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/anchor-js/-/anchor-js-4.1.1.tgz#943b7605e47b3c663e91e82879b682f2e186a5b1"
+  integrity sha512-c2Wl9F1X0C4jkYKLla1SNE2uI6xJrSKsRC7HCCg4yLNQ5sL5D+tDEWrjRaoTuTlMTqBCnF6kOuR3dx59Erxpvw==
+
 ansi-align@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-2.0.0.tgz#c36aeccba563b89ceb556f3690f0b1d9e3547f7f"
@@ -12130,6 +12135,11 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
+
+tocbot@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/tocbot/-/tocbot-4.4.0.tgz#92707614c228c0d84a0ee641741e3835ea3b3920"
+  integrity sha512-+EB/unCo+il2m5DU0TTQ4c7F1KBEnJTbmcn5kWgFtJmN9ksPMTn5UQUciY+k0kGTYGWj1Utf+tPqWCKpRTYLSQ==
 
 toidentifier@1.0.0:
   version "1.0.0"

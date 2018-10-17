@@ -2,6 +2,13 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import Img from 'gatsby-image';
+import tocbot from 'tocbot';
+import anchorJS from 'anchor-js';
+
+import '../css/utils/toc.css';
+
+// import 'tocbot/src/scss/tocbot-core';
+// import 'tocbot/src/scss/tocbot-default-theme';
 
 // components
 import Container from '../components/Container';
@@ -10,6 +17,17 @@ import Container from '../components/Container';
 import styles from '../css/templates/post.module.css';
 
 class PostTemplate extends React.Component {
+  componentDidMount() {
+    const anchors = new anchorJS();
+    anchors.add('h2');
+    anchors.add('h3');
+    tocbot.init({
+      tocSelector: '.toc',
+      contentSelector: '.toc-content',
+      headingSelector: 'h2, h3'
+    });
+  }
+
   render() {
     const post = this.props.data.markdownRemark;
     const meta = post.frontmatter;
@@ -22,7 +40,8 @@ class PostTemplate extends React.Component {
         <Helmet>
           <title>{meta.title}</title>
         </Helmet>
-        <article className={styles.post}>
+        <div className="toc" />
+        <article className={styles.post + ` toc-content`}>
           <header className={styles.header}>
             <h1 className={styles.title}>{meta.title}</h1>
             <span className={styles.date}>

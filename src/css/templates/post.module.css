@@ -21,6 +21,11 @@
   margin-right: auto;
 }
 
+.post h2:focus,
+.post h3:focus {
+  outline: none;
+}
+
 .post figure {
   margin: 2rem auto;
 }

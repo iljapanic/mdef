@@ -1,0 +1,58 @@
+@import './variables.css';
+
+.toc {
+  display: none;
+}
+
+@media (--large) {
+  .toc {
+    display: block;
+    position: fixed;
+    left: 3rem;
+    top: 35%;
+    overflow-y: auto;
+  }
+}
+
+.toc .toc-list {
+  overflow: hidden;
+  position: relative;
+}
+
+.toc a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.toc ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc .is-collapsible {
+  max-height: 1000px;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+}
+
+.toc .is-collapsed {
+  max-height: 0;
+}
+
+.toc ol ol {
+  padding-left: 1rem;
+}
+
+.toc li {
+  margin-top: 0.5rem;
+}
+
+.toc ol ol li {
+  margin-top: 0.25rem;
+}
+
+.toc .is-active-link {
+  font-weight: var(--fw-bold);
+}

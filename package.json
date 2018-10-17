@@ -10,6 +10,7 @@
     "clear": "del .cache/"
   },
   "dependencies": {
+    "anchor-js": "^4.1.1",
     "autoprefixer": "^9.1.5",
     "bluebird": "^3.5.2",
     "del-cli": "^1.1.0",
@@ -40,7 +41,8 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
-    "react-p5-wrapper": "^0.0.4"
+    "react-p5-wrapper": "^0.0.4",
+    "tocbot": "^4.4.0"
   },
   "browserslist": [
     ">0.25%",
