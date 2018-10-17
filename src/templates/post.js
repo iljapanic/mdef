@@ -5,16 +5,12 @@ import Img from 'gatsby-image';
 import tocbot from 'tocbot';
 import anchorJS from 'anchor-js';
 
-import '../css/utils/toc.css';
-
-// import 'tocbot/src/scss/tocbot-core';
-// import 'tocbot/src/scss/tocbot-default-theme';
-
 // components
 import Container from '../components/Container';
 
 // styles
 import styles from '../css/templates/post.module.css';
+import '../css/utils/toc.css';
 
 class PostTemplate extends React.Component {
   componentDidMount() {
