@@ -16,11 +16,10 @@ class PostTemplate extends React.Component {
   componentDidMount() {
     const anchors = new anchorJS();
     anchors.add('h2');
-    anchors.add('h3');
     tocbot.init({
       tocSelector: '.toc',
       contentSelector: '.toc-content',
-      headingSelector: 'h2, h3'
+      headingSelector: 'h2'
     });
   }
 
@@ -29,6 +28,7 @@ class PostTemplate extends React.Component {
     const meta = post.frontmatter;
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
+    const author = this.props.data.site.siteMetadata.author;
     // const { previous, next } = this.props.pageContext;
 
     return (
@@ -49,7 +49,13 @@ class PostTemplate extends React.Component {
           </header>
           <div className={styles.body} dangerouslySetInnerHTML={{ __html: postHtml }} />
           <footer className={styles.footer}>
-            <span>This document was last updated on {meta.lastUpdated} </span>
+            <div>
+              Authored by{' '}
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">{author}</span>
+              </span>
+            </div>
+            <div>This document was last updated on {meta.lastUpdated}</div>
           </footer>
         </article>
       </Container>
@@ -61,6 +67,13 @@ export default PostTemplate;
 
 export const pageQuery = graphql`
   query PostBySlug($slug: String!) {
+    site {
+      siteMetadata {
+        author
+        name
+        email
+      }
+    }
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       id
       frontmatter {

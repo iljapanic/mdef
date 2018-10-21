@@ -8,7 +8,6 @@ lastUpdated: "2018-10-07"
 published: true
 ---
 
-
 And so it begins. My journey at IAAC has officially started. The course kicked off with MDEF Bootcamp which provided us with a broad overview of the programme and served as a sort of cultural and visionary anchor of the Fab Lab and what it stands for.
 
 ## Stimulating environment
@@ -25,14 +24,14 @@ I was happy to hold a workshop and explain some of the principles of Git in more
 
 
 ## City safari in Poblenou
-The group has done an organised tour of [Poblenou](https://en.wikipedia.org/wiki/El_Poblenou) and visited several interesting spaces that are based in the neighbourhood. The tour has reinforced my impression of Poblenou as a place with a high concentration of creatives, makers and innovators. You somehow tacitly feel the creative energy flowing in the air just by walking through the neighbourhood.
+The group has done an organised tour of [Poblenou][1] and visited several interesting spaces that are based in the neighbourhood. The tour has reinforced my impression of Poblenou as a place with a high concentration of creatives, makers and innovators. You somehow tacitly feel the creative energy flowing in the air just by walking through the neighbourhood.
 
-Unfortunately, many spaces seemed uninviting from the outside and felt isolated from the life on the street. One notable exception was [TransfoLAB](https://www.transfolabbcn.com/home) which is doing amazing work in raising awareness of the potential for repurposing and reusing objects that would normally be considered trash. It was the only innovative space that was visually and spatially organised in a way that invites a random passerby to come in and explore what is going on inside.
+Unfortunately, many spaces seemed uninviting from the outside and felt isolated from the life on the street. One notable exception was [TransfoLAB][2] which is doing amazing work in raising awareness of the potential for repurposing and reusing objects that would normally be considered trash. It was the only innovative space that was visually and spatially organised in a way that invites a random passerby to come in and explore what is going on inside.
 
 ![TransfoLAB (view from the inside)](transfolab.jpeg "TransfoLAB (view from the inside)")
 
 ### Superblock version 0.1
-The visit to the Barcelona's first ['superblock'](https://www.theguardian.com/cities/2016/may/17/superblocks-rescue-barcelona-spain-plan-give-streets-back-residents) was particularly interesting. While the promise of superblocks and its positive impact of the city's public life is clear, the execution seems to be lacking. The entire space is dominated by bare concrete and overall lack of character. A feeble attempt to humanise the space was done by placing around a few plastic buckets with tiny trees and building a standardised children's playground.
+The visit to the Barcelona's first ['superblock'][3] was particularly interesting. While the promise of superblocks and its positive impact of the city's public life is clear, the execution seems to be lacking. The entire space is dominated by bare concrete and overall lack of character. A feeble attempt to humanise the space was done by placing around a few plastic buckets with tiny trees and building a standardised children's playground.
 
 It is surprising especially because Barcelona is known for being good at creating vibrant public spaces. While I understand that such large-scale intervention requires time and resources, my concern is that the net effect may not be significant enough to merit the development of more superblocks around the city.
 
@@ -42,7 +41,7 @@ It is surprising especially because Barcelona is known for being good at creatin
 When I heard that we will go around the neighbourhood collecting material I was quite excited. It ended up being even more exciting than I have expected. The exercise immediately makes a person engage with a city in a different way. Rather than just as provider of services and goods, the city has out of a sudden become a resource in itself. It was also a very tangible manifestation of how wasteful modern urban life-style has become. We were able to collect a lot of quality material in a surprisingly short time. It was a fun and eye-opening experience.
 
 ## The Green Fab Lab
-The impromptu visit to the [Green Fab Lab](http://greenfablab.org/) was the highlight of the week. The beautiful grounds and surroundings aside, the Green Fab Lab represents a serious commitment towards developing tools and methods for harmonious relationship between nature and technology. I was hoping that the house would be a bit further ahead in its pursuit of self-sufficiency, but the project is still in its infancy and I expect it to develop in the coming years. A few solar panels would be a solid a start.
+The impromptu visit to the [Green Fab Lab][4] was the highlight of the week. The beautiful grounds and surroundings aside, the Green Fab Lab represents a serious commitment towards developing tools and methods for harmonious relationship between nature and technology. I was hoping that the house would be a bit further ahead in its pursuit of self-sufficiency, but the project is still in its infancy and I expect it to develop in the coming years. A few solar panels would be a solid a start.
 
 ![The Green Fab Lab in Valldaura](green-fab-lab.jpeg "The Green Fab Lab in Valldaura")
 
@@ -55,6 +54,14 @@ The first impression of the programme have been great so far and the bootcamp ha
 
 ### Links and resources
 
-* [OSBeehives](https://www.osbeehives.com/)
-* [The Century of the Self](https://topdocumentaryfilms.com/the-century-of-the-self/)
+* [OSBeehives][5]
+* [The Century of the Self][6]
 * more to be added soon
+
+[1]:	https://en.wikipedia.org/wiki/El_Poblenou
+[2]:	https://www.transfolabbcn.com/home
+[3]:	https://www.theguardian.com/cities/2016/may/17/superblocks-rescue-barcelona-spain-plan-give-streets-back-residents
+[4]:	http://greenfablab.org/
+[5]:	https://www.osbeehives.com/
+[6]:	https://topdocumentaryfilms.com/the-century-of-the-self/
+
