@@ -43,23 +43,23 @@ One of the main takeaways of our discussions was that the pace of scientific pro
 
 Throughout the course, we had to navigate two fundamentally different approaches to science and biology – a professional industry-scale laboratory and DIY home-based bio hacking. The visit to [PRRB](http://www.prbb.org/) in particular has left a conflicting impression on me. On one side I admire the tremendous effort and ingenuity of professional scientists working on advancing our collective knowledge. On the other hand, I am disgruntled with the handling and allocation of resources to obtain questionable gains.
 
-There is a tendency to see science as somehow detached from the dominant economic system. But seeing the lab first-hand makes it clear that science today is very much revolving around money and skewed incentives. The smartest people in the world are toying around with exuberantly expensive machines to provide only incremental advances in the context of existential threats facing our planet today. The combined monetary value of all the machines in a single room depicted bellow could probably provide for the basic human needs of most citizens of a small African country.
+There is a tendency to see science as somehow detached from the dominant economic system. But seeing the lab first-hand makes it clear that science today is very much revolving around money and skewed incentive mechanims. The smartest people in the world are toying around with exuberantly expensive machines to provide only incremental advances in the context of existential threats facing our planet today. The combined monetary value of all the machines in a single room depicted bellow could probably provide for the basic human needs of most citizens of a small African country.
 
 ![](PRRB.jpg "A room at PRRB with the most expensive machinery in the building")
 
 There does not seem to be a unified narrative for developing practical solutions for a sustainable advancement of humankind. The shift in the mindset seems to be slowly occurring but is mostly contained to one-off projects and PR-oriented initiatives rather than a sustained effort from a scientific community at large. My aim is not to bash on scientists. Despite my remarks, the investments in science still pale in comparison with expenditures on warfare and on obscene habits of wealthy nations. My interest lays more in underlying cultural assumptions and perceptions of what constitutes meaningful science.
 
-The question is how can we use the might and knowledge of the global scientific behemoth to provide for every human being (without destroying our planet) before we go further uncovering inconsequential details and intricacies of molecular structures?
+The question is how can we use the might and knowledge of the global scientific behemoth to provide for every human being (without destroying our planet) before we go further uncovering ultimately inconsequential details and intricacies of molecular structures?
 
 ### Limits of perception
 
-The science today is predominantly based on rigid methods predicated on a positivist view of the world that attempts to objectify every aspect of human existence, including our own consciousness. Science is a mere projection of reality, albeit a relatively accurate one. And while it does seem to reasonably explain many things, it cannot escape the observer effect — the fact that we change our reality by the mere attempt to observe it. This makes the scientific method severely limited by our own imperfect senses. We blindly believe what we see in our man-made microscopes and when we are not sure, we try to look closer by building a more powerful microscope. How would science look according to a bee or bat?
+The science today is predominantly based on rigid methods predicated on a positivist view of the world that attempts to objectify every aspect of human existence, including our own consciousness. Science is a mere projection of reality, albeit a relatively accurate one. And while it does seem to reasonably explain many things, it cannot escape the observer effect — the fact that we change our reality by the mere attempt to observe it. This makes the scientific method severely limited by our own imperfect senses. We blindly believe what we see in our man-made microscopes and when we are not sure, we try to look closer by building a more powerful microscope. How would science look according to a bee or a bat?
 
 The science today operates at a level of detail that is beyond what a regular traveler on spaceship Earth can, or should, comprehend. Here I was reminded of Mette's comments on why it is crucial for designers to touch and feel materials they use in their creations. Maybe scientists should touch and feel the objects they are observing more before they dwell deeper into them?
 
 ## Human-scale science
 
-DIY Bio Hacking community offers an alternative vision of science that is modelled around the human needs at a scale of a household. The workshops taught us the basics of operating in a rudimentary home-based laboratory, how to keep your tools and samples sterile and how to mimic tools and methods from professional labs using common household items and maker toolkits, such as pressure cooker instead of an autoclave or Arduino-based monitoring systems instead of overpriced commercial systems.
+DIY Bio Hacking community offers an alternative vision of science that is modelled around the human needs at a scale of a household. The workshops taught us the basics of operating in a rudimentary home-based laboratory, how to keep your tools and samples sterile and how to mimic tools and methods from professional labs using common household items and maker toolkits, such as pressure cooker instead of an autoclave or Arduino-based monitoring setups instead of overpriced commercial systems.
 
 Such projects tend to be speculative and playful in nature with an underlying goal of making science and biology more accessible and relevant to everyday humans:
 
@@ -122,6 +122,8 @@ Methodology:
 8. Reiterate steps 6-7 ten times.
 9. Develop advanced AI that will optimise the growth of the mushrooms and embed it in the kit.
 10. Distribute the kit to every family in the world.
+11. Connect the global mycelium network with our internet network.
+12. Enable real-time exchange of information between all the kits .
 
 
 
