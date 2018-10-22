@@ -23,9 +23,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
-        google: {
-          families: [`Rubik:300,400,500`]
-        },
         typekit: {
           id: 'qal5cyi'
         }
@@ -73,10 +70,13 @@ module.exports = {
             }
           },
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
+          `gatsby-remark-smartypants`,
+          `gatsby-remark-embed-video`,
+          `gatsby-remark-responsive-iframe`
         ]
       }
     },
+    `gatsby-plugin-twitter`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`
