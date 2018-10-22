@@ -8,7 +8,7 @@ lastUpdated: "2018-10-22"
 published: true
 ---
 
-This week can be summarised as an in-depth crash course in synthetic biology with a particular focus on molecular and cellular biology. The class consisted of dense theoretical lectures, presentations from practitioners and occasional group discussions followed by a series of lab workshops and experiments. We concluded the week with a tour of the Barcelona Biomedical Research Park.
+This week can be summarised as an in-depth crash course in synthetic biology with a particular focus on molecular and cellular biology. The course consisted of dense theoretical lectures, presentations from practitioners and occasional group discussions followed by a series of lab workshops and experiments. We concluded the week with a tour of the Barcelona Biomedical Research Park.
 
 [Jonathan Minchin](https://twitter.com/JonnyMinch), our intellectual guide throughout the week, challenged the class with thought-provoking questions and provided us with a necessary philosophical grounding. [Dr. Nuria Conde-Pueyo](https://iaac.net/people/nuria-conde-pueyo/) gave us an elaborate intro into both the world of professional science as well as a more humble DIY science movement and she did so genuinely and authentically. Who knew I could get passionate about microorganisms?
 
