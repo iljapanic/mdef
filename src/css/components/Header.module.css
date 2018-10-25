@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    max-width: var(--wrap);
+    max-width: var(--wrap-l);
     margin: 0 auto;
     padding: 1rem 0.15rem;
     margin-bottom: 1.5rem;
