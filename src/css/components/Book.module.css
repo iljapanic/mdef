@@ -1,0 +1,37 @@
+@import '../utils/variables.css';
+
+.book {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  align-items: baseline;
+}
+
+.cover {
+  width: 100%;
+  margin-top: 0.15rem;
+}
+
+.title {
+  width: 100%;
+  font-size: var(--font-size-sub-1);
+  margin-bottom: 0.15rem;
+}
+
+.title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.year {
+  width: 100%;
+  font-size: var(--font-size-sub-2);
+  color: var(--gray3);
+}
+
+.author {
+  width: 100%;
+  font-size: var(--font-size-sub-1);
+  color: var(--gray2);
+}

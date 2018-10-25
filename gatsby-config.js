@@ -6,6 +6,7 @@ module.exports = {
     author: `Ilja A. Panic`
   },
   plugins: [
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
@@ -33,6 +34,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/reflections`,
         name: 'reflections'
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+        name: 'data'
       }
     },
     {
