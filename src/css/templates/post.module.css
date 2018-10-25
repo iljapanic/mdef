@@ -59,6 +59,10 @@
   margin-bottom: 0.25rem;
 }
 
+.post table {
+  margin: 2rem auto;
+}
+
 /* header area */
 .header {
   text-align: center;
