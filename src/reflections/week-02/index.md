@@ -4,7 +4,7 @@ hero: "hero.jpg"
 slug: "02-biology-zero"
 date: "2018-10-08"
 endDate: "2018-10-14"
-lastUpdated: "2018-10-22"
+lastUpdated: "2018-10-26"
 published: true
 ---
 
@@ -12,7 +12,7 @@ This week can be summarised as an in-depth crash course in synthetic biology wit
 
 [Jonathan Minchin](https://twitter.com/JonnyMinch), our intellectual guide throughout the week, challenged the class with thought-provoking questions and provided us with a necessary philosophical grounding. [Dr. Nuria Conde-Pueyo](https://iaac.net/people/nuria-conde-pueyo/) gave us an elaborate intro into both the world of professional bioscience as well as a more humble DIY biohacking movement and she did so in a genuine and authentic manner. Who knew I could get passionate about microorganisms?
 
-[Mette B. Andersen](https://twitter.com/mettebakand) from [Material Design Lab](http://materialdesignlab.dk/) in Copenhagen gave us an impactful primer on what constitutes a meaningful and sustainable design process through her exploration of designers’ relationship with various materials. Thora H. Arnardottir and Jessia Dias, two of the three [Bio Babes](https://www.instagram.com/bio.babes/), presented us with an inspiring showcase of speculative and provocative designs.
+[Mette B. Andersen](https://twitter.com/mettebakand) from [Material Design Lab](http://materialdesignlab.dk/) in Copenhagen gave us an impactful primer on what constitutes a meaningful and sustainable design process through her exploration of designers’ relationship with various materials. Thora H. Arnardottir and Jessica Dias, two of the three [Bio Babes](https://www.instagram.com/bio.babes/), presented us with an inspiring showcase of speculative and provocative designs.
 
 
 ## Human-driven evolution
@@ -43,7 +43,7 @@ One of the main takeaways of our discussions was that the pace of scientific pro
 
 Throughout the course, we had to navigate two fundamentally different approaches to science and biology – a professional industry-scale laboratory and DIY home-based bio hacking. The visit to [PRRB](http://www.prbb.org/) in particular has left a conflicting impression on me. On one side I admire the tremendous effort and ingenuity of professional scientists working on advancing our collective knowledge. On the other hand, I am disgruntled with the handling and allocation of resources to obtain questionable gains.
 
-There is a tendency to see science as somehow detached from the dominant economic system. But seeing the lab first-hand makes it clear that science today is very much revolving around money and skewed incentive mechanims. The smartest people in the world are toying around with exuberantly expensive machines to provide only incremental advances in the context of existential threats facing our planet today. The combined monetary value of all the machines in a single room depicted bellow could probably provide for the basic human needs of most citizens of a small African country.
+There is a tendency to see science as somehow detached from the dominant economic system. But seeing the lab first-hand makes it clear that science today is very much revolving around money and skewed incentives. The smartest people in the world are toying around with exuberantly expensive machines to provide only incremental advances in the context of existential threats facing our planet today. The combined monetary value of all the machines in a single room depicted bellow could probably provide for the basic human needs of citizens of a small African country.
 
 ![](PRRB.jpg "A room at PRRB with the most expensive machinery in the building")
 
@@ -53,9 +53,11 @@ The question is how can we use the might and knowledge of the global scientific 
 
 ### Limits of perception
 
-The science today is predominantly based on rigid methods predicated on a positivist view of the world that attempts to objectify every aspect of human existence, including our own consciousness. Science is a mere projection of reality, albeit a relatively accurate one. And while it does seem to reasonably explain many things, it cannot escape the observer effect — the fact that we change our reality by the mere attempt to observe it. This makes the scientific method severely limited by our own imperfect senses. We blindly believe what we see in our man-made microscopes and when we are not sure, we try to look closer by building a more powerful microscope. How would science look according to a bee or a bat?
+The science today is predominantly based on rigid methods predicated on a positivist view of the world that attempts to objectify every aspect of human existence, including our own consciousness. Science is a mere projection of reality, albeit a relatively accurate one. And while it does seem to reasonably explain many things, it cannot escape the observer effect — the fact that we change our reality by the mere attempt to observe it. This makes the scientific method severely limited by our own imperfect senses. We blindly believe what we see in our man-made microscopes and when we are not sure, we try to look closer by building a more powerful microscope.
 
-The science today operates at a level of detail that is beyond what a regular traveler on spaceship Earth can, or should, comprehend. Here I was reminded of Mette's comments on why it is crucial for designers to touch and feel materials they use in their creations. Maybe scientists should touch and feel the objects they are observing more before they dwell deeper into them?
+*How would science look according to a bee or a bat?*
+
+The science today operates at a level of detail that is beyond what a regular traveler on the spaceship Earth can, or should, comprehend. Here I was reminded of Mette's comments on why it is crucial for designers to touch and feel materials they use in their creations. Maybe scientists could put more effort into touching and feeling the objects they are observing before they dive deeper into them?
 
 ## Human-scale science
 
@@ -77,17 +79,17 @@ Much of the DIY biohacking revolves around exploring and cultivating various mic
 </figure>
 
 
-Two microorganisms in particular have caught my attention. First is slime mould that seems to spread much like the way humans build train networks. And second is mycelium which is an equivalent of nature’s internet and can be used to address many of humanity’s ills, [including our declining population of bees](https://www.nature.com/articles/s41598-018-32194-8).
+Two microorganisms in particular have caught my attention. First is slime mould that seems to spread much like the way humans build train networks. And second is mycelium which is an equivalent of nature’s internet and can be used to address many of humanity’s ills, [including our declining population of bees](https://www.nature.com/articles/s41598-018-32194-8) that we rely on for our food.
 
 
-![](slime.jpg "An aesthetically pleasing organic structures of slime mold [microbialart.com]")
+![](slime.jpg "An aesthetically pleasing organic structures of slime mould [microbialart.com]")
 
 
 <figure>
 
 `youtube: https://www.youtube.com/watch?v=2UxGrde1NDA`
 
-<figcaption>What we can learn from slime mold</figcaption>
+<figcaption>What we can learn from slime mould</figcaption>
 </figure>
 
 
@@ -123,14 +125,14 @@ Methodology:
 9. Develop advanced AI that will optimise the growth of the mushrooms and embed it in the kit.
 10. Distribute the kit to every family in the world.
 11. Connect the global mycelium network with our internet network.
-12. Enable real-time exchange of information between all the kits .
+12. Enable real-time exchange of information and nutrients throughout the global Intracelium network.
 
 
 
 
 ## Takeaways
 
-This course has given me a fascinating insight into the world of biology and shown me the long-term potential of DIY biohacking. It has also help me create an appreciation for micro organisms and has reinvigorated my previous interest in mycelium which I would like to explore further in my future projects. Overall, the course has inspired me to look at nature to learn more about designing and building sustainable self-perpetuating systems.
+This course has shown me the long-term potential of DIY biohacking for localised human-scale science that can help with some of the most pressing challenges facing us today. It has also made me appreciate micro organisms and has reinvigorated my previous interest in mycelium which I would like to explore further in my future projects. Overall, the course has inspired me to look at nature to learn more about designing and building sustainable self-perpetuating systems.
 
 ## Links and resources
 
