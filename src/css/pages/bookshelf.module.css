@@ -1,13 +1,7 @@
 @import '../utils/variables.css';
 
 .bookshelf {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-}
-
-@media (--desktop) {
-  .bookshelf {
-    grid-template-columns: repeat(5, 1fr);
-  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }

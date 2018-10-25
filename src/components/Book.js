@@ -13,18 +13,19 @@ const Book = ({ book }) => {
 
   return (
     <article className={styles.book}>
-      <div className={styles.year}>{year}</div>
-      <div className={styles.cover}>
+      <div className={styles.cover} data-year={year}>
         <a href={goodreads} target="_blank" rel="noopener noreferrer">
           <Img fluid={cover} />
         </a>
       </div>
-      <h3 className={styles.title}>
-        <a href={goodreads} target="_blank" rel="noopener noreferrer">
-          {title}
-        </a>
-      </h3>
-      <div className={styles.author}>{author}</div>
+      <div>
+        <h3 className={styles.title}>
+          <a href={goodreads} target="_blank" rel="noopener noreferrer">
+            {title}
+          </a>
+        </h3>
+        <div className={styles.author}>{author}</div>
+      </div>
     </article>
   );
 };
