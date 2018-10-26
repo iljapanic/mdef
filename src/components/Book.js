@@ -20,7 +20,6 @@ const Book = ({ book }) => {
 
   return (
     <article className={getClassNames()}>
-      {console.log(book)}
       <div className={styles.cover} data-year={year}>
         <a href={goodreads} target="_blank" rel="noopener noreferrer">
           <Img fluid={cover} />
