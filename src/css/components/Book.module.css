@@ -3,6 +3,11 @@
 .book {
   margin-top: 4rem;
 }
+
+.featured {
+  background-color: var(--gray6);
+}
+
 .cover {
   width: 100%;
   position: relative;
@@ -15,12 +20,18 @@
   top: -1.5rem;
   font-size: var(--font-size-sub-2);
   color: var(--gray3);
+  line-height: 1;
+}
+
+.meta {
+  padding: 1rem 0.5rem 0.75rem 0.5rem;
 }
 
 .title {
   width: 100%;
   font-size: var(--font-size-sub-1);
   margin-bottom: 0.15rem;
+  margin-top: 0;
 }
 
 .title a {

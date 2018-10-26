@@ -4,336 +4,384 @@
 		"author": "Alvin Toffler",
 		"year": "1971",
 		"image": "../images/books/Future-Shock.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/466537.Future_Shock"
+		"goodreads": "https://www.goodreads.com/book/show/466537.Future_Shock",
+		"featured": false
 	},
 	{
 		"title": "Design For the Real World",
 		"author": "Victor Papanek",
 		"year": "1972",
 		"image": "../images/books/Design-For-the-Real-World.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/190560.Design_for_the_Real_World"
+		"goodreads": "https://www.goodreads.com/book/show/190560.Design_for_the_Real_World",
+		"featured": true
 	},
 	{
 		"title": "Intertwingled",
 		"author": "Peter Morville",
 		"year": "2014",
 		"image": "../images/books/Intertwingled.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/22931460-intertwingled"
+		"goodreads": "https://www.goodreads.com/book/show/22931460-intertwingled",
+		"featured": false
 	},
 	{
 		"title": "Operating Manual For Spaceship Earth",
 		"year": "1969",
 		"author": "Buckminster Fuller",
 		"image": "../images/books/Operating-Manual-For-Spaceship-Earth.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/316362.Operating_Manual_for_Spaceship_Earth"
+		"goodreads": "https://www.goodreads.com/book/show/316362.Operating_Manual_for_Spaceship_Earth",
+		"featured": false
 	},
 	{
 		"title": "Discipline and Punish",
 		"year": "1975",
 		"author": "Michel Foucault",
 		"image": "../images/books/Discipline-and-Punish.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/80369.Discipline_and_Punish"
+		"goodreads": "https://www.goodreads.com/book/show/80369.Discipline_and_Punish",
+		"featured": true
 	},
 	{
 		"title": "Man's Search for Meaning",
 		"year": "1946",
 		"author": "Viktor E. Frankl",
 		"image": "../images/books/Man-Search-for-Meaning.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning"
+		"goodreads": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning",
+		"featured": false
 	},
 	{
 		"title": "The Breakdown of Nations",
 		"year": "1978",
 		"author": "Leopold Kohr",
 		"image": "../images/books/The-Breakdown-of-Nations.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/1723464.The_Breakdown_of_Nations"
+		"goodreads": "https://www.goodreads.com/book/show/1723464.The_Breakdown_of_Nations",
+		"featured": false
 	},
 	{
 		"title": "The Information Bomb",
 		"year": "2000",
 		"author": "Paul Virilio",
 		"image": "../images/books/Information-Bomb.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/203092.The_Information_Bomb"
+		"goodreads": "https://www.goodreads.com/book/show/203092.The_Information_Bomb",
+		"featured": false
 	},
 	{
 		"title": "The Best Interface Is No Interface",
 		"year": "2015",
 		"author": "Golden Krishna",
 		"image": "../images/books/The-Best-Interface-Is-No-Interface.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/22758923-the-best-interface-is-no-interface"
+		"goodreads": "https://www.goodreads.com/book/show/22758923-the-best-interface-is-no-interface",
+		"featured": false
 	},
 	{
 		"title": "Outliers",
 		"year": "2008",
 		"author": "Malcolm Gladwell",
 		"image": "../images/books/Outliers.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/3228917-outliers"
+		"goodreads": "https://www.goodreads.com/book/show/3228917-outliers",
+		"featured": false
 	},
 	{
 		"title": "Rework",
 		"year": "2010",
 		"author": "Jason Fried & David H. Hansson",
 		"image": "../images/books/Rework.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/6732019-rework"
+		"goodreads": "https://www.goodreads.com/book/show/6732019-rework",
+		"featured": false
 	},
 	{
 		"title": "The Green Imperative",
 		"year": "1995",
 		"author": "Victor Papanek",
 		"image": "../images/books/The-Green-Imperative.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/894758.The_Green_Imperative"
+		"goodreads": "https://www.goodreads.com/book/show/894758.The_Green_Imperative",
+		"featured": true
 	},
 	{
 		"title": "Designing for Emotion",
 		"year": "2011",
 		"author": "Aarron Walter",
 		"image": "../images/books/Designing-for-Emotion.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/12910715-designing-for-emotion"
+		"goodreads": "https://www.goodreads.com/book/show/12910715-designing-for-emotion",
+		"featured": false
 	},
 	{
 		"title": "The Death and Life of Great American Cities",
 		"year": "1961",
 		"author": "Jane Jacobs",
 		"image": "../images/books/The-Death-and-Life-of-Great-American-Cities.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities"
+		"goodreads": "https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities",
+		"featured": true
 	},
 	{
 		"title": "Flow",
 		"year": "1990",
 		"author": "Mihaly Csikszentmihalyi",
 		"image": "../images/books/Flow.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/66354.Flow"
+		"goodreads": "https://www.goodreads.com/book/show/66354.Flow",
+		"featured": true
 	},
 	{
 		"title": "Design Is a Job",
 		"year": "2012",
 		"author": "Mike Monteiro",
 		"image": "../images/books/Design-is-a-Job.png",
-		"goodreads": "https://www.goodreads.com/book/show/13574985-design-is-a-job"
+		"goodreads": "https://www.goodreads.com/book/show/13574985-design-is-a-job",
+		"featured": true
 	},
 	{
 		"title": "A Short History of Nearly Everything",
 		"year": "2003",
 		"author": "Bill Bryson",
 		"image": "../images/books/A-Short-History-of-Nearly-Everything.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/21.A_Short_History_of_Nearly_Everything"
+		"goodreads": "https://www.goodreads.com/book/show/21.A_Short_History_of_Nearly_Everything",
+		"featured": false
 	},
 	{
 		"title": "The Design Of Everyday Things",
 		"year": "1988",
 		"author": "Donald A. Norman",
 		"image": "../images/books/The-Design-Of-Everyday-Things.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/1055472.The_Design_Of_Everyday_Things"
+		"goodreads": "https://www.goodreads.com/book/show/1055472.The_Design_Of_Everyday_Things",
+		"featured": false
 	},
 	{
 		"title": "Traffic",
 		"year": "2008",
 		"author": "Tom Vanderbilt",
 		"image": "../images/books/Traffic.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/5956203-traffic"
+		"goodreads": "https://www.goodreads.com/book/show/5956203-traffic",
+		"featured": false
 	},
 	{
 		"title": "No Logo",
 		"year": "1999",
 		"author": "Naomi Klein",
 		"image": "../images/books/No-Logo.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/647.No_Logo"
+		"goodreads": "https://www.goodreads.com/book/show/647.No_Logo",
+		"featured": true
 	},
 	{
 		"title": "Getting Real",
 		"year": "2006",
 		"author": "37 Signals",
 		"image": "../images/books/Getting-Real.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/447648.Getting_Real"
+		"goodreads": "https://www.goodreads.com/book/show/447648.Getting_Real",
+		"featured": false
 	},
 	{
 		"title": "Predictably Irrational",
 		"year": "2007",
 		"author": "Dan Ariely",
 		"image": "../images/books/Predictably-Irrational.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/1713426.Predictably_Irrational"
+		"goodreads": "https://www.goodreads.com/book/show/1713426.Predictably_Irrational",
+		"featured": false
 	},
 	{
 		"title": "Planet of Slums",
 		"year": "2006",
 		"author": "Mike Davis",
 		"image": "../images/books/Planet-of-Slums.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/7855.Planet_of_Slums"
+		"goodreads": "https://www.goodreads.com/book/show/7855.Planet_of_Slums",
+		"featured": true
 	},
 	{
 		"title": "A Short History of Progress",
 		"year": "2004",
 		"author": "Ronald Wright",
 		"image": "../images/books/A-Short-History-of-Progress.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/331227.A_Short_History_of_Progress"
+		"goodreads": "https://www.goodreads.com/book/show/331227.A_Short_History_of_Progress",
+		"featured": false
 	},
 	{
 		"title": "Cyberia",
 		"year": "1993",
 		"author": "Douglas Rushkoff",
 		"image": "../images/books/Cyberia.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/627994.Cyberia"
+		"goodreads": "https://www.goodreads.com/book/show/627994.Cyberia",
+		"featured": false
 	},
 	{
 		"title" : "The Image of the City",
 		"year" : "1960",
 		"author": "Kevin Lynch",
 		"image": "../images/books/The-Image-of-the-City.jpg",
-		"goodreads": "http://www.goodreads.com/book/show/647351.The_Image_of_../images/books/the_City"
+		"goodreads": "http://www.goodreads.com/book/show/647351.The_Image_of_../images/books/the_City",
+		"featured": false
 	},
 	{
 		"title": "Information Design",
 		"year": "2000",
 		"author": "Robert Jacobson et al.",
 		"image": "../images/books/Information-Design.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/336257.Information_Design"
+		"goodreads": "https://www.goodreads.com/book/show/336257.Information_Design",
+		"featured": false
 	},
 	{
 		"title": "Sapiens",
 		"year": "2014",
 		"author": "Yuval N. Harari",
 		"image": "../images/books/Sapiens.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/23692271-sapiens"
+		"goodreads": "https://www.goodreads.com/book/show/23692271-sapiens",
+		"featured": false
 	},
 	{
 		"title": "Homo Deus",
 		"year": "2016",
 		"author": "Yuval N. Harari",
 		"image": "../images/books/Homo-Deus.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/28092869-homo-deus"
+		"goodreads": "https://www.goodreads.com/book/show/28092869-homo-deus",
+		"featured": true
 	},
 	{
 		"title": "The Shape of Design",
 		"year": "2012",
 		"author": "Frank Chimero",
 		"image": "../images/books/The-Shape-of-Design.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/13017981-the-shape-of-design"
+		"goodreads": "https://www.goodreads.com/book/show/13017981-the-shape-of-design",
+		"featured": false
 	},
 	{
 		"title": "Light at the Edge of the World",
 		"year": "2001",
 		"author": "Wade Davis",
 		"image": "../images/books/Light-at-the-Edge-of-the-World.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/54769.Light_at_the_Edge_of_the_World"
+		"goodreads": "https://www.goodreads.com/book/show/54769.Light_at_the_Edge_of_the_World",
+		"featured": false
 	},
 	{
 		"title": "The Wealth of Networks",
 		"year": "2006",
 		"author": "Yochai Benkler",
 		"image": "../images/books/The-Wealth-of-Networks.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/14721.The_Wealth_of_Networks"
+		"goodreads": "https://www.goodreads.com/book/show/14721.The_Wealth_of_Networks",
+		"featured": false
 	},
 	{
 		"title": "The Power of Habit",
 		"year": "2011",
 		"author": "Charles Duhigg",
 		"image": "../images/books/The-Power-of-Habit.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/12609433-the-power-of-habit"
+		"goodreads": "https://www.goodreads.com/book/show/12609433-the-power-of-habit",
+		"featured": false
 	},
 	{
 		"title": "Everyware",
 		"year": "2006",
 		"author": "Adam Greenfield",
 		"image": "../images/books/Everyware.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/108957.Everyware"
+		"goodreads": "https://www.goodreads.com/book/show/108957.Everyware",
+		"featured": true
 	},
 	{
 		"title": "Against the Smart City",
 		"year": "2013",
 		"author": "Adam Greenfield",
 		"image": "../images/books/Against-the-smart-city.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/18626431-against-the-smart-city"
+		"goodreads": "https://www.goodreads.com/book/show/18626431-against-the-smart-city",
+		"featured": false
 	},
 	{
 		"title": "Liquid Surveillance",
 		"year": "2012",
 		"author": "Zygmunt Bauman & David Lyon",
 		"image": "../images/books/Liquid-Surveillance.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/15931706-liquid-surveillance"
+		"goodreads": "https://www.goodreads.com/book/show/15931706-liquid-surveillance",
+		"featured": false
 	},
 	{
 		"title": "Close to the Machine",
 		"year": "1997",
 		"author": "Ellen Ullman",
 		"image": "../images/books/Close-to-the-Machine.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/486625.Close_to_the_Machine"
+		"goodreads": "https://www.goodreads.com/book/show/486625.Close_to_the_Machine",
+		"featured": false
 	},
 	{
 		"title": "Emotional Design",
 		"year": "2003",
 		"author": "Donald A. Norman",
 		"image": "../images/books/Emotional-Design.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/841.Emotional_Design"
+		"goodreads": "https://www.goodreads.com/book/show/841.Emotional_Design",
+		"featured": false
 	},
 	{
 		"title": "Cities by Design",
 		"year": "2014",
 		"author": "Fran Tonkiss",
 		"image": "../images/books/Cities-by-Design.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/18314110-cities-by-design"
+		"goodreads": "https://www.goodreads.com/book/show/18314110-cities-by-design",
+		"featured": true
 	},
 	{
 		"title": "Walkable City",
 		"year": "2012",
 		"author": "Jeff Speck",
 		"image": "../images/books/Walkable-City.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/13538794-walkable-city"
+		"goodreads": "https://www.goodreads.com/book/show/13538794-walkable-city",
+		"featured": false
 	},
 	{
 		"title": "The Administration of Fear",
 		"year": "2010",
 		"author": "Paul Virilio",
 		"image": "../images/books/The-Administration-of-Fear.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/13541492-the-administration-of-fear"
+		"goodreads": "https://www.goodreads.com/book/show/13541492-the-administration-of-fear",
+		"featured": false
 	},
 	{
 		"title": "The Tyranny of Words",
 		"year": "1938",
 		"author": "Stuart Chase",
 		"image": "../images/books/The-Tyranny-of-Words.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/2343374.The_Tyranny_of_Words"
+		"goodreads": "https://www.goodreads.com/book/show/2343374.The_Tyranny_of_Words",
+		"featured": false
 	},
 	{
 		"title": "Design as Art",
 		"year": "1971",
 		"author": "Bruno Munari",
 		"image": "../images/books/Design-as-Art.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/6095883-design-as-art"
+		"goodreads": "https://www.goodreads.com/book/show/6095883-design-as-art",
+		"featured": false
 	},
 	{
 		"title": "Design for Human Scale",
 		"year": "1977",
 		"author": "Victor Papanek",
 		"image": "../images/books/Design-for-Human-Scale.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/2845800-design-for-human-scale"
+		"goodreads": "https://www.goodreads.com/book/show/2845800-design-for-human-scale",
+		"featured": false
 	},
 	{
 		"title": "Designing for People",
 		"year": "1967",
 		"author": "Henry Dreyfuss",
 		"image": "../images/books/Designing-for-People.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/1604762.Designing_for_People"
+		"goodreads": "https://www.goodreads.com/book/show/1604762.Designing_for_People",
+		"featured": false
 	},
 	{
 		"title": "Manwatching",
 		"year": "1977",
 		"author": "Desmond Morris",
 		"image": "../images/books/Manwatching.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/124656.Manwatching"
+		"goodreads": "https://www.goodreads.com/book/show/124656.Manwatching",
+		"featured": true
 	},
 	{
 		"title": "Psychopolitics",
 		"year": "2014",
 		"author": "Byung-Chul Han",
 		"image": "../images/books/Biopolitcs.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/34356485-psychopolitics"
+		"goodreads": "https://www.goodreads.com/book/show/34356485-psychopolitics",
+		"featured": true
 	},
 	{
 		"title": "Stealing Fire",
 		"year": "2017",
 		"author": "Steven Kotler & Jamie Wheal",
 		"image": "../images/books/Stealing-Fire.jpg",
-		"goodreads": "https://www.goodreads.com/book/show/30317415-stealing-fire"
+		"goodreads": "https://www.goodreads.com/book/show/30317415-stealing-fire",
+		"featured": false
 	}
 
 ]

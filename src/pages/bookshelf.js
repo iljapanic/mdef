@@ -22,8 +22,12 @@ export default ({ data }) => {
         <title>{pageTitle}</title>
       </Helmet>
 
-      <h1 className="ta-center">{pageTitle}</h1>
-      <div className="wrap-xl m-1">
+      <div className="ta-center">
+        <h1>{pageTitle}</h1>
+        <p>Formative texts that have influenced and inspired me</p>
+      </div>
+
+      <div className="wrap-xl m-2">
         <h2 className="ta-center">Non-Fiction</h2>
         <div className={styles.bookshelf}>{nonfiction}</div>
         <h2 className="ta-center m-4">Fiction</h2>
@@ -42,6 +46,7 @@ export const query = graphql`
           title
           author
           year
+          featured
           goodreads
           image {
             childImageSharp {
