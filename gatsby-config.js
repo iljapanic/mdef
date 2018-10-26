@@ -16,6 +16,7 @@ module.exports = {
           require(`postcss-custom-media`),
           require(`postcss-css-variables`),
           require(`postcss-color-function`),
+          require(`postcss-hexrgba`),
           require(`postcss-calc`),
           require(`autoprefixer`)
         ]
