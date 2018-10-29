@@ -32,8 +32,8 @@ It was fascinating to observe the discrepancy between original designs and the a
 
 ## Takeaways
 
-Overall a rewarding group learning experience. 
+It was inspiring to see how much could be achieved in such a little time with few scrapes and pieces found on the street. The course has also shown the importance of cross-disciplinary group collaboration – it was immensely valuable seeing how different people have different approaches and views of the same thing. Overall the course was rewarding group learning experience. 
 
-Measure twice, cut once.
+*Measure twice, cut once.*
 
 
