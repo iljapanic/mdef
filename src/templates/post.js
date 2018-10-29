@@ -6,6 +6,7 @@ import anchorJS from 'anchor-js';
 
 // components
 import Container from '../components/Container';
+// import Gallery from '../components/Gallery';
 
 // styles
 import styles from '../css/templates/post.module.css';
@@ -22,6 +23,8 @@ class PostTemplate extends React.Component {
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
     const author = this.props.data.site.siteMetadata.author;
+    const absolutePath = post.fileAbsolutePath;
+
     // const { previous, next } = this.props.pageContext;
 
     return (
@@ -41,6 +44,7 @@ class PostTemplate extends React.Component {
           </header>
           <div className={styles.body} dangerouslySetInnerHTML={{ __html: postHtml }} />
           <footer className={styles.footer}>
+            {absolutePath}
             <div>
               Authored by{' '}
               <span itemProp="author" itemScope itemType="http://schema.org/Person">
@@ -68,6 +72,7 @@ export const pageQuery = graphql`
     }
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       id
+      html
       frontmatter {
         date(formatString: "D MMMM")
         endDate(formatString: "D MMMM YYYY")
@@ -82,7 +87,6 @@ export const pageQuery = graphql`
           }
         }
       }
-      html
     }
   }
 `;
