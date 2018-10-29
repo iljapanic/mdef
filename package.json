@@ -7,7 +7,7 @@
     "developLocal": "gatsby develop --host $(ifconfig | awk '/inet 192.168.[0-9]+.[0-9]+/{print $2}') --port 8000",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clear": "del .cache/"
+    "clear": "del .cache/ && del public/"
   },
   "dependencies": {
     "anchor-js": "^4.1.1",
