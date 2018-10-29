@@ -27,6 +27,8 @@ In the first two days, we have developed concepts and designs for how we would l
 
 The course was a great example of embodied learning. Our group discussions often started with an attempt to describe our ideas with words and eventually always ended up with sketches and demonstrations using tools and materials at hand. The collaboration within our group was smooth with everyone complimenting each other neatly — everyone seemed to be knowledgeable in different aspects of the design/production process and was happy to share. 
 
+![Group process](group-process.jpg "A group exercise with paper cutouts used to play around with desk layout in the classroom")
+
 It was fascinating to observe the discrepancy between original designs and the actual production process. Once we agreed on the design, we excitedly jumped straight into building with everyone working on different parts of the project. We basically had no idea whether our finished product will work until we actually put everything together. This experimental approach allowed for lots of emergent ideas and on-the-spot solutions to various challenges encountered during the making process. While it was a fun learning experience, I quickly realised how such approach is not suitable for a more strict client-driven professional setting or high-stake projects such as healthcare or construction work where your designs have a direct impact on people's lives.
 
 

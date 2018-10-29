@@ -81,7 +81,8 @@ module.exports = {
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           `gatsby-remark-embed-video`,
-          `gatsby-remark-responsive-iframe`
+          `gatsby-remark-responsive-iframe`,
+          `gatsby-remark-component`
         ]
       }
     },
