@@ -5397,6 +5397,12 @@ gatsby-cli@^2.4.2:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
+"gatsby-image-compact@https://github.com/stefanprobst/gatsby-image-compact":
+  version "1.0.1"
+  resolved "https://github.com/stefanprobst/gatsby-image-compact#d222e1adda351ba6cff3119c9f7bcbb6a87f182c"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-image@^2.0.13:
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.13.tgz#bac15fceeac699aab27e821c97ea9f64084e2cd1"

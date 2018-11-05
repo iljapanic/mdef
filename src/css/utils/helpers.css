@@ -113,3 +113,38 @@ a.no-underline {
 .twitter-tweet {
   margin: 1.5rem auto !important;
 }
+
+/* footnotes */
+.footnotes {
+  margin-top: 2rem;
+  font-size: var(--font-size-sub-1);
+  max-width: var(--wrap-s);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footnotes:before {
+  content: 'References';
+  font-size: var(--font-size-0);
+  font-weight: var(--fw-bold);
+  color: var(--gray2);
+}
+
+.footnotes hr {
+  border: 0;
+}
+
+.footnotes p {
+  display: inline-block;
+  font-size: var(--font-size-sub-1);
+}
+
+.footnotes li a:last-of-type {
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.footnote-ref {
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+}
