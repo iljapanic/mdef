@@ -95,6 +95,14 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-matomo`,
+      options: {
+        siteId: '1',
+        matomoUrl: 'https://analytics.infomatics.io',
+        siteUrl: 'https://mdef.gitlab.io/ilja.panic/'
+      }
+    },
     `gatsby-plugin-twitter`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
