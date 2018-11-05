@@ -19,18 +19,18 @@ I wonder to what extent was the choice of designers a result of a deliberate, ca
 
 [Website](https://interacciones.org/) / [Twitter](https://twitter.com/interacciones) / [Elisava profile](http://www.elisava.net/en/center/professorate/ariel-guersenzvaig)
 
-As a student Ariel’s has developed a strong interest in the field of Human-Computer Interaction that gradually evolved into working as an Information Architect building web solutions for various clients (at a time when IA was just becoming a thing). He eventually started teaching at Elisava while doing occasional consulting for different companies and organisations. He is also pursuing a PhD in philosophy.
+As a student, Ariel’s had developed a keen interest in the field of Human-Computer Interaction that gradually evolved into working as an Information Architect building web solutions for various clients (at a time when IA was just becoming a thing). He eventually started teaching at Elisava while doing occasional consulting for different companies and organisations. He is also pursuing a PhD in philosophy.
 
-Up to this point in my life, I have followed a more or less the same professional path myself so the presentation from Ariel was particularly inspiring to me. In a future, I would also like to teach at a university while doing independent consulting. And I’m not going to lie, philosophy has been on my radar for a while now as well. At times, it almost felt awkward ?????? eery how much in common I shared with Ariel :-)  
+Up to this point in my life, I have followed a more or less the same professional path myself, so the presentation from Ariel was particularly inspiring to me. In the future, I would also like to teach at a university while doing independent consulting. And I’m not going to lie, philosophy has been on my radar for a while now as well. At times, it almost felt eerie how much in common I shared with Ariel :-)  
 
 
 ### Sara de Ubieta
 
 [Website](http://www.deubieta.com/) / [Instagram](https://www.instagram.com/sara_deubieta) / [Tumblr](http://deubieta.tumblr.com/)
  
-Sara went from architecture school straight into traditional artisanal training. She spent years under a guidance of an experienced shoemaker, learning how to make shoes and exploring material properties of leather. She eventually verged out to create her own practice repurposing and experimenting with unusual combinations of materials to create unconventional shoe designs.
+Sara went from architecture school straight into traditional artisanal training. She spent years under the guidance of an experienced shoemaker, learning how to make shoes and exploring material properties of leather. She eventually verged out to create her own practice repurposing and experimenting with unusual combinations of materials to develop unconventional shoe designs.
 
-It was fascinating to learn about Sara's professional transition, but for me it was almost unimportant what specifically she did because I was absolutely blown away by the way she approaches her work and her intimate relationship with the tools and materials. Sara’s hones her craft in a calm and organic way and her sheer enthusiasm, energy and presence were truly inspiring and motivating. It was humbling to see someone so honest, content and at peace with what they do.
+It was fascinating to learn about Sara's professional transition, but for me, it was almost unimportant what specifically she did because I was absolutely blown away by the way she approaches her work and her intimate relationship with the tools and materials. Sara’s hones her craft, and her sheer enthusiasm, energy and presence were truly inspiring and motivating. It was humbling to see someone so honest, content and at peace with what they do.
 
 
 ### Domestic Data Streamers (DDS)
@@ -55,18 +55,11 @@ Oscar suggested that we use *knowledge*, *skill* and *attitude* as dimensions ag
 ![table](table.jpg "Assessing professional dimensions")
 
 
-**Knowledge** — *How I know* — I aspire to be a polymath with a broad knowledge of how 
-
- complex  network of tightly interlinked systems.
-
-
+**Knowledge** — *How I know* — I aspire to view the world as a polymath with a broad knowledge of how tightly interlinked networks of complex systems interact with each other (Ariel).
 
 **Skill** — *How I do* — I want to view my design practice as a craft by developing an honest and intimate relationship with the tools and materials I use in my daily practice (Sara).
 
-
- inspired by Sara's way of honing one’s professional practice as a craft
-
-**Attitude** - *How I relate* — I want to be able to communicate complex ideas in an accessible and playful manner (DDS).
+**Attitude** — *How I relate* — I want to be able to communicate complex ideas in an accessible and playful manner (DDS).
 
 
 
