@@ -4,15 +4,15 @@ slug: "04-exploring-hybrid-profiles-in-design"
 hero: "hero.jpg"
 date: "2018-10-22"
 endDate: "2018-10-28"
-lastUpdated: "2018-10-25"
+lastUpdated: "2018-11-05"
 published: true
 ---
 
-This week  was held in the spirit of soul searching, self-exploration and reflection. In the first part of the course we have visited studios of three different ‘hybrid designers’ that have at some point diverged from their original craft to establish a unique profession for themselves. In the second half of the week we have worked with [Oscar ???]() on relating our impressions from the visits to our personal strengths/weaknesses and developing our professional vision for the future.
+This week was held in the spirit of soul searching, self-exploration and reflection. In the first part of the course, we have visited studios of three different ‘hybrid designers’ that have at some point diverged from their original craft to establish a unique profession for themselves. In the second half of the week, we have worked with [Oscar Tomico](http://www.elisava.net/en/center/professorate/oscar-tomico-plasencia) on relating our impressions from the visits to our personal strengths/weaknesses and developing our professional vision for the future.
 
 ## Gathering inspiration
 
-I wonder to what extent was the choice of designers a result of a deliberate, carefully planned decision-making or whether it was just one of those lucky synchronistical chain of events. In either case, the designers that were chose to share their stories with us were neatly complimenting each other, offering us an insight into different perspectives, approaches and working contexts that when put together formed a holistic framework for thinking about our own professional practice.
+I wonder to what extent was the choice of designers a result of a deliberate, carefully planned decision-making or whether it was just one of those lucky synchronistic chains of seemingly random events. In either case, the designers that were chosen to share their stories with us were neatly complimenting each other, offering us an insight into different perspectives, approaches and working contexts that when put together formed a holistic framework for thinking about our own professional practice.
 
 
 ### Ariel Guersenzvaig
@@ -55,13 +55,16 @@ Oscar suggested that we use *knowledge*, *skill* and *attitude* as dimensions ag
 ![table](table.jpg "Assessing professional dimensions")
 
 
-**Knowledge** — *How I know*
+**Knowledge** — *How I know* — I like to view the world as a complex  network of tightly interlinked systems
 
-**Skill** — *How I do*
+I relate to Ariel’s generalist approach to gaining knowledge.
 
-**Attitude** - *How I relate*
+**Skill** — *How I do* — I want to view my design practice as a craft by developing an honest and intimate relationship with the tools and materials I use in my daily practice (Sara).
 
 
+ inspired by Sara's way of honing one’s professional practice as a craft
+
+**Attitude** - *How I relate* — I want to be able to communicate complex ideas in an accessible and playful manner (DDS).
 
 
 
@@ -79,7 +82,7 @@ Goals and aspirations for the near future:
 
 I used Ariel's graphic which traces how his career has evolved over the years as an inspiration to create a following rough projection of where I was and where I want to be in the next 10 years in relation to types professional activities I am engaged in:
 
-![10 year professional projection](10-year-projection.jpg "A 10 year projection of professional activities")
+![10 year professional projection](projection.jpg "A 10 year projection of professional activities")
 
 
 
