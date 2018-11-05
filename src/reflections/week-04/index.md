@@ -55,9 +55,11 @@ Oscar suggested that we use *knowledge*, *skill* and *attitude* as dimensions ag
 ![table](table.jpg "Assessing professional dimensions")
 
 
-**Knowledge** — *How I know* — I like to view the world as a complex  network of tightly interlinked systems
+**Knowledge** — *How I know* — I aspire to be a polymath with a broad knowledge of how 
 
-I relate to Ariel’s generalist approach to gaining knowledge.
+ complex  network of tightly interlinked systems.
+
+
 
 **Skill** — *How I do* — I want to view my design practice as a craft by developing an honest and intimate relationship with the tools and materials I use in my daily practice (Sara).
 
