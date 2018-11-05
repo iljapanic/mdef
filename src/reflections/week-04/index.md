@@ -52,7 +52,7 @@ DDS is a consultancy design firm that aims to “to create meaningful connection
 Oscar suggested that we use *knowledge*, *skill* and *attitude* as dimensions against which to reflect on our professional aptitudes in relation to our impressions from the visits and courses we have in the first term of the MDEF master's programme.
 
 
-![table](table.jpg "table of skilss")
+![table](table.jpg "Assessing professional dimensions")
 
 
 **Knowledge** — *How I know*
