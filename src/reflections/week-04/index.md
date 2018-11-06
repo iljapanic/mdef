@@ -62,10 +62,26 @@ Oscar suggested that we use *knowledge*, *skill* and *attitude* as dimensions ag
 **Attitude** — *How I relate* — I want to be able to communicate complex ideas in an accessible and playful manner (DDS).
 
 
-
+### Strengths and weaknesses 
 
 
 ## Looking forward
+
+As part of the course, we have been tasked with stating our vision. Mine reads as follows:
+
+*Facilitate projects for collective creation and development of sustainable modes of living in a harmonious relationship between nature, technology and society.*
+
+Behind this vague and abstract statement hides a rather simple goal. Rather than develop solutions myself, I would like to help others make the best out of their design capabilities - through activities such as teaching, mentoring, consulting, networking and organising workshops/events.
+
+By being able to synthesise ideas from many different fields and disciplines I feel like I am well positioned to connect the right people at the right time to collaborate on de
+
+it is the best use of my broad scope of knowledge
+
+ I would still like to hone a craft of my own but in a more slow-paced hobby-like form, rather than a full-time professional endeavour. 
+
+I used Ariel's graphic which traces how his career has evolved over the years as an inspiration to create a following rough projection of where I was and where I want to be in the next 10 years in relation to types professional activities I am engaged in:
+
+![10 year professional projection](projection.jpg "A 10 year projection of professional activities")
 
 
 Goals and aspirations for the near future:
@@ -74,10 +90,6 @@ Goals and aspirations for the near future:
 - I want to collaborate with others
 - I want to build more using my hands
 
-
-I used Ariel's graphic which traces how his career has evolved over the years as an inspiration to create a following rough projection of where I was and where I want to be in the next 10 years in relation to types professional activities I am engaged in:
-
-![10 year professional projection](projection.jpg "A 10 year projection of professional activities")
 
 
 
