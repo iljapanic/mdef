@@ -86,10 +86,6 @@ I used Ariel's graphic which traces how his career has evolved over the years as
 A major theme throughout the course was seeing *design as a person* and a *designer as a tool*. This has helped me view my personal development 
 
 
-Insight gained from this week has also finally pushed me to write a [personal about section on this site](/about).
-
-
-
 
 [^1]: DDS presentation to the MDEF student group on 24 October 2018
 [^2]: ibid.
