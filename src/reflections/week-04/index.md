@@ -64,6 +64,7 @@ Oscar suggested that we use *knowledge*, *skill* and *attitude* as dimensions ag
 
 **Attitude** — *How I relate* — I want to be able to communicate complex ideas in an accessible and playful manner (DDS).
 
+An interesting moment of self-reflection occurred as a result of a group discussion. I have realised that one of my strongest suits is organising and systematising things, tools, information and knowledge. But this approach also limits my ability to think freely. It sometimes quite literally makes me think inside a box (a Trello card). It is also probably a reason that I find it easiest to express my creativity through words and code rather than visuals. During the programme, I would like to practice letting my mind (and hands) a bit more loose.
 
 ## Looking forward
 
