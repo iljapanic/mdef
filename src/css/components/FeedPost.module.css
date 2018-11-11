@@ -1,0 +1,58 @@
+@import '../utils/variables.css';
+
+.post {
+  margin-top: 5rem;
+  background-color: white;
+  border-radius: var(--border-radius);
+}
+
+.post:first-of-type {
+  margin-top: 0;
+}
+
+.content {
+  padding: 1rem 1.5rem;
+}
+
+.title {
+  font-size: var(--font-size-1);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.date {
+  color: var(--gray3);
+  font-size: var(--font-size-sub-1);
+}
+
+/* notes */
+.notes {
+  margin-top: 0.25rem;
+}
+
+.notes p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* tags */
+
+.tags {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: var(--font-size-sub-2);
+  background-color: rgba(var(--gray5), 0.5);
+  padding: 0.25rem 0.5rem;
+  line-height: 1;
+  border-radius: var(--border-radius);
+}
+
+.tag:last-of-type {
+  margin-right: 0;
+}

@@ -148,3 +148,19 @@ a.no-underline {
   text-decoration: none;
   font-weight: var(--fw-bold);
 }
+
+/* microlinks */
+.microlink_card {
+  background: white;
+  min-width: 100%;
+
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.microlink_card__content {
+  padding: 1rem;
+}
+
+.microlink_card__content_url {
+}

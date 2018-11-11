@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
   pathPrefix: '/ilja.panic',
   siteMetadata: {
@@ -101,6 +105,29 @@ module.exports = {
         siteId: '1',
         matomoUrl: 'https://analytics.infomatics.io',
         siteUrl: 'https://mdef.gitlab.io/ilja.panic/'
+      }
+    },
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: process.env.GATSBY_AIRTABLE_API_KEY,
+        tables: [
+          {
+            baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
+            tableName: `Feed`,
+            tableView: `Published`,
+            queryName: `allFeeds`,
+            tableLinks: `Tags`,
+            mapping: { Notes: 'text/markdown' }
+          },
+          {
+            baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
+            tableName: `Tags`,
+            tableView: `Sorted`,
+            queryName: `allTags`,
+            tableLinks: `Feed`
+          }
+        ]
       }
     },
     `gatsby-plugin-twitter`,
