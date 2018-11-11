@@ -155,6 +155,7 @@ a.no-underline {
   min-width: 100%;
   border-bottom-left-radius: calc(var(--border-radius) * 2);
   border-bottom-right-radius: calc(var(--border-radius) * 2);
+  font-family: var(--font-family) !important;
 }
 
 .microlink_card:hover {
@@ -165,9 +166,17 @@ a.no-underline {
   background: var(--gray6);
 }
 
+.microlink_card__content_title {
+  color: var(--gray1);
+}
+
 .microlink_card__content_title p {
   font-size: var(--font-size-0);
   font-weight: var(--fw-medium) !important;
+}
+
+.microlink_card__content_description {
+  color: var(--gray2);
 }
 
 .microlink_card__content_description p {
