@@ -3,7 +3,8 @@
 .post {
   margin-top: 5rem;
   background-color: white;
-  border-radius: var(--border-radius);
+  border-radius: calc(var(--border-radius) * 2);
+  border: 1px solid var(--gray6);
 }
 
 .post:first-of-type {
@@ -14,18 +15,25 @@
   padding: 1rem 1.5rem;
 }
 
+/* title */
+
 .title {
   font-size: var(--font-size-1);
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.date {
-  color: var(--gray3);
-  font-size: var(--font-size-sub-1);
+.title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: var(--color-link);
 }
 
 /* notes */
+
 .notes {
   margin-top: 0.25rem;
 }
@@ -41,6 +49,7 @@
   list-style-type: none;
   padding: 0;
   margin-top: 0.5rem;
+  margin-bottom: 0;
 }
 
 .tag {
@@ -55,4 +64,12 @@
 
 .tag:last-of-type {
   margin-right: 0;
+}
+
+/* date */
+.date {
+  color: var(--gray3);
+  font-size: var(--font-size-sub-1);
+  margin-top: 0.5rem;
+  font-style: italic;
 }

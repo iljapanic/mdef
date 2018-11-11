@@ -153,14 +153,33 @@ a.no-underline {
 .microlink_card {
   background: white;
   min-width: 100%;
-
-  border-bottom-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
+  border-bottom-left-radius: calc(var(--border-radius) * 2);
+  border-bottom-right-radius: calc(var(--border-radius) * 2);
 }
 
-.microlink_card__content {
-  padding: 1rem;
+.microlink_card:hover {
+  color: inherit;
+}
+
+.microlink_card:hover .microlink_card__content {
+  background: var(--gray6);
+}
+
+.microlink_card__content_title p {
+  font-size: var(--font-size-0);
+  font-weight: var(--fw-medium) !important;
+}
+
+.microlink_card__content_description p {
+  line-height: 1.45;
+  font-size: var(--font-size-sub-1);
 }
 
 .microlink_card__content_url {
+  color: var(--color-link);
+  font-weight: var(--fw-medium);
+}
+
+.microlink_card__content_url p {
+  font-size: var(--font-size-sub-1);
 }

@@ -21,11 +21,14 @@ export default ({ post }) => {
   return (
     <article className={styles.post}>
       <div className={styles.content}>
-        <h2 className={styles.title}>{title}</h2>
-
-        <div className={styles.date}>Posted {relativeDate}</div>
+        <h2 className={styles.title}>
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            {title}
+          </a>
+        </h2>
         <div className={styles.notes} dangerouslySetInnerHTML={{ __html: notesHtml }} />
         <ul className={styles.tags}>{tags}</ul>
+        <div className={styles.date}>Posted {relativeDate}</div>
       </div>
       <div className={styles.preview}>
         <MicrolinkCard url={url} target="_blank" size="large" />
