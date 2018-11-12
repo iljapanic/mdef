@@ -1,7 +1,7 @@
 @import '../utils/variables.css';
 
 .post {
-  margin-top: 5rem;
+  margin-top: 3rem;
   background-color: white;
   border-radius: calc(var(--border-radius) * 2);
   border: 1px solid var(--gray6);
