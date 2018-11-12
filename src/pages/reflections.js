@@ -6,10 +6,13 @@ import { Helmet } from 'react-helmet';
 import Container from '../components/Container';
 import ReflectionLink from '../components/ReflectionLink';
 
+// styles
+import styles from '../css/pages/reflections.module.css';
+
 export default ({ data }) => {
   const pageTitle = 'Term 1';
   const allReflections = data.allMarkdownRemark.edges;
-  const Reflections = allReflections.map(edge => (
+  const reflections = allReflections.map(edge => (
     <ReflectionLink key={edge.node.id} reflection={edge.node} />
   ));
 
@@ -18,9 +21,11 @@ export default ({ data }) => {
       <Helmet>
         <title>Reflections</title>
       </Helmet>
-      <div className="wrap">
+      <div className="wrap-l">
         <h1>{pageTitle}</h1>
-        <div className="ta-center m-1">{Reflections}</div>
+        <div className="ta-center m-1">
+          <div className={styles.reflections}>{reflections}</div>
+        </div>
       </div>
     </Container>
   );
@@ -45,6 +50,13 @@ export const query = graphql`
             endDate(formatString: "D MMMM YYYY")
             slug
             title
+            hero {
+              childImageSharp {
+                fluid(maxWidth: 1600) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

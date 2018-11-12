@@ -1,0 +1,10 @@
+@import '../utils/variables.css';
+
+@media (--desktop) {
+  .reflections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    justify-content: center;
+  }
+}

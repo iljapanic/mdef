@@ -1,14 +1,34 @@
 @import '../utils/variables.css';
 
-.reflectionLink a {
+.reflection {
+  margin-top: 1rem;
+}
+
+.reflection a {
   text-decoration: none;
 }
 
-.reflectionLink__title {
-  margin-bottom: 0;
-  color: inherit;
+.cover {
+  opacity: 0.9;
+  transition: opacity 0.25s ease-in-out;
 }
 
-.reflectionLink__meta {
+.reflection:hover .cover {
+  opacity: 1;
+}
+
+.cover img {
+  border-radius: var(--border-radius);
+}
+
+.title {
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+  font-size: var(--font-size-1);
+  color: var(--gray2);
+}
+
+.period {
+  margin-top: 0.5rem;
   color: var(--gray3);
 }
