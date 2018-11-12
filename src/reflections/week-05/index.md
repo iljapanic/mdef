@@ -9,6 +9,11 @@ published: true
 ---
 
 
+
+This week has exposed us to diverse perspectives about technology, future and subliminal aspects of design and man-made objects. The focus was on reflecting on our practices as designers by considering the broader implications of creating objects that can take a life of their own once you release them in the wild.
+
+
+
 ## Navigating perspectives
 
 ### [Jose Luis de Vicente](https://about.me/jldevicente)
@@ -91,12 +96,29 @@ I have decided to continue exploring the potential of mycelium and fungi in an u
 
 
 
+A provisional reading list:
+
+- [Consilience: The Unity of Knowledge](https://www.goodreads.com/book/show/55981.Consilience) by Edward O. Wilson
+- [Bio Design: Nature, Science, Creativity](https://www.goodreads.com/book/show/15864890-bio-design) by William Myers (Editor)
+- [The Green Imperative: Ecology and Ethics in Design and Architecture](https://www.goodreads.com/book/show/894758.The_Green_Imperative) by Victor Papanek
+- [Ecological Design](https://www.goodreads.com/book/show/499319.Ecological_Design) by Sim Van der Ryn,  Stuart Cowan
+- [Mycelium Running: How Mushrooms Can Help Save the World](https://www.goodreads.com/book/show/239395.Mycelium_Running) by Paul Stamets
+- [Growing Gourmet and Medicinal Mushrooms](https://www.goodreads.com/book/show/53622.Growing_Gourmet_and_Medicinal_Mushrooms) by Paul Stamets
+
+
+
 ## Takeaways
 
-As part of this week’s reflection I have created a new section for this site where I put together a [virtual bookshelf](https://mdef.gitlab.io/ilja.panic/bookshelf/) showcasing books that have most influenced my thought.
+This week provided a much-needed break from pursuing specific goals and outputs. This gave me space to reconsider some of my previous assumptions and place the master programme in a broader perspective of what I want to do in the future. I will always have time to delve into deep socio-cultural aspects of technology. Therefore I would like to use this year when I am genuinely free to do whatever I wish to pursue a project that is outside of my usual practice.  
 
-I have also set up a new section with a [continuously updated feed](https://mdef.gitlab.io/ilja.panic/feed/) where I will share materials and resources that I find relevant during the master’s programme.
- 
+
+
+As part of this week’s reflection I have created a new section for this site where I put together a [virtual bookshelf](https://mdef.gitlab.io/ilja.panic/bookshelf/) showcasing books that have most influenced my thought. I have also set up a new section with a [continuously updated feed](https://mdef.gitlab.io/ilja.panic/feed/) where I will share materials and resources that I find interesting during the master’s programme.
+
+
+
+
+
 
 [^1]: [Welcome to the blockchain nation](https://medium.com/e-residency-blog/welcome-to-the-blockchain-nation-5d9b46c06fd4) by Kaspar Korjus (2017)
 
