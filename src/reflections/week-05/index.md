@@ -8,20 +8,26 @@ lastUpdated: "2018-11-11"
 published: true
 ---
 
-This week was 
 
-## Perspectives
+## Navigating perspectives
 
-### Jose Luis de Vicente
-sss
+### [Jose Luis de Vicente](https://about.me/jldevicente)
 
-![](military-expenditure-by-country.png 'A figure that clearly depicts of the most important and too often overlooked fact of our times')
+Jose’s presentation has left us speechless. As he mentioned at the outset, most of the information was not new to us, but the way he presented it was so powerful that it left a lasting impression. I see the role of raising awareness of the environmental challenges facing humanity, but for me, the presentation had an overly pessimistic outlook and was missing pointers where to look for viable solutions. I presume that might have been an intended effect and we are to look for better ways of doing things ourselves.
 
-### Pau Alsina
+Jose rhetoric was energetic and somehow optimistic, despite the slightly depressing insights from the presentation. The breadth of his knowledge and the matter in which he conveyed was inspiring. One of the aspects that for me was missing, or at least wasn't addressed enough is whether we would be facing better prospects if we were to redirect resources that are going into producing ever-more advanced and efficient methods of killing each other. 
 
-### Indy Johar
+![](military-expenditure-by-country.png 'A clear depiction of the most important and too often overlooked fact of our times')
 
-I was a bit disappointed that Indy didn't make the planned appearance in the course. I had an honour to see Indy speak in-person on two occasions - first on a conference in Copenhagen and then on an academic gathering in London. Indy has a sober and pragmatic approach to urban innovation which he presents with an impactful rhetoric that actually has a power to change people’s minds. I hope that we get to talk with him later during the master's programme. Meanwhile, here is a video of his talk from the [Made in Space](https://www.madeinspace.io/) conference organised by Space10.
+### [Pau Alsina](https://paualsina.wordpress.com/)
+
+I am familiar with the Foucauldian type of discourse analysis, so Pau’s talk was right down my alley. People sometimes tend to dismiss such musings as meaningless philosophical, and I do admit that modern French philosophers can indeed be quite dense. Nevertheless, I sincerely believe that it is of utmost importance to uncover the power structures that are embedded in everyday objects around us – even more now more than ever as our sensoriums get increasingly flooded with seemingly benign and inconspicuous digitally-generated signals.
+
+
+
+### [Indy Johar](https://about.me/indy.johar)
+
+I was a bit disappointed that Indy didn't make the planned appearance in the course. I had the honour to see Indy speak in-person on two occasions - first on a conference in Copenhagen and then on an academic gathering in London. Indy has a sober and pragmatic approach to urban innovation which he presents with impactful rhetoric that actually has the power to change people’s minds. I hope that we get to talk with him later during the master's programme. Meanwhile, here is a video of his talk from the [Made in Space](https://www.madeinspace.io/) conference organised by Space10.
 
 <figure>
 
@@ -30,16 +36,21 @@ I was a bit disappointed that Indy didn't make the planned appearance in the cou
 <figcaption>‘The Dark Matter of Open Making’ talk by Indy Johar from Made in Space 2017</figcaption>
 </figure>
 
-### Tomás Díez
+### [Tomás Díez](https://iaac.net/dt_team/tomas-diez/)
 
 Tomás has a natural ability to convey complex ideas in an understandable and relatable manner. I especially enjoy his willingness   to openly talk about the paradoxes, contradictions and sometimes outright hypocrisies of living as an informed/concerned citizen in a modern urban setting. Tomás’s also has an aptitude to portray rather disturbing realities in somehow positive light which is a skill that I hope to acquire over time.
+
+### Mariana Quintero
+
+Mariana excels at uncovering subconscious meanings hidden in everyday objects and cultural memes. I find her focus on formative aspects of language particularly interesting since I believe that language is the ultimate tool at our disposal. If we are to change anything, we need to start changing how we talk about things and reconfigure the parameters of public discourse.
+
 
 
 ## Going down the crypto hole
 
 There is no way we could discuss emerging and disruptive technologies without eventually getting into an endless discussion about blockchain and cryptocurrencies. I see some promise in the concept of a distributed ledger. [Estonia is a good example](https://medium.com/e-residency-blog/welcome-to-the-blockchain-nation-5d9b46c06fd4) of a national organisation which has adopted the technology in a meaningful manner long before all the media hype. [^1] I do have my doubts about the promise of cryptocurrencies, particularly as long as they are embedded in an existing economic system based on fiat money and speculation.
 
-One of the biggest proclaimed advantages of blockchain is its inherent transparency. It is therefore peculiar that it is one of the emerging technologies that is most difficult to grasp conceptually. Sure, blockchain holds great promise for humanity, but as long as we collectively understand it. Otherwise, it might lead to even higher concentration of resources and power by a tiny technocratic elite. Here I share concerns expressed eloquently by one of my favourite urbanists [Adam Greenfield](https://www.goodreads.com/author/show/18299688.Adam_Greenfield) who argues that blockchain is ‘just fundamentally difficult for otherwise intelligent and highly capable people to understand’ [^2].
+One of the biggest proclaimed advantages of blockchain is its inherent transparency. It is therefore peculiar that it is one of the emerging technologies that are most difficult to grasp conceptually. Sure, blockchain holds great promise for humanity, but as long as we collectively understand it. Otherwise, it might lead to an even higher concentration of resources and power by a tiny technocratic elite. Here I share concerns expressed eloquently by one of my favourite urbanists [Adam Greenfield](https://www.goodreads.com/author/show/18299688.Adam_Greenfield) who argues that blockchain is ‘just fundamentally difficult for otherwise intelligent and highly capable people to understand’ [^2].
 
 Rather than getting bogged down with details, I will leave you with 3 videos that touch upon the multi-faceted aspects of blockchain and cryptocurrencies.
 
@@ -65,21 +76,28 @@ Rather than getting bogged down with details, I will leave you with 3 videos tha
 </figure>
 
 
-## Focus
+## Turning 360
+
+During the week I have been increasingly second guessing my initial ideas about what I would like to work on for my final project. By thinking in the direction of abstract philosophical questions, I have been keeping myself in a comfort zone. I have been doing this kind of stuff for years, and it is something I consider myself good at. But looking back at my last [week’s reflection](https://mdef.gitlab.io/ilja.panic/reflections/04-exploring-hybrid-profiles-in-design) I have realised that the most valuable course of action for me at this moment is to detach myself from the never-ending polemic about the meaning of life and just make something that embodies my deeply seated values about what constitutes a way forward for humanity.
+
+I have decided to continue exploring the potential of mycelium and fungi in an urban context. On a pragmatic level, I would like to build a self-contained mushroom growing kit that functions as a perpetual food production unit on a household-scale while also expanding the possibilities for repurposing materials that are otherwise considered waste, such as used coffee grounds and or scraps of cardboard. On a more speculative note, I would like to explore the metaphor of mycelium as the brain (or the internet) of the forest and the possibilities of some form of a symbiotic merger of humans, fungi and AI into a supra-terrestrial meta-organism. The work of [Paul Stamets](https://en.wikipedia.org/wiki/Paul_Stamets) is going to be one of my chief entry points into the field.
+
+<figure>
+
+`youtube: https://www.youtube.com/watch?v=cwLviP7KaAc`
+
+<figcaption>Paul Stamets talking about the many potential uses of mushrooms</figcaption>
+</figure>
+
 
 
 ## Takeaways
 
+As part of this week’s reflection I have created a new section for this site where I put together a [virtual bookshelf](https://mdef.gitlab.io/ilja.panic/bookshelf/) showcasing books that have most influenced my thought.
 
-
+I have also set up a new section with a [continuously updated feed](https://mdef.gitlab.io/ilja.panic/feed/) where I will share materials and resources that I find relevant during the master’s programme.
+ 
 
 [^1]: [Welcome to the blockchain nation](https://medium.com/e-residency-blog/welcome-to-the-blockchain-nation-5d9b46c06fd4) by Kaspar Korjus (2017)
 
 [^2]: [Cryptocurrency Might be a Path to Authoritarianism](https://www.theatlantic.com/technology/archive/2017/05/blockchain-of-command/528543/) by Ian Bogost (2017)
-
-
-[^4]: holll
-
-
-
-
