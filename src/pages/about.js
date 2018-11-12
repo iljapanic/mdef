@@ -1,26 +1,49 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 // components
 import Container from '../components/Container';
 
-import notFound from '../images/not-found.gif';
-
 export default ({ data }) => {
-  var pageTitle = 'About';
+  const pageTitle = 'About';
+  const aboutHtml = data.markdownRemark.html;
+  const title = data.markdownRemark.frontmatter.title;
+  const heroImage = data.markdownRemark.frontmatter.hero.childImageSharp.fluid;
 
   return (
     <Container>
       <Helmet>
-        <title>About</title>
+        <title>{pageTitle}</title>
       </Helmet>
-      <div className="wrap ta-center">
-        <h1>{pageTitle}</h1>
-        <p>Soul searching in progress...</p>
-        <div className="ta-center m-1">
-          <img src={notFound} alt="confused John Travolta" />
+      <div className="wrap-l">
+        <h1 className="ta-center">{title}</h1>
+        <div className="m-1">
+          <Img fluid={heroImage} />
         </div>
+      </div>
+      <div className="wrap-s m-1">
+        <div dangerouslySetInnerHTML={{ __html: aboutHtml }} />
       </div>
     </Container>
   );
 };
+
+export const query = graphql`
+  query {
+    markdownRemark(frontmatter: { slug: { eq: "about" } }) {
+      html
+      frontmatter {
+        title
+        hero {
+          childImageSharp {
+            fluid(maxWidth: 1600) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`;

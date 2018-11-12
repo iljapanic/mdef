@@ -1,6 +1,6 @@
 ---
 title: "01. MDEF Bootcamp"
-hero: "hero.jpg"
+hero: hero.jpg
 slug: "01-mdef-bootcamp"
 date: "2018-10-01"
 endDate: "2018-10-07"
@@ -38,7 +38,7 @@ It is surprising because Barcelona is known for being good at creating vibrant p
 ![MDEF group standing at the superblock](superblock.jpg "MDEF group standing at the superblock")
 
 ### Scavenging materials
-Going around the neighbourhood collecting material ended up being way more exciting than I have expected. The exercise immediately makes a person engage with a city in a different way. Rather than just as one-way provider of services and goods, the city has out of a sudden become a dynamic resource in itself. It was also a very tangible manifestation of how wasteful modern urban life-style has become. We were able to collect a lot of quality material in a surprisingly short time. There has not been a day since that I have not spotted useful material on the street. It was a fun and eye-opening experience.  
+Going around the neighbourhood collecting material ended up being way more exciting than I have expected. The exercise immediately makes a person engage with a city in a different way. Rather than just as one-way provider of services and goods, the city has out of a sudden become a dynamic resource in itself. It was also a very tangible manifestation of how wasteful modern urban life-style has become. We were able to collect a lot of quality material in a surprisingly short time. There has not been a day since that I have not spotted useful material on the street. It was a fun and eye-opening experience.
 
 ## The Green Fab Lab
 The impromptu visit to the [Green Fab Lab][4] was the highlight of the week. The beautiful grounds and surroundings aside, the Green Fab Lab represents a serious commitment towards developing tools and methods for harmonious relationship between nature and technology. I was hoping that the house would be a bit further ahead in its pursuit of self-sufficiency, but the project is still in its infancy and I expect it to develop in the coming years. A few solar panels would be a solid a start.

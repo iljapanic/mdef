@@ -6,7 +6,6 @@ import anchorJS from 'anchor-js';
 
 // components
 import Container from '../components/Container';
-// import Gallery from '../components/Gallery';
 
 // styles
 import styles from '../css/templates/post.module.css';
@@ -32,7 +31,7 @@ class PostTemplate extends React.Component {
         <Helmet>
           <title>{meta.title}</title>
         </Helmet>
-        <article className={styles.post + ` toc-content`}>
+        <article className={styles.post}>
           <header className={styles.header}>
             <h1 className={styles.title}>{meta.title}</h1>
             <span className={styles.date}>
