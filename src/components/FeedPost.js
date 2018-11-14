@@ -14,9 +14,13 @@ export default ({ post }) => {
   const title = post.Title;
   const relativeDate = dayjs(post.Timestamp).fromNow();
   const url = post.URL;
-  const notesHtml = post.Notes.childMarkdownRemark.html;
+  var notesHtml = '';
   const tagsData = post.Tags;
   const tags = tagsData.map(tag => <Tag key={tag.id} tag={tag.data.Name} />);
+
+  if (post.Notes) {
+    notesHtml = post.Notes.childMarkdownRemark.html;
+  }
 
   return (
     <article className={styles.post}>

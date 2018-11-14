@@ -15,9 +15,25 @@ http://moralmachine.mit.edu/
 
 
 
+
+
+## A false promise of AI?
+
+
+
+AI is able to make connections but is nowhere near understanding meaning
+
+https://www.nytimes.com/2018/11/05/opinion/artificial-intelligence-machine-learning.html
+
+
+
+
+
 ## Mycelium intelligence
 
 extending intelligence throught mycelium networks?
+
+
 
 
 
