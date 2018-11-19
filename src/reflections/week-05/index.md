@@ -43,7 +43,7 @@ I was a bit disappointed that Indy didn't make the planned appearance in the cou
 
 ### [Tomás Díez](https://iaac.net/dt_team/tomas-diez/)
 
-Tomás has a natural ability to convey complex ideas in an understandable and relatable manner. I especially enjoy his willingness   to openly talk about the paradoxes, contradictions and sometimes outright hypocrisies of living as an informed/concerned citizen in a modern urban setting. Tomás’s also has an aptitude to portray rather disturbing realities in somehow positive light which is a skill that I hope to acquire over time.
+Tomás has a natural ability to convey complex ideas in an understandable and relatable manner. I especially enjoy his willingness   to openly talk about the paradoxes, contradictions and sometimes outright hypocrisies of living as an informed/concerned citizen in a modern urban setting. Tomás also has an aptitude to portray rather disturbing realities in somehow positive light which is a skill that I hope to acquire over time.
 
 ### Mariana Quintero
 
@@ -85,7 +85,7 @@ Rather than getting bogged down with details, I will leave you with 3 videos tha
 
 During the week I have been increasingly second guessing my initial ideas about what I would like to work on for my final project. By thinking in the direction of abstract philosophical questions, I have been keeping myself in a comfort zone. I have been doing this kind of stuff for years, and it is something I consider myself good at. But looking back at my last [week’s reflection](https://mdef.gitlab.io/ilja.panic/reflections/04-exploring-hybrid-profiles-in-design) I have realised that the most valuable course of action for me at this moment is to detach myself from the never-ending polemic about the meaning of life and just make something that embodies my deeply seated values about what constitutes a way forward for humanity.
 
-I have decided to continue exploring the potential of mycelium and fungi in an urban context. On a pragmatic level, I would like to build a self-contained mushroom growing kit that functions as a perpetual food production unit on a household-scale while also expanding the possibilities for repurposing materials that are otherwise considered waste, such as used coffee grounds and or scraps of cardboard. On a more speculative note, I would like to explore the metaphor of mycelium as the brain (or the internet) of the forest and the possibilities of some form of a symbiotic merger of humans, fungi and AI into a supra-terrestrial meta-organism. The work of [Paul Stamets](https://en.wikipedia.org/wiki/Paul_Stamets) is going to be one of my chief entry points into the field.
+I have decided to continue exploring the potential of mycelium and fungi in an urban context. On a pragmatic level, I would like to build a self-contained mushroom growing kit that functions as a perpetual food production unit on a household-scale while also expanding the possibilities for repurposing materials that are otherwise considered waste, such as used coffee grounds or scraps of cardboard. On a more speculative note, I would like to explore the metaphor of mycelium as the brain (or the internet) of the forest and the possibilities of some form of a symbiotic merger of humans, fungi and AI into a supra-terrestrial meta-organism. The work of [Paul Stamets](https://en.wikipedia.org/wiki/Paul_Stamets) is going to be one of my chief entry points into the field.
 
 <figure>
 
