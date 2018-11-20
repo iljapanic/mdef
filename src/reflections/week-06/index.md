@@ -26,7 +26,7 @@ Thus if intelligence is embedded at a molecular level as a material called [comp
 
 With that being said, **intelligence does not equal consciousness** and this is where our scientific theory falls utterly short to the point of sheer ignorance. Men-made AI is improving at an exponential rate but we are nowhere near any sort of artifitical consciousness. The decoupling of intelligence from consciousness presents a major challenge because the most thorny questions facing humanity and its relationship to technology and the spaceship Earth are ethical, moral and cultural – all products of our imagination with no basis in the physical reality.
 
-<link url="https://www.nytimes.com/2018/11/05/opinion/artificial-intelligence-machine-learning.html" size="small"></link>
+https://www.nytimes.com/2018/11/05/opinion/artificial-intelligence-machine-learning.html
 
 Unleashing superintelligent entities out in the world without a proper understanding of consciousness is a dangerous prospect. The next section explores some of the more worrisome implications of currents trends in AI.
 
