@@ -3,7 +3,7 @@ title: "06. Designing with Extended Intelligence"
 slug: "06-designing-with-extended-intelligence"
 date: "2018-11-05"
 endDate: "2018-11-11"
-lastUpdated: "2018-10-03"
+lastUpdated: "2018-11-20"
 hero: "hero.jpg"
 published: true
 ---
@@ -52,7 +52,7 @@ As we inch closer towards developing a true Artifical General Intelligence (AGI)
 
 ### AI totalitarianism
 
-We tend to see AI as this looming otherworldly entity, epitomised throught robotics-infused Terminator-like imaginary, that is somehow dettached from our existing socio-economic structures. However, with the current trajectory the more likely scenario is that the progress in AI will further concetrate power and resources in the hands of technocratic elite that have an exclusive say in defining the parameters of AI's activity.
+We tend to see AI as this looming otherworldly entity, epitomised throught Terminator-like imaginary, that appears dettached from our existing socio-economic structures. However, with the current trajectory the more likely scenario is that the progress in AI will further concetrate power and resources in the hands of technocratic elite that have an exclusive say in defining the parameters of AI's activity.
 
 Ubiquitous biometric surveillance, predictive poicing, digitally-enabled behavioral modification at the scale of an individual, social credit system, [autonomous weapons](https://www.scmp.com/news/china/science/article/2172141/chinas-brightest-children-are-being-recruited-develop-ai-killer) – these are just some of AI-powered Black Mirror-esque realities of day-to-day life in contemporary China that give us a sneak peak of things to come (or already here depending on your perspective) as part of a surveillance capitalism that is taking over the globe [^3] [^4] [^5].
 
