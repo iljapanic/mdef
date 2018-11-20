@@ -26,7 +26,7 @@ Thus if intelligence is embedded at a molecular level as a material called [comp
 
 With that being said, **intelligence does not equal consciousness** and this is where our scientific theory falls utterly short to the point of sheer ignorance. Men-made AI is improving at an exponential rate but we are nowhere near any sort of artifitical consciousness. The decoupling of intelligence from consciousness presents a major challenge because the most thorny questions facing humanity and its relationship to technology and the spaceship Earth are ethical, moral and cultural – all products of our imagination with no basis in the physical reality.
 
-https://www.nytimes.com/2018/11/05/opinion/artificial-intelligence-machine-learning.html
+<link url="https://www.nytimes.com/2018/11/05/opinion/artificial-intelligence-machine-learning.html" size="small"></link>
 
 Unleashing superintelligent entities out in the world without a proper understanding of consciousness is a dangerous prospect. The next section explores some of the more worrisome implications of currents trends in AI.
 
@@ -113,7 +113,7 @@ The problems with AI are not technical but cultural. We need to move away from a
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Our societies overrate Design (Engineering, Optimisation, Control, etc.) and underrate the simple enjoyment of the eternally emerging present moment. <a href="https://t.co/FUzTzdXULB">pic.twitter.com/FUzTzdXULB</a></p>&mdash; samim (@samim) <a href="https://twitter.com/samim/status/1062833882779795456?ref_src=twsrc%5Etfw">November 14, 2018</a></blockquote>
 
-​	
+​
 
 The public discourse about AI at the moment is characterised by fear-mongering and illegibility stemming from a lack of technical understanding in which the technology is seen as something imposed from top-down and detached from the everyday life of citizens. To unleash its humanistic potential, we need to view AI as a commonplace tool available to everyone according to their individual needs. Particularly in the area of food, agriculture and healthcare, AI can help alleviate poverty and bring upon new forms of radical self-sufficiency by empowering everyone to be healthy and well-fed without unnecessary drudgery, the pressure to earn a living or being reliant on central forms of control and allocation of resources.
 
@@ -162,7 +162,7 @@ However, in recent years we have witnessed a resurgence of research into the eff
 
 
 
-> *“I see the mycelium as the Earth's natural Internet, a consciousness with which we might be able to communicate. Through cross-species interfacing, we may one day exchange information with these sentient cellular networks. Because these externalized neurological nets sense any impression upon them, from footsteps to falling tree branches, they could relay enormous amounts of data regarding the movements of all organisms through the landscape.”* 
+> *“I see the mycelium as the Earth's natural Internet, a consciousness with which we might be able to communicate. Through cross-species interfacing, we may one day exchange information with these sentient cellular networks. Because these externalized neurological nets sense any impression upon them, from footsteps to falling tree branches, they could relay enormous amounts of data regarding the movements of all organisms through the landscape.”*
 >
 >
 >
@@ -191,10 +191,10 @@ I was happy to find out that none in the group identified with the reductionist 
 [^2]: [Homo Deus by Yuval N. Harrari](https://www.goodreads.com/book/show/31138556-homo-deus)
 [^3]: [China’s all-seeing ‘Sharp Eyes’ by Ilja A. Panic](https://iljapanic.com/china-sharp-eyes/)
 [^4]: [Big other by Shoshana Zuboff](https://link.springer.com/article/10.1057%2Fjit.2015.5)
-[^5]: [Psychopolitics by Byung-Chul Han](https://www.goodreads.com/book/show/37133029-psychopolitics) 
+[^5]: [Psychopolitics by Byung-Chul Han](https://www.goodreads.com/book/show/37133029-psychopolitics)
 [^6]: [Weapons of Math Destruction by Cathy O'Neil](https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction)
-[^7]: [In the Age of A.I., Is Seeing Still Believing? by Joshua Rothman](https://www.newyorker.com/magazine/2018/11/12/in-the-age-of-ai-is-seeing-still-believing) 
-[^8]: [Deep Fakes by Robert Chesney and Danielle K. Citron](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3213954) 
+[^7]: [In the Age of A.I., Is Seeing Still Believing? by Joshua Rothman](https://www.newyorker.com/magazine/2018/11/12/in-the-age-of-ai-is-seeing-still-believing)
+[^8]: [Deep Fakes by Robert Chesney and Danielle K. Citron](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3213954)
 [^9]: [Ready Player One by  Ernest Cline](https://www.goodreads.com/book/show/9969571-ready-player-one)
 [^10]: [Slow Computing by Alistair Fraser and Rob Kitchin](http://progcity.maynoothuniversity.ie/2017/12/new-paper-slow-computing/)
 [^11]: [Tangible Media Group](https://tangible.media.mit.edu/)

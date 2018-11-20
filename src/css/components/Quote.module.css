@@ -1,0 +1,14 @@
+.quote {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.quote blockquote {
+  font-size: var(--font-size-1);
+  max-width: 100%;
+}
+
+.author {
+  font-size: var(--font-size-sub-1);
+  margin-top: 0.5rem;
+}

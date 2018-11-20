@@ -53,6 +53,7 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-images": "^0.5.19",
+    "react-markdown": "^4.0.3",
     "react-microlink": "^2.3.0",
     "react-p5-wrapper": "^0.0.4",
     "rehype-react": "^3.0.3",

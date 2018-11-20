@@ -3,12 +3,23 @@ import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import Img from 'gatsby-image';
 import anchorJS from 'anchor-js';
+import rehypeReact from 'rehype-react';
 
 // components
 import Container from '../components/Container';
+import LinkPreview from '../components/LinkPreview';
+import Quote from '../components/Quote';
 
 // styles
 import styles from '../css/templates/post.module.css';
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: {
+    link: LinkPreview,
+    quote: Quote
+  }
+}).Compiler;
 
 class PostTemplate extends React.Component {
   componentDidMount() {
@@ -19,7 +30,7 @@ class PostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const meta = post.frontmatter;
-    const postHtml = post.html;
+    const postHtml = post.htmlAst;
     const heroImage = meta.hero.childImageSharp.fluid;
     const author = this.props.data.site.siteMetadata.author;
     const absolutePath = post.fileAbsolutePath;
@@ -41,7 +52,7 @@ class PostTemplate extends React.Component {
               <Img fluid={heroImage} />
             </div>
           </header>
-          <div className={styles.body} dangerouslySetInnerHTML={{ __html: postHtml }} />
+          <div className={styles.body}>{renderAst(postHtml)}</div>
           <footer className={styles.footer}>
             {absolutePath}
             <div>
@@ -71,7 +82,7 @@ export const pageQuery = graphql`
     }
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       id
-      html
+      htmlAst
       frontmatter {
         date(formatString: "D MMMM")
         endDate(formatString: "D MMMM YYYY")
