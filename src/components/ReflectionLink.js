@@ -20,7 +20,7 @@ const ReflectionLink = ({ reflection }) => {
         <div className={styles.cover}>
           <Img fluid={heroImage} />
         </div>
-        <div class={styles.body}>
+        <div className={styles.body}>
           <div className={styles.period}>{period}</div>
         </div>
       </Link>

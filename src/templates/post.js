@@ -8,7 +8,7 @@ import rehypeReact from 'rehype-react';
 // components
 import Container from '../components/Container';
 import LinkPreview from '../components/LinkPreview';
-import Quote from '../components/Quote';
+// import Quote from '../components/Quote';
 
 // styles
 import styles from '../css/templates/post.module.css';
@@ -16,8 +16,7 @@ import styles from '../css/templates/post.module.css';
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
-    link: LinkPreview,
-    quote: Quote
+    link: LinkPreview
   }
 }).Compiler;
 
