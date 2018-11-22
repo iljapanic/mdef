@@ -5,6 +5,7 @@ import relativeTime from 'dayjs/plugin/relativeTime';
 
 // css
 import styles from '../css/components/FeedPost.module.css';
+import '../css/utils/microlink.css';
 
 dayjs.extend(relativeTime);
 

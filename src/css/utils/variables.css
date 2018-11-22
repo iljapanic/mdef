@@ -1,12 +1,24 @@
 :root {
   /* https://coolors.co/01161e-58a4b0-171716-7b9e96-ac3931 */
+
+  /* colors - grays */
+  --gray-900: #444446;
+  --gray-800: #555557;
+  --gray-700: #666668;
+  --gray-600: #7f7f81;
+  --gray-500: #99999b;
+  --gray-400: #b3b3b4;
+  --gray-300: #d5d5d6;
+  --gray-200: #efefef;
+  --gray-100: #fdfdfd;
+
   --color-primary: #cb5760;
 
-  --color-base: #2a2928;
-  --color-heading: #535250;
+  --color-base: var(--gray-900);
+  --color-heading: var(--gray-800);
 
-  --color-bg: #f8f8f8;
-  --color-bg-secondary: #f3f1ee;
+  --color-bg: white;
+  --color-bg-secondary: var(--gray-100);
   --color-link: #cb5760;
   --color-link-hover: #a7484f;
 
@@ -18,20 +30,11 @@
 
   --color-marker: rgba(255, 255, 0, 0.35);
 
-  /* colors - grays */
-  --gray1: #3c3c3d;
-  --gray2: #5a5a5b;
-  --gray3: #7d7d7e;
-  --gray4: #cdcdce;
-  --gray5: #dededf;
-  --gray6: #efeff0;
-
   /* font */
-  --font-family: 'adelle-sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
-  --font-family-heading: 'adelle-sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial',
-    sans-serif;
-  --font-family-mono: 'zeitung-mono', monospace;
-  --fw-base: 300;
+  --font-family: 'adobe-caslon-pro', serif;
+  --font-family-heading: 'futura-pt', 'Helvetica Neue', 'Arial', sans-serif;
+  --font-family-mono: 'anonymous-pro', monospace;
+  --fw-base: 400;
   --fw-medium: 400;
   --fw-bold: 600;
 
@@ -58,8 +61,8 @@
 
 @media screen and (min-width: 800px) {
   :root {
-    --font-base-size: 21px;
-    --line-height: 1.75;
+    --font-base-size: 23px;
+    --line-height: 1.6;
     --line-height-heading: 1.35;
 
     /* scale for 1.25 */

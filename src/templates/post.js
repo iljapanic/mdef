@@ -12,6 +12,7 @@ import Container from '../components/Container';
 
 // styles
 import styles from '../css/templates/post.module.css';
+import '../css/utils/footnotes.css';
 
 // const renderAst = new rehypeReact({
 //   createElement: React.createElement,

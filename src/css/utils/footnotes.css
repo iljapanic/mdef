@@ -1,0 +1,45 @@
+@import './variables.css';
+
+/* footnotes */
+.footnotes {
+  margin-top: 2rem;
+  font-size: var(--font-size-sub-1);
+  max-width: var(--wrap-s);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footnotes:before {
+  content: 'References';
+  font-size: var(--font-size-0);
+  font-weight: var(--fw-bold);
+  color: var(--gray-700);
+}
+
+.footnotes hr {
+  border: 0;
+}
+
+.footnotes p {
+  display: inline-block;
+  font-size: var(--font-size-sub-1);
+}
+
+.footnotes li a:last-of-type {
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.footnotes li p + a {
+  font-size: 0.7rem;
+  opacity: 0.65;
+}
+
+.footnotes li p + a:hover {
+  opacity: 1;
+}
+
+.footnote-ref {
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+}

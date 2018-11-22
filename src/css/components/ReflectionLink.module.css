@@ -1,34 +1,62 @@
 @import '../utils/variables.css';
 
 .reflection {
-  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 .reflection a {
   text-decoration: none;
 }
 
+@media (--desktop) {
+  .inner {
+    display: flex;
+    align-items: stretch;
+  }
+  .cover {
+    width: 50%;
+  }
+
+  .body {
+    width: 45%;
+    padding-left: 1rem;
+  }
+
+  .reflection:nth-child(2n) .cover {
+    order: 1;
+  }
+}
+
 .cover {
-  opacity: 0.9;
+  width: 100%;
+  opacity: 0.75;
   transition: opacity 0.25s ease-in-out;
+  /* border: 1px solid red; */
 }
 
 .reflection:hover .cover {
   opacity: 1;
 }
 
-.cover img {
-  border-radius: var(--border-radius);
+.body {
+  /* border: 1px solid blue; */
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: flex-end; */
+  /* height: 100%; */
+  /* background: pink; */
 }
 
 .title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
   margin-top: 0;
-  font-size: var(--font-size-1);
-  color: var(--gray2);
+  text-align: left;
+  font-size: 0.85rem;
+  color: var(--gray-900);
+  font-family: var(--font-family-mono);
 }
 
 .period {
   margin-top: 0.5rem;
-  color: var(--gray3);
+  color: var(--gray-500);
 }

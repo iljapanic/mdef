@@ -23,7 +23,7 @@ export default ({ data }) => {
           <h1>{title}</h1>
           <p>Personal profile</p>
         </div>
-        <div className="m-1">
+        <div>
           <Img fluid={heroImage} />
         </div>
       </div>

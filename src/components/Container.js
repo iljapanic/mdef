@@ -10,6 +10,7 @@ import Navigation from './Navigation';
 import '../css/utils/normalize.css';
 import '../css/utils/base.css';
 import '../css/utils/helpers.css';
+import '../css/utils/page.css';
 
 // component CSS
 import css from '../css/components/Container.module.css';

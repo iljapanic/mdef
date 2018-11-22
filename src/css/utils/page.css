@@ -1,0 +1,17 @@
+@import './variables.css';
+
+.page-title {
+  font-family: var(--font-family-mono);
+  margin-bottom: 2rem;
+}
+
+.page-title h1 {
+  font-family: var(--font-family-mono);
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 0.15rem;
+}
+
+.page-title p {
+  font-size: 0.75rem;
+}

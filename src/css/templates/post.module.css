@@ -74,7 +74,7 @@
 }
 
 .date {
-  color: var(--gray3);
+  color: var(--gray-500);
 }
 
 .hero {
@@ -85,5 +85,5 @@
 .footer {
   margin-top: 3rem;
   font-size: var(--font-size-sub-1);
-  color: var(--gray3);
+  color: var(--gray-400);
 }

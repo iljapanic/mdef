@@ -24,11 +24,9 @@ export default ({ data }) => {
       <div className="wrap-l">
         <div className="page-title">
           <h1>{pageTitle}</h1>
-          <p>Weekly documentation of the courses</p>
+          <p>Weekly musings and documentation of the courses</p>
         </div>
-        <div className="ta-center m-1">
-          <div className={styles.reflections}>{reflections}</div>
-        </div>
+        <div className={styles.reflections}>{reflections}</div>
       </div>
     </Container>
   );

@@ -47,7 +47,7 @@ There is a tendency to see science as somehow detached from the dominant economi
 
 ![](PRRB.jpg "A room at PRRB with the most expensive machinery in the building")
 
-There does not seem to be a unified narrative for developing practical solutions for a sustainable advancement of humankind. The shift in the mindset seems to be slowly occurring but is mostly contained to one-off projects and PR-oriented initiatives rather than a sustained effort from a scientific community at large. My aim is not to bash on scientists. Despite my remarks, the investments in science still pale in comparison with expenditures on warfare and on obscene habits of wealthy nations. My interest lays more in underlying cultural assumptions and perceptions of what constitutes meaningful science.
+There does not seem to be a unified narrative for developing practical solutions for a sustainable advancement of humankind. The shift in the mindset seems to be slowly occurring but is mostly contained to one-off projects and PR-oriented initiatives rather than a sustained effort from a scientific community at large. My aim is not to bash on scientists. Despite my remarks, the investments in science still pale in comparison with expenditures on warfare and on obscene spending habits of wealthy nations. My interest lays more in underlying cultural assumptions and perceptions of what constitutes meaningful science.
 
 The question is how can we use the might and knowledge of the global scientific behemoth to provide for every human being (without destroying our planet) before we go further uncovering ultimately inconsequential details and intricacies of molecular structures?
 
@@ -66,10 +66,10 @@ DIY Bio Hacking community offers an alternative vision of science that is modell
 Such projects tend to be speculative and playful in nature with an underlying goal of making science and biology more accessible and relevant to everyday humans:
 
 > *“Scientific literacy empowers everyone who possesses it to be active contributors to their own health care, the quality of their food, water, and air, their very interactions with their own bodies and the complex world around them.”*
-> 
+>
 > – Meredith L. Patterson, [A Biopunk Manifesto](https://maradydd.livejournal.com/496085.html) (2008)
 
-Much of the DIY biohacking revolves around exploring and cultivating various microorganisms. Over the course of the week I have built up an appreciation for those little creatures and their amazing capacity for self-replication and self-organisation — principles that are the core of the vision of Fab Labs and Fab Cities. Many of the same principles of organic micro-architecture can be translated into our man-made structures through time-tested methods of vernacular design so beautifully described by Victor Papanek in his [Green Imperative](https://www.goodreads.com/book/show/894758.The_Green_Imperative). 
+Much of the DIY biohacking revolves around exploring and cultivating various microorganisms. Over the course of the week I have built up an appreciation for those little creatures and their amazing capacity for self-replication and self-organisation — principles that are the core of the vision of Fab Labs and Fab Cities. Many of the same principles of organic micro-architecture can be translated into our man-made structures through time-tested methods of vernacular design so beautifully described by Victor Papanek in his [Green Imperative](https://www.goodreads.com/book/show/894758.The_Green_Imperative).
 
 <figure>
 
