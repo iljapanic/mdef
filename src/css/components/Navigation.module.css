@@ -1,0 +1,50 @@
+@import '../utils/variables.css';
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 2rem;
+  letter-spacing: 0.015em;
+}
+
+.nav li:last-of-type {
+  margin-right: 0;
+}
+
+@media (--desktop) {
+  .nav li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.nav a {
+  color: var(--gray3);
+  text-decoration: none;
+  font-weight: var(--fw-medium);
+  font-family: var(--font-family-mono);
+  font-size: 0.7rem;
+  padding: 0.15rem 0.25rem;
+  line-height: 1;
+  transition: all 0.25s ease-in-out;
+}
+
+.nav a:hover {
+  color: var(--gray1);
+  background-color: var(--gray6);
+}
+
+.active,
+a.active,
+.active:hover,
+a.active:hover {
+  color: var(--gray6);
+  background-color: var(--gray2);
+  cursor: default;
+  /* border-bottom: 1px solid var(--color-primary); */
+}

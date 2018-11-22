@@ -17,8 +17,12 @@ export default ({ data }) => {
       <Helmet>
         <title>{pageTitle}</title>
       </Helmet>
+
       <div className="wrap-l">
-        <h1 className="ta-center">{title}</h1>
+        <div className="page-title">
+          <h1>{title}</h1>
+          <p>Personal profile</p>
+        </div>
         <div className="m-1">
           <Img fluid={heroImage} />
         </div>

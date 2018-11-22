@@ -3,14 +3,6 @@ import { Link } from 'gatsby';
 
 import styles from '../css/components/Header.module.css';
 
-const ListLink = props => (
-  <li>
-    <Link to={props.to} activeClassName={styles.active}>
-      {props.children}
-    </Link>
-  </li>
-);
-
 export default ({ children }) => (
   <header className={styles.header}>
     <div className={styles.logo}>
@@ -19,13 +11,5 @@ export default ({ children }) => (
         <span className={styles.name}> by Ilja Panic</span>
       </Link>
     </div>
-    <nav className={styles.nav}>
-      <ul>
-        <ListLink to="/reflections/">Reflections</ListLink>
-        <ListLink to="/feed/">Feed</ListLink>
-        <ListLink to="/bookshelf/">Bookshelf</ListLink>
-        <ListLink to="/about/">About</ListLink>
-      </ul>
-    </nav>
   </header>
 );

@@ -22,12 +22,11 @@ export default ({ data }) => {
         <title>{pageTitle}</title>
       </Helmet>
 
-      <div className="ta-center">
-        <h1>{pageTitle}</h1>
-        <p>Formative texts that have influenced and inspired me</p>
-      </div>
-
-      <div className="wrap-xl m-2">
+      <div className="wrap-l">
+        <div className="page-title">
+          <h1>{pageTitle}</h1>
+          <p>Formative texts that have influenced and inspired me</p>
+        </div>
         <h2 className="ta-center">Non-Fiction</h2>
         <div className={styles.bookshelf}>{nonfiction}</div>
         <h2 className="ta-center m-4">Fiction</h2>

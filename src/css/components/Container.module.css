@@ -1,9 +1,60 @@
+@import '../utils/variables.css';
+
 .container {
   padding: 0 1rem;
 }
 
 @media (--desktop) {
   .container {
+    display: grid;
+    grid-template-columns: 12rem 1fr;
     padding: 0;
+  }
+
+  .sidebar {
+    grid-column-start: span 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    /* background: antiquewhite;
+    border: 1px solid red; */
+  }
+
+  .header {
+    height: 20%;
+    width: 100%;
+
+    /* background: rosybrown;
+    border: 1px solid gold; */
+  }
+
+  .navigation {
+    height: 55%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    /* background: pink;
+    border: 1px solid salmon; */
+  }
+
+  .main {
+    /* padding-top: 16vh;
+    grid-column-end: span 11; */
+    padding-top: 2rem;
+    /* background: gold;
+    border: 1px solid skyblue; */
+  }
+
+  .footer {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2rem;
   }
 }

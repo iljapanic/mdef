@@ -5,7 +5,7 @@
   --color-base: #2a2928;
   --color-heading: #535250;
 
-  --color-bg: #faf9f8;
+  --color-bg: #f8f8f8;
   --color-bg-secondary: #f3f1ee;
   --color-link: #cb5760;
   --color-link-hover: #a7484f;
@@ -27,12 +27,13 @@
   --gray6: #efeff0;
 
   /* font */
-  --font-family: 'adelle-sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif';
+  --font-family: 'adelle-sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
   --font-family-heading: 'adelle-sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial',
-    'sans-serif';
+    sans-serif;
+  --font-family-mono: 'zeitung-mono', monospace;
   --fw-base: 300;
   --fw-medium: 400;
-  --fw-bold: 700;
+  --fw-bold: 600;
 
   --font-base-size: 14px;
   --line-height: 1.6;
@@ -57,8 +58,8 @@
 
 @media screen and (min-width: 800px) {
   :root {
-    --font-base-size: 19px;
-    --line-height: 1.7;
+    --font-base-size: 21px;
+    --line-height: 1.75;
     --line-height-heading: 1.35;
 
     /* scale for 1.25 */

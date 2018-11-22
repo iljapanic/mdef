@@ -10,7 +10,7 @@ import ReflectionLink from '../components/ReflectionLink';
 import styles from '../css/pages/reflections.module.css';
 
 export default ({ data }) => {
-  const pageTitle = 'Term 1';
+  const pageTitle = 'Reflections';
   const allReflections = data.allMarkdownRemark.edges;
   const reflections = allReflections.map(edge => (
     <ReflectionLink key={edge.node.id} reflection={edge.node} />
@@ -19,10 +19,13 @@ export default ({ data }) => {
   return (
     <Container>
       <Helmet>
-        <title>Reflections</title>
+        <title>{pageTitle}</title>
       </Helmet>
       <div className="wrap-l">
-        <h1>{pageTitle}</h1>
+        <div className="page-title">
+          <h1>{pageTitle}</h1>
+          <p>Weekly documentation of the courses</p>
+        </div>
         <div className="ta-center m-1">
           <div className={styles.reflections}>{reflections}</div>
         </div>
