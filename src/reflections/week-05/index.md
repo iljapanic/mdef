@@ -5,6 +5,7 @@ hero: "hero.jpg"
 date: "2018-10-29"
 endDate: "2018-11-04"
 lastUpdated: "2018-11-11"
+summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
 published: true
 ---
 
@@ -20,7 +21,7 @@ This week has exposed us to diverse perspectives about technology, future and su
 
 Jose’s presentation has left us speechless. As he mentioned at the outset, most of the information was not new to us, but the way he presented it was so powerful that it left a lasting impression. I see the role of raising awareness of the environmental challenges facing humanity, but for me, the presentation had an overly pessimistic outlook and was missing pointers where to look for viable solutions. I presume that might have been an intended effect and we are to look for better ways of doing things ourselves.
 
-Jose rhetoric was energetic and somehow optimistic, despite the slightly depressing insights from the presentation. The breadth of his knowledge and the matter in which he conveyed was inspiring. One of the aspects that for me was missing, or at least wasn't addressed enough is whether we would be facing better prospects if we were to redirect resources that are going into producing ever-more advanced and efficient methods of killing each other. 
+Jose rhetoric was energetic and somehow optimistic, despite the slightly depressing insights from the presentation. The breadth of his knowledge and the matter in which he conveyed was inspiring. One of the aspects that for me was missing, or at least wasn't addressed enough is whether we would be facing better prospects if we were to redirect resources that are going into producing ever-more advanced and efficient methods of killing each other.
 
 ![](military-expenditure-by-country.png 'A clear depiction of the most important and too often overlooked fact of our times')
 
@@ -109,7 +110,7 @@ A provisional reading list:
 
 ## Takeaways
 
-This week provided a much-needed break from pursuing specific goals and outputs. This gave me space to reconsider some of my previous assumptions and place the master programme in a broader perspective of what I want to do in the future. I will always have time to delve into deep socio-cultural aspects of technology. Therefore I would like to use this year when I am genuinely free to do whatever I wish to pursue a project that is outside of my usual practice.  
+This week provided a much-needed break from pursuing specific goals and outputs. This gave me space to reconsider some of my previous assumptions and place the master programme in a broader perspective of what I want to do in the future. I will always have time to delve into deep socio-cultural aspects of technology. Therefore I would like to use this year when I am genuinely free to do whatever I wish to pursue a project that is outside of my usual practice.
 
 
 

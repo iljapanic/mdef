@@ -5,6 +5,7 @@ slug: "01-mdef-bootcamp"
 date: "2018-10-01"
 endDate: "2018-10-07"
 lastUpdated: "2018-10-26"
+summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
 published: true
 ---
 

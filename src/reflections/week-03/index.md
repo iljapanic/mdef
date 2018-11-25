@@ -5,10 +5,11 @@ hero: "hero.jpg"
 date: "2018-10-15"
 endDate: "2018-10-21"
 lastUpdated: "2018-10-28"
+summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
 published: true
 ---
 
-This week was held in the spirit of making and immersing ourselves into the inner workings of the Fab Lab. While the name of the course has the word digital in it, most of the activities consisted of discussing, sketching and working with hands. 
+This week was held in the spirit of making and immersing ourselves into the inner workings of the Fab Lab. While the name of the course has the word digital in it, most of the activities consisted of discussing, sketching and working with hands.
 
 In the first two days, we have developed concepts and designs for how we would like to improve our classroom. In the remainder of the week we have used [the scraped material we have picked up in the streets of Barcelona](https://mdef.gitlab.io/ilja.panic/reflections/01-mdef-bootcamp/#city-safari-in-poblenou) and used the tools and machines available at Fab Lab to materialise those ideas.
 
@@ -25,7 +26,7 @@ In the first two days, we have developed concepts and designs for how we would l
 
 ## Process over design
 
-The course was a great example of embodied learning. Our group discussions often started with an attempt to describe our ideas with words and eventually always ended up with sketches and demonstrations using tools and materials at hand. The collaboration within our group was smooth with everyone complimenting each other neatly — everyone seemed to be knowledgeable in different aspects of the design/production process and was happy to share. 
+The course was a great example of embodied learning. Our group discussions often started with an attempt to describe our ideas with words and eventually always ended up with sketches and demonstrations using tools and materials at hand. The collaboration within our group was smooth with everyone complimenting each other neatly — everyone seemed to be knowledgeable in different aspects of the design/production process and was happy to share.
 
 ![Group process](group-process.jpg "A group exercise with paper cutouts used to play around with desk layout in the classroom")
 
@@ -34,7 +35,7 @@ It was fascinating to observe the discrepancy between original designs and the a
 
 ## Takeaways
 
-It was inspiring to see how much could be achieved in such a little time with few scrapes and pieces found on the street. The course has also shown the importance of cross-disciplinary group collaboration – it was immensely valuable seeing how different people have different approaches and views of the same thing. Overall the course was rewarding group learning experience. 
+It was inspiring to see how much could be achieved in such a little time with few scrapes and pieces found on the street. The course has also shown the importance of cross-disciplinary group collaboration – it was immensely valuable seeing how different people have different approaches and views of the same thing. Overall the course was rewarding group learning experience.
 
 *Measure twice, cut once.*
 

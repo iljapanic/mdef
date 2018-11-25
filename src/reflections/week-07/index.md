@@ -5,8 +5,31 @@ hero: "hero.jpg"
 date: "2018-11-12"
 endDate: "2018-11-18"
 lastUpdated: "2018-11-20"
+summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
 published: false
 ---
+
+
+
+WHO IS MY AUDIENCE?
+
+Victor and Mr. Teacher
+
+
+
+WHAT IS MY OBJECTIVE?
+
+To convince them that we should know how things work
+
+
+
+WHAT IS THE ONE MOST IMPORTANT TAKEAWAY?
+
+Convince them than the open-source making movement has the potential to spark a maker in all of us
+
+
+
+
 
 
 

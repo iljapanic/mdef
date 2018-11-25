@@ -2,7 +2,7 @@
 
 /* logo */
 .logo {
-  font-family: var(--font-family-mono);
+  font-family: var(--font-mono);
 }
 
 .logo a {
@@ -22,7 +22,7 @@
 .subtitle {
   font-size: 0.85rem;
   opacity: 0.65;
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-mono-medium);
   transition: all 0.25s ease-in-out;
 }
 

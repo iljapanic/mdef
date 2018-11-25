@@ -36,18 +36,6 @@
   font-size: var(--font-size-1);
 }
 
-.fw-base {
-  font-weight: var(--fw-base);
-}
-
-.fw-medium {
-  font-weight: var(--fw-medium);
-}
-
-.fw-bold {
-  font-weight: var(--fw-bold);
-}
-
 .ta-center {
   text-align: center;
 }

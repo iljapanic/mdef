@@ -5,6 +5,7 @@ date: "2018-11-05"
 endDate: "2018-11-11"
 lastUpdated: "2018-11-20"
 hero: "hero.jpg"
+summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
 published: true
 ---
 

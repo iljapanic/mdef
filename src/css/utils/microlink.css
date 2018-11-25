@@ -6,7 +6,7 @@
   min-width: 100%;
   border-bottom-left-radius: calc(var(--border-radius) * 2);
   border-bottom-right-radius: calc(var(--border-radius) * 2);
-  font-family: var(--font-family) !important;
+  font-family: var(--font-serif) !important;
   border: none !important;
 }
 
@@ -24,7 +24,7 @@
 
 .microlink_card__content_title p {
   font-size: var(--font-size-sub-1);
-  font-weight: var(--fw-medium) !important;
+  font-weight: var(--fw-serif-base) !important;
 }
 
 .microlink_card__content_description {
@@ -38,7 +38,7 @@
 
 .microlink_card__content_url {
   color: var(--color-link);
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-serif-bold);
 }
 
 .microlink_card__content_url p {

@@ -24,7 +24,7 @@ export default ({ data }) => {
       <div className="wrap-l">
         <div className="page-title">
           <h1>{pageTitle}</h1>
-          <p>Weekly musings and documentation of the courses</p>
+          <p>Weekly musings from the programme’s courses</p>
         </div>
         <div className={styles.reflections}>{reflections}</div>
       </div>
@@ -51,6 +51,7 @@ export const query = graphql`
             endDate(formatString: "D MMMM YYYY")
             slug
             title
+            summary
             hero {
               childImageSharp {
                 fluid(maxWidth: 1600) {

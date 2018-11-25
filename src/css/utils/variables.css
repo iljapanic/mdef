@@ -31,12 +31,19 @@
   --color-marker: rgba(255, 255, 0, 0.35);
 
   /* font */
-  --font-family: 'adobe-caslon-pro', serif;
-  --font-family-heading: 'futura-pt', 'Helvetica Neue', 'Arial', sans-serif;
-  --font-family-mono: 'anonymous-pro', monospace;
-  --fw-base: 400;
-  --fw-medium: 400;
-  --fw-bold: 600;
+  --font-serif: 'adobe-caslon-pro', serif;
+  --font-sans: 'futura-pt', 'Helvetica Neue', 'Arial', sans-serif;
+  --font-mono: 'source-code-pro', monospace;
+
+  --fw-serif-base: 400;
+  --fw-serif-bold: 600;
+
+  --fw-sans-base: 400;
+  --fw-sans-bold: 600;
+
+  --fw-mono-base: 300;
+  --fw-mono-medium: 500;
+  --fw-mono-bold: 700;
 
   --font-base-size: 14px;
   --line-height: 1.6;
@@ -77,7 +84,7 @@
 
 /* custom media queries */
 @custom-media --desktop (min-width: 940px);
-@custom-media --large (min-width: 1400px);
+@custom-media --large (min-width: 1200px);
 
 /* custom CSS selectors */
 @custom-selector :--headings h1, h2, h3, h4, h5, h6;

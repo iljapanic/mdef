@@ -5,6 +5,7 @@ hero: "hero.jpg"
 date: "2018-10-22"
 endDate: "2018-10-28"
 lastUpdated: "2018-11-05"
+summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
 published: true
 ---
 
@@ -21,13 +22,13 @@ I wonder to what extent was the choice of designers a result of a deliberate, ca
 
 As a student, Ariel’s had developed a keen interest in the field of Human-Computer Interaction that gradually evolved into working as an Information Architect building web solutions for various clients (at a time when IA was just becoming a thing). He eventually started teaching at Elisava while doing occasional consulting for different companies and organisations. He is also pursuing a PhD in philosophy.
 
-Up to this point in my life, I have followed a more or less the same professional path myself, so the presentation from Ariel was particularly inspiring to me. In the future, I would also like to teach at a university while doing independent consulting. And I’m not going to lie, philosophy has been on my radar for a while now as well. At times, it almost felt eerie how much in common I shared with Ariel :-)  
+Up to this point in my life, I have followed a more or less the same professional path myself, so the presentation from Ariel was particularly inspiring to me. In the future, I would also like to teach at a university while doing independent consulting. And I’m not going to lie, philosophy has been on my radar for a while now as well. At times, it almost felt eerie how much in common I shared with Ariel :-)
 
 
 ### Sara de Ubieta
 
 [Website](http://www.deubieta.com/) / [Instagram](https://www.instagram.com/sara_deubieta) / [Tumblr](http://deubieta.tumblr.com/)
- 
+
 Sara went from architecture school straight into traditional artisanal training. She spent years under the guidance of an experienced shoemaker, learning how to make shoes and exploring material properties of leather. She eventually verged out to create her own practice repurposing and experimenting with unusual combinations of materials to develop unconventional shoe designs.
 
 ![A shoe made from mushrooms](mushroom-shoe.jpeg "One of Sara‘s material experiments - a shoe made of mushrooms which I found absolutely fascinating given my interest in potential uses of mycelium for various sustainable modes of living.")
@@ -43,8 +44,8 @@ DDS is a consultancy design firm that aims to “to create meaningful connection
 
 
 > *“Living in the age of information overload is not easy so people end up scrolling through their lives.”*
-> 
-> – Domestic Data Streamers (2018) [^2] 
+>
+> – Domestic Data Streamers (2018) [^2]
 
 ![Domestic Data Streamers office wall with their signature ‘data strings’](data-strings.jpg "DDS office wall with their signature ‘data strings’")
 
@@ -74,7 +75,7 @@ As part of the course, we have been tasked with stating our vision. Mine reads a
 
 Behind this vague and abstract statement hides a rather simple goal. Rather than develop solutions myself, I would like to help others make the best out of their design capabilities - through activities such as teaching, mentoring, consulting, networking and organising workshops/events.
 
-By being able to synthesise ideas from different fields and disciplines I feel like I am well positioned to connect the right people at the right time to collaborate on making a world a better place through initiatives that promote healthier relationships between humans, environment and technology. I would still like to hone a craft of my own but in a more slow-paced hobby-like form, rather than a full-time professional endeavour. 
+By being able to synthesise ideas from different fields and disciplines I feel like I am well positioned to connect the right people at the right time to collaborate on making a world a better place through initiatives that promote healthier relationships between humans, environment and technology. I would still like to hone a craft of my own but in a more slow-paced hobby-like form, rather than a full-time professional endeavour.
 
 I used Ariel’s graphic which traces how his career has evolved over the years as an inspiration to create a following rough projection of where I was and where I want to be in the next 10 years in relation to types professional activities I am engaged in:
 

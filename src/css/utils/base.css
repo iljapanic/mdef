@@ -5,8 +5,8 @@ html {
   box-sizing: border-box;
   color: var(--color-base);
   font-size: var(--font-base-size);
-  font-family: var(--font-family);
-  font-weight: var(--fw-base);
+  font-family: var(--font-serif);
+  font-weight: var(--fw-serif-base);
   line-height: var(--line-height);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,15 +25,14 @@ body {
 /* headings */
 :--headings {
   color: var(--color-heading);
-  font-weight: var(--fw-bold);
-  font-family: var(--font-family-heading);
+  font-weight: var(--fw-sans-bold);
+  font-family: var(--font-sans);
   line-height: var(--line-height-heading);
 }
 
 h1,
 .h1 {
   font-size: var(--font-size-3);
-  font-weight: var(--fw-medium);
   margin-bottom: 1rem;
   margin-top: 0;
 }
@@ -75,7 +74,7 @@ a:hover {
 }
 
 strong {
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-serif-bold);
 }
 
 img {

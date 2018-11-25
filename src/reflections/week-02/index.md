@@ -5,6 +5,7 @@ slug: "02-biology-zero"
 date: "2018-10-08"
 endDate: "2018-10-14"
 lastUpdated: "2018-10-26"
+summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
 published: true
 ---
 

@@ -31,6 +31,9 @@ module.exports = {
       options: {
         typekit: {
           id: 'qal5cyi'
+        },
+        google: {
+          families: ['Merriweather', 'PT Mono', 'Merriweather Sans', 'Open Sans']
         }
       }
     },
