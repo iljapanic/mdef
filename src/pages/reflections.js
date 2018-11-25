@@ -21,13 +21,11 @@ export default ({ data }) => {
       <Helmet>
         <title>{pageTitle}</title>
       </Helmet>
-      <div className="wrap-l">
-        <div className="page-title">
-          <h1>{pageTitle}</h1>
-          <p>Weekly musings from the programme’s courses</p>
-        </div>
-        <div className={styles.reflections}>{reflections}</div>
+      <div className="page-title">
+        <h1>{pageTitle}</h1>
+        <p>Weekly musings from the programme’s courses</p>
       </div>
+      <div className={styles.reflections}>{reflections}</div>
     </Container>
   );
 };

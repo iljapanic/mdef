@@ -9,48 +9,82 @@
   color: inherit;
 }
 
-@media (--large) {
-  .inner {
-    display: flex;
+@media (--desktop) {
+  .reflection {
+    max-width: 1000px;
+    padding-right: 0.5rem;
   }
+}
+
+@media (--large) {
+  .reflection {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .reflection:nth-child(2n) {
+    justify-content: flex-start;
+  }
+
+  .inner {
+    width: 75%;
+    position: relative;
+  }
+
   .cover {
-    flex-basis: 55%;
+    width: 100%;
   }
 
   .body {
-    flex-basis: 45%;
-    padding-right: 2rem;
-    padding-left: 1rem;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-bottom: 3rem;
-    text-align: right;
-    background-color: black;
-  }
-
-  .reflection {
-    border: 1px solid transparent;
-  }
-
-  .reflection:nth-child(2n) .cover {
-    order: -1;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    z-index: 100;
+    top: 10%;
+    left: -20%;
+    width: auto;
   }
 
   .reflection:nth-child(2n) .body {
-    text-align: left;
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .reflection:hover {
-    background: var(--gray-100);
-    border: 1px solid var(--gray-300);
+    left: auto;
+    right: -20%;
   }
 }
 
 .cover {
+  opacity: 0.85;
+  transition: opacity 0.25s ease-in;
+}
+
+.reflection a:hover .cover {
+  opacity: 1;
+}
+
+.body {
+  background-color: black;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 0.75rem;
+  color: var(--gray-200);
+  font-family: var(--font-mono);
+  font-weight: var(--fw-mono-bold);
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.summary {
+  width: 100%;
+  color: var(--gray-300);
+  font-size: 0.65rem;
+  line-height: 1.35;
+  font-family: var(--font-mono);
+  font-weight: var(--fw-mono-base);
+}
+
+/* cover */
+
+/* .cover {
   width: 100%;
   position: relative;
 }
@@ -67,51 +101,4 @@
   transition: background-color 0.25s ease-in;
 }
 
-.cover {
-  opacity: 0.85;
-  transition: opacity 0.25s ease-in;
-}
-
-.reflection:hover .cover {
-  opacity: 1;
-}
-
-.reflection:hover .cover:after {
-  background-color: rgba(var(--gray-500), 0);
-}
-
-.title {
-  margin-top: 0;
-  font-size: 0.85rem;
-  color: var(--gray-900);
-  font-family: var(--font-mono);
-  font-weight: var(--fw-mono-bold);
-  width: 100%;
-}
-
-.summary {
-  width: 100%;
-  color: var(--gray-700);
-  font-size: 0.75rem;
-  font-family: var(--font-mono);
-  font-weight: var(--fw-mono-base);
-}
-
-a.more {
-  font-family: var(--font-mono);
-  font-weight: var(--fw-mono-medium);
-  font-size: 0.75rem;
-  display: inline-block;
-  margin-top: 0.75rem;
-  text-transform: uppercase;
-  color: var(--color-link);
-}
-
-a.more {
-  color: var(--color-link-hover);
-}
-
-.period {
-  margin-top: 0.5rem;
-  color: var(--gray-500);
-}
+ */

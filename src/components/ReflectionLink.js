@@ -16,14 +16,11 @@ const ReflectionLink = ({ reflection }) => {
 
   return (
     <article className={css.reflection}>
-      <Link to={`reflections/` + slug + `/`} className={css.inner}>
+      <Link to={`reflections/` + slug + `/`} className={css.inner} title="Read more">
         <div className={css.body}>
           <div className={css.innerBody}>
             <h2 className={css.title}>{title}</h2>
-            <p className={css.summary}>{summary}</p>
-            <Link to={`reflections/` + slug + `/`} className={css.more}>
-              Read more
-            </Link>
+            <p className={css.summary}>{period}</p>
           </div>
         </div>
         <div className={css.cover}>
