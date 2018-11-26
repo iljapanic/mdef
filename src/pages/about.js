@@ -18,7 +18,7 @@ export default ({ data }) => {
         <title>{pageTitle}</title>
       </Helmet>
 
-      <div className="wrap-l">
+      <div className="wrap">
         <div className="page-title">
           <h1>{title}</h1>
           <p>Personal profile</p>

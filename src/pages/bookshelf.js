@@ -27,7 +27,7 @@ export default ({ data }) => {
           <h1>{pageTitle}</h1>
           <p>Formative texts that have influenced and inspired me</p>
         </div>
-        <h2 class={css.genre}>Non-Fiction</h2>
+        <h2 className={css.genre}>Non-Fiction</h2>
         <div className={css.bookshelf}>{nonfiction}</div>
         <h2 className={css.genre}>Fiction</h2>
         <div className={css.bookshelf}>{fiction}</div>

@@ -45,8 +45,8 @@
   font-size: var(--font-size-sub-2);
   font-family: var(--font-sans);
   margin-top: 0.25rem;
-  margin-bottom: 0.15rem;
-  padding: 0.15rem 0;
+  margin-bottom: 0;
+  line-height: 1.25;
 }
 
 .featured .title {
