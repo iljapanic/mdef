@@ -1,6 +1,6 @@
 export default function sphere(p) {
   var theta = 0;
-  var backgroundColor = '#faf9f8';
+  var backgroundColor = '#ffffff';
   var strokeColor = '#cb5760';
   var sphereSize = 220;
 

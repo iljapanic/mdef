@@ -1,3 +1,7 @@
 .hero {
   text-align: center;
+  min-height: 90vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
 }

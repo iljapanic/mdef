@@ -20,7 +20,7 @@
 }
 
 .subtitle {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   opacity: 0.65;
   font-weight: var(--fw-mono-medium);
   transition: all 0.25s ease-in-out;
@@ -28,7 +28,7 @@
 
 .name {
   opacity: 0.35;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   margin-left: 0.25rem;
 }
 
@@ -37,5 +37,14 @@
     display: block;
     margin-left: 0;
     line-height: 1;
+  }
+}
+
+@media (--large) {
+  .subtitle {
+    font-size: 0.85rem;
+  }
+  .name {
+    font-size: 0.7rem;
   }
 }

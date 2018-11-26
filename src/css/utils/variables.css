@@ -71,6 +71,22 @@
 
 @media screen and (min-width: 800px) {
   :root {
+    --font-base-size: 21px;
+    --line-height: 1.45;
+    --line-height-heading: 1.35;
+
+    /* scale for 1.25 */
+    --font-size-0: 1rem;
+    --font-size-1: 1.25rem;
+    --font-size-2: 1.563rem;
+    --font-size-3: 1.953rem;
+    --font-size-sub-1: 0.8rem;
+    --font-size-sub-2: 0.64rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  :root {
     --font-base-size: 23px;
     --line-height: 1.45;
     --line-height-heading: 1.35;
@@ -87,7 +103,7 @@
 
 /* custom media queries */
 @custom-media --desktop (min-width: 940px);
-@custom-media --large (min-width: 1200px);
+@custom-media --large (min-width: 1400px);
 
 /* custom CSS selectors */
 @custom-selector :--headings h1, h2, h3, h4, h5, h6;

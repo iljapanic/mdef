@@ -16,7 +16,7 @@
   }
 }
 
-@media (--large) {
+@media (--desktop) {
   .reflection {
     display: flex;
     justify-content: flex-end;

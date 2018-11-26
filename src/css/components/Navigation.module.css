@@ -27,7 +27,7 @@
   color: var(--gray-600);
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.55rem;
   font-weight: var(--fw-mono-medium);
   line-height: 1;
   padding: 0.15rem 0.25rem;
@@ -44,6 +44,12 @@
   );
   background-position: 100% 0;
   background-size: 200% 100%;
+}
+
+@media (--large) {
+  .nav a {
+    font-size: 0.65rem;
+  }
 }
 
 .nav a:hover {
