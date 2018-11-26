@@ -6,7 +6,7 @@
   min-width: 100%;
   border-bottom-left-radius: calc(var(--border-radius) * 2);
   border-bottom-right-radius: calc(var(--border-radius) * 2);
-  font-family: var(--font-serif) !important;
+  font-family: var(--font-mono) !important;
   border: none !important;
 }
 
@@ -18,29 +18,38 @@
   background: var(--gray-200);
 }
 
+.microlink_card__content {
+  display: block !important;
+  flex: none !important;
+}
+
 .microlink_card__content_title {
-  color: var(--gray-700);
+  color: var(--gray-600);
+  margin-bottom: 0.25rem;
 }
 
 .microlink_card__content_title p {
-  font-size: var(--font-size-sub-1);
-  font-weight: var(--fw-serif-base) !important;
+  font-size: 0.65rem;
+  line-height: 1.3;
+  margin-bottom: 0 !important;
+  font-weight: var(--fw-mono-bold) !important;
 }
 
 .microlink_card__content_description {
-  color: var(--gray-600);
+  color: var(--gray-500);
 }
 
 .microlink_card__content_description p {
-  line-height: 1.45;
-  font-size: var(--font-size-sub-2);
+  line-height: 1.35;
+  font-size: 0.55rem;
 }
 
 .microlink_card__content_url {
   color: var(--color-link);
-  font-weight: var(--fw-serif-bold);
+  font-weight: var(--fw-mono-bold);
+  margin-top: 0.25rem;
 }
 
 .microlink_card__content_url p {
-  font-size: var(--font-size-sub-2);
+  font-size: 0.55rem;
 }

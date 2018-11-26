@@ -4,6 +4,11 @@
   padding: 0 1rem;
 }
 
+.main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 @media (--desktop) {
   .container {
     display: grid;
@@ -36,7 +41,6 @@
   }
 
   .main {
-    padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 1rem;
   }

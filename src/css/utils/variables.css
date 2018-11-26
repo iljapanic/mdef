@@ -38,12 +38,11 @@
   --fw-serif-base: 400;
   --fw-serif-bold: 600;
 
-  --fw-sans-base: 400;
-  --fw-sans-bold: 600;
+  --fw-sans-base: 300;
+  --fw-sans-bold: 500;
 
-  --fw-mono-base: 300;
-  --fw-mono-medium: 500;
-  --fw-mono-bold: 700;
+  --fw-mono-base: 400;
+  --fw-mono-bold: 600;
 
   --font-base-size: 14px;
   --line-height: 1.6;
@@ -61,7 +60,7 @@
 
   /* wraps */
   --wrap: 780px;
-  --wrap-s: 640px;
+  --wrap-s: 580px;
   --wrap-l: 54em;
   --wrap-xl: 68em;
 

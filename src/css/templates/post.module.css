@@ -7,8 +7,14 @@
   .header {
     display: grid;
     grid-gap: 1.5rem;
-    grid-template-columns: auto 14rem;
+    grid-template-columns: auto 12rem;
     align-items: center;
+  }
+}
+
+@media (--large) {
+  .header {
+    grid-template-columns: auto 14rem;
   }
 }
 
@@ -30,7 +36,7 @@
 
 .meta dt {
   color: var(--gray-900);
-  font-weight: var(--fw-mono-medium);
+  font-weight: var(--fw-mono-bold);
   margin-top: 1rem;
 }
 
@@ -131,7 +137,6 @@
 .footer {
   width: 100%;
   margin-top: 3rem;
-  margin-bottom: 2rem;
   font-size: 0.6rem;
   font-family: var(--font-mono);
   color: var(--gray-500);

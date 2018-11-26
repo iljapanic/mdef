@@ -28,7 +28,7 @@
   display: inline-block;
   font-family: var(--font-mono);
   font-size: 0.55rem;
-  font-weight: var(--fw-mono-medium);
+  font-weight: var(--fw-mono-base);
   line-height: 1;
   padding: 0.15rem 0.25rem;
   position: relative;

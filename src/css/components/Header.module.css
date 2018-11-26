@@ -22,7 +22,7 @@
 .subtitle {
   font-size: 0.75rem;
   opacity: 0.65;
-  font-weight: var(--fw-mono-medium);
+  font-weight: var(--fw-mono-bold);
   transition: all 0.25s ease-in-out;
 }
 
@@ -30,6 +30,7 @@
   opacity: 0.35;
   font-size: 0.6rem;
   margin-left: 0.25rem;
+  font-weight: var(--fw-mono-base);
 }
 
 @media (--desktop) {
