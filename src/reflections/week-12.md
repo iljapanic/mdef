@@ -4,6 +4,9 @@ slug: "12-design-dialogues"
 date: "2018-12-17"
 endDate: "2018-12-23"
 lastUpdated: "2018-10-03"
+people:
+  - name: Tomas Diez
+    website: http://tomasdiez.com/
 published: false
 ---
 

@@ -4,6 +4,9 @@ slug: "10-an-introduction-to-futures"
 date: "2018-12-03"
 endDate: "2018-12-09"
 lastUpdated: "2018-10-03"
+people:
+  - name: Tomas Diez
+    website: http://tomasdiez.com/
 published: false
 ---
 

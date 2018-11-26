@@ -59,6 +59,7 @@ class PostTemplate extends React.Component {
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
     // const author = this.props.data.site.siteMetadata.author;
+
     const people = meta.people.map((person, index) => (
       <Person key={index} name={person.name} website={person.website} />
     ));
@@ -118,7 +119,10 @@ export const pageQuery = graphql`
         email
       }
     }
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+    markdownRemark(
+      frontmatter: { slug: { eq: $slug } }
+      fileAbsolutePath: { regex: "/reflections/" }
+    ) {
       id
       html
       frontmatter {

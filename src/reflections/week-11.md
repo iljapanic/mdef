@@ -4,6 +4,9 @@ slug: "11-from-bits-to-atoms"
 date: "2018-12-10"
 endDate: "2018-12-16"
 lastUpdated: "2018-10-03"
+people:
+  - name: Tomas Diez
+    website: http://tomasdiez.com/
 published: false
 ---
 

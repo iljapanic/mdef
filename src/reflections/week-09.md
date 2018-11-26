@@ -4,6 +4,9 @@ slug: "09-engaging-narratives"
 date: "2018-11-26"
 endDate: "2018-12-02"
 lastUpdated: "2018-10-03"
+people:
+  - name: Tomas Diez
+    website: http://tomasdiez.com/
 published: false
 ---
 
