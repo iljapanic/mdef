@@ -1,6 +1,8 @@
 @import '../utils/variables.css';
 
-/* header */
+/* -----------------------------
+  ---------- HEADER ------------
+------------------------------ */
 @media (--large) {
   .header {
     display: grid;
@@ -14,7 +16,9 @@
   margin-top: 1.5rem;
 }
 
-/* meta */
+/* -----------------------------
+  ---------- META --------------
+------------------------------ */
 .meta {
   font-family: var(--font-mono);
   font-size: 0.6rem;
@@ -45,7 +49,6 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  /* font-size: 0.6rem; */
 }
 
 .meta li {
@@ -68,11 +71,13 @@
   text-decoration: underline;
 }
 
-/* body */
+/* -----------------------------
+  ---------- BODY ------------
+------------------------------ */
 
 .body {
-  text-align: justify;
-  hyphens: auto;
+  /* text-align: justify;
+  hyphens: auto; */
   margin-top: 1.5rem;
 }
 
@@ -82,7 +87,7 @@
 .post h2,
 .post h3,
 .footer {
-  max-width: var(--wrap-s);
+  max-width: var(--w-body);
   /* margin-left: auto; */
   /* margin-right: auto; */
 }
@@ -93,28 +98,29 @@
 }
 
 .post figure {
-  /* margin: 2rem auto; */
-}
-
-.post figcaption {
-  max-width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: left;
+  max-width: var(--w-figure);
 }
 
 .post blockquote {
-  margin: 2rem auto;
-  text-align: center;
+  margin: 1.5rem 0;
+  max-width: var(--w-figure);
 }
 
 .post blockquote p {
   font-size: var(--font-size-1);
   max-width: 100%;
+  color: var(--gray-800);
 }
 
 .post blockquote p + p {
-  font-size: var(--font-size-0);
+  font-size: var(--font-size-sub-1);
   margin-top: 0.5rem;
+  color: var(--gray-500);
+}
+
+.post blockquote p + p a {
+  color: inherit;
 }
 
 .post ol {
@@ -125,12 +131,9 @@
   margin-bottom: 0.25rem;
 }
 
-.post table {
-  margin: 2rem auto;
-}
-
 /* footer area */
 .footer {
+  width: 100%;
   margin-top: 3rem;
   margin-bottom: 2rem;
   font-size: 0.6rem;

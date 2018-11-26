@@ -69,7 +69,7 @@ class PostTemplate extends React.Component {
         <Helmet>
           <title>{meta.title}</title>
         </Helmet>
-        <article className={css.post + ` toc-content`}>
+        <article className={css.post}>
           <header>
             <h1 className={css.title}>{meta.title}</h1>
             <div className={css.header}>
@@ -95,10 +95,12 @@ class PostTemplate extends React.Component {
               </div>
             </div>
           </header>
-          <div className={css.body} dangerouslySetInnerHTML={{ __html: postHtml }} />
+          <div
+            className={css.body + ` toc-content`}
+            dangerouslySetInnerHTML={{ __html: postHtml }}
+          />
           <footer className={css.footer}>
-            {absolutePath}
-            <div>This document was last updated on {meta.lastUpdated}</div>
+            This document was last updated on {meta.lastUpdated}
           </footer>
         </article>
       </Container>

@@ -99,5 +99,11 @@ a.no-underline {
 
 /* twitter embed */
 .twitter-tweet {
-  margin: 1.5rem auto !important;
+  margin: 1.5rem 0 !important;
+}
+
+/* gatsby image */
+.gatsby-resp-image-wrapper {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }

@@ -40,7 +40,7 @@ h1,
 h2,
 .h2 {
   font-size: var(--font-size-2);
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -90,14 +90,14 @@ canvas {
 }
 
 figure {
-  margin: 1.5rem auto;
+  margin: 1.5rem 0;
 }
 
 figcaption {
-  color: var(--gray-600);
-  text-align: center;
+  color: var(--gray-500);
+  font-family: var(--font-mono);
   margin-top: 0.5rem;
-  font-size: var(--font-size-sub-1);
+  font-size: 0.6rem;
 }
 
 /* highlight */
