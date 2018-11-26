@@ -5,7 +5,10 @@ hero: "hero.jpg"
 date: "2018-10-15"
 endDate: "2018-10-21"
 lastUpdated: "2018-10-28"
-summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
+people:
+  - name: Ingi Freyr
+    website: https://iaac.net/people/ingi-freyr-gudjonsson/
+  - name: Francesco Zonca
 published: true
 ---
 

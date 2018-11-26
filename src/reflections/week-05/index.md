@@ -5,7 +5,14 @@ hero: "hero.jpg"
 date: "2018-10-29"
 endDate: "2018-11-04"
 lastUpdated: "2018-11-11"
-summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
+people:
+  - name: Tomas Diez
+    website: http://tomasdiez.com/
+  - name: Jose Luis de Vicente
+    website: https://about.me/jldevicente
+  - name: Pau Alsina
+    website: https://paualsina.wordpress.com/
+  - name: Mariana Quintero
 published: true
 ---
 

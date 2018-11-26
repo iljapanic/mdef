@@ -73,7 +73,7 @@
   margin-bottom: 0.25rem;
 }
 
-.summary {
+.period {
   width: 100%;
   color: var(--gray-300);
   font-size: 0.65rem;
@@ -81,24 +81,3 @@
   font-family: var(--font-mono);
   font-weight: var(--fw-mono-base);
 }
-
-/* cover */
-
-/* .cover {
-  width: 100%;
-  position: relative;
-}
-
-.cover:after {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-  background-color: rgba(var(--gray-400), 0.3);
-  transition: background-color 0.25s ease-in;
-}
-
- */

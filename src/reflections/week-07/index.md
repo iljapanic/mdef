@@ -5,9 +5,16 @@ hero: "hero.jpg"
 date: "2018-11-12"
 endDate: "2018-11-18"
 lastUpdated: "2018-11-20"
-summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
+people:
+  - name: Guillem Camprodon
+    website: https://twitter.com/pral2a
+  - name: Víctor Barberán
+    website: https://iaac.net/dt_team/victor-barberan/
+  - name: Oscar Gonzalez
 published: false
 ---
+
+
 
 
 

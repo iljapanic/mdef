@@ -5,7 +5,16 @@ slug: "01-mdef-bootcamp"
 date: "2018-10-01"
 endDate: "2018-10-07"
 lastUpdated: "2018-10-26"
-summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
+people:
+  - name: Tomas Diez
+    website: http://tomasdiez.com/
+  - name: Oscar Tomico
+    website: http://www.elisava.net/en/center/professorate/oscar-tomico-plasencia/
+  - name: Mariana Quintero
+  - name: Santi Fuentemilla
+    website: https://iaac.net/dt_team/santi-fuentemilla/
+  - name: Xavier Dominguez
+    website: https://iaac.net/dt_team/xavier-dominguez/
 published: true
 ---
 

@@ -8,7 +8,6 @@ import css from '../css/components/ReflectionLink.module.css';
 const ReflectionLink = ({ reflection }) => {
   const title = reflection.frontmatter.title;
   const slug = reflection.frontmatter.slug;
-  const summary = reflection.frontmatter.summary;
   const startDate = reflection.frontmatter.date;
   const endDate = reflection.frontmatter.endDate;
   const period = startDate + ' – ' + endDate;
@@ -20,7 +19,7 @@ const ReflectionLink = ({ reflection }) => {
         <div className={css.body}>
           <div className={css.innerBody}>
             <h2 className={css.title}>{title}</h2>
-            <p className={css.summary}>{period}</p>
+            <p className={css.period}>{period}</p>
           </div>
         </div>
         <div className={css.cover}>

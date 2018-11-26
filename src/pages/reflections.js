@@ -49,10 +49,9 @@ export const query = graphql`
             endDate(formatString: "D MMMM YYYY")
             slug
             title
-            summary
             hero {
               childImageSharp {
-                fluid(maxWidth: 1600) {
+                fluid(maxWidth: 1200) {
                   ...GatsbyImageSharpFluid
                 }
               }

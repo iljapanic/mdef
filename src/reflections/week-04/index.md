@@ -5,7 +5,17 @@ hero: "hero.jpg"
 date: "2018-10-22"
 endDate: "2018-10-28"
 lastUpdated: "2018-11-05"
-summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
+people:
+  - name: Oscar Tomico
+    website: http://www.elisava.net/en/center/professorate/oscar-tomico-plasencia/
+  - name: Ariel Guersenzvaig
+    website: http://www.elisava.net/en/center/professorate/ariel-guersenzvaig
+  - name: Sara de Ubieta
+    website: http://www.deubieta.com/
+  - name: Pol Trias Coca
+    website: https://twitter.com/poltriascoca
+  - name: Marta Handenawer
+    website: http://lab.cccb.org/es/author/marta-handenawer/
 published: true
 ---
 

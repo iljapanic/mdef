@@ -5,7 +5,17 @@ slug: "02-biology-zero"
 date: "2018-10-08"
 endDate: "2018-10-14"
 lastUpdated: "2018-10-26"
-summary: "Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes."
+people:
+  - name: Nuria Conde-Pueyo
+    website: https://iaac.net/people/nuria-conde-pueyo/
+  - name: Jonathan Minchin
+    website: https://twitter.com/JonnyMinch
+  - name: Mette Andersen
+    website: https://twitter.com/mettebakand
+  - name: Jessica Dias
+    website: https://www.biocentricdesigngroup.com/copy-of-thora-h-arnardottir-1
+  - name: Thora H. Arnardottir
+    website: http://www.thoraha.com/
 published: true
 ---
 

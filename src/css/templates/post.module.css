@@ -1,13 +1,79 @@
 @import '../utils/variables.css';
 
-.post {
-  max-width: var(--wrap-l);
-  margin: 0 auto;
+/* header */
+@media (--large) {
+  .header {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: auto 14rem;
+    align-items: center;
+  }
 }
 
+.header {
+  margin-top: 1.5rem;
+}
+
+/* meta */
+.meta {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+}
+
+.meta dl {
+  margin: 0;
+}
+
+.meta dt {
+  color: var(--gray-900);
+  font-weight: var(--fw-mono-medium);
+  margin-top: 1rem;
+}
+
+.meta dt:first-of-type {
+  margin-top: 0;
+}
+
+.meta dd {
+  font-weight: var(--fw-mono-base);
+  margin: 0;
+  color: var(--gray-600);
+}
+
+.meta ul,
+.meta ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* font-size: 0.6rem; */
+}
+
+.meta li {
+  margin-top: 0.35rem;
+  line-height: 1.5;
+}
+
+.meta ul li:first-of-type,
+.meta ol li:first-of-type {
+  margin-top: 0.15rem;
+}
+
+.meta a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.meta a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+/* body */
+
 .body {
-  max-width: var(--wrap);
-  margin: 0 auto;
+  text-align: justify;
+  hyphens: auto;
+  margin-top: 1.5rem;
 }
 
 .post p,
@@ -17,8 +83,8 @@
 .post h3,
 .footer {
   max-width: var(--wrap-s);
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
 .post h2:focus,
@@ -27,7 +93,7 @@
 }
 
 .post figure {
-  margin: 2rem auto;
+  /* margin: 2rem auto; */
 }
 
 .post figcaption {
@@ -63,27 +129,11 @@
   margin: 2rem auto;
 }
 
-/* header area */
-.header {
-  text-align: center;
-  margin-bottom: 1.25rem;
-}
-
-.title {
-  margin-bottom: 0.5rem;
-}
-
-.date {
-  color: var(--gray-500);
-}
-
-.hero {
-  margin: 2rem auto 3rem auto;
-}
-
 /* footer area */
 .footer {
   margin-top: 3rem;
-  font-size: var(--font-size-sub-1);
-  color: var(--gray-400);
+  margin-bottom: 2rem;
+  font-size: 0.6rem;
+  font-family: var(--font-mono);
+  color: var(--gray-500);
 }
