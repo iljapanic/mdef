@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { link } from 'react-router';
 
 import styles from '../css/components/Navigation.module.css';
 
@@ -12,7 +11,7 @@ const ListLink = props => (
     <Link
       to={props.to}
       activeClassName={styles.active}
-      getProps={link === '/' ? undefined : isPartiallyActive}
+      getProps={Link === '/' ? undefined : isPartiallyActive}
     >
       {props.children}
     </Link>

@@ -8,7 +8,7 @@
 
 .genre {
   font-family: var(--font-mono);
-  font-weight: var(--font-base);
+  font-weight: var(--fw-mono-base);
   font-size: 1.25rem;
   margin-top: 4rem;
   margin-bottom: 3rem;

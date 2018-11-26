@@ -58,8 +58,7 @@ class PostTemplate extends React.Component {
     const meta = post.frontmatter;
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
-    const author = this.props.data.site.siteMetadata.author;
-    const absolutePath = post.fileAbsolutePath;
+    // const author = this.props.data.site.siteMetadata.author;
     const people = meta.people.map((person, index) => (
       <Person key={index} name={person.name} website={person.website} />
     ));
