@@ -5,3 +5,15 @@
   flex-wrap: wrap;
   align-items: baseline;
 }
+
+.genre {
+  font-family: var(--font-mono);
+  font-weight: var(--font-base);
+  font-size: 1.25rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.genre:first-of-type {
+  margin-top: 0;
+}

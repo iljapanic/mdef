@@ -6,8 +6,8 @@ import { graphql } from 'gatsby';
 import Container from '../components/Container';
 import Book from '../components/Book';
 
-// styles
-import styles from '../css/pages/bookshelf.module.css';
+// css
+import css from '../css/pages/bookshelf.module.css';
 
 export default ({ data }) => {
   const pageTitle = 'Bookshelf';
@@ -27,10 +27,10 @@ export default ({ data }) => {
           <h1>{pageTitle}</h1>
           <p>Formative texts that have influenced and inspired me</p>
         </div>
-        <h2>Non-Fiction</h2>
-        <div className={styles.bookshelf}>{nonfiction}</div>
-        <h2 className="m-4">Fiction</h2>
-        <div className={styles.bookshelf}>{fiction}</div>
+        <h2 class={css.genre}>Non-Fiction</h2>
+        <div className={css.bookshelf}>{nonfiction}</div>
+        <h2 className={css.genre}>Fiction</h2>
+        <div className={css.bookshelf}>{fiction}</div>
       </div>
     </Container>
   );
