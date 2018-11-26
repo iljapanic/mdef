@@ -15,5 +15,6 @@
   .footer {
     display: block;
     text-align: left;
+    font-size: 0.55rem;
   }
 }

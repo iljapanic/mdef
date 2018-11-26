@@ -75,7 +75,7 @@ module.exports = {
               maxWidth: 1600,
               showCaptions: true,
               backgroundColor: 'transparent',
-              quality: 75
+              quality: 85
             }
           },
           {
