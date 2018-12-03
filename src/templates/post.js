@@ -58,6 +58,7 @@ class PostTemplate extends React.Component {
     const meta = post.frontmatter;
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
+    const readingTime = post.timeToRead;
     // const author = this.props.data.site.siteMetadata.author;
 
     const people = meta.people.map((person, index) => (
@@ -86,6 +87,8 @@ class PostTemplate extends React.Component {
                   <dd>
                     <ul>{people}</ul>
                   </dd>
+                  <dt>Reading time</dt>
+                  <dd>{readingTime} minutes</dd>
                   <dt>Contents</dt>
                   <dd>
                     <div className="toc" />
@@ -125,6 +128,7 @@ export const pageQuery = graphql`
     ) {
       id
       html
+      timeToRead
       frontmatter {
         date(formatString: "D MMMM")
         endDate(formatString: "D MMMM YYYY")
