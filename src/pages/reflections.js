@@ -23,7 +23,7 @@ export default ({ data }) => {
       </Helmet>
       <div className="page-title">
         <h1>{pageTitle}</h1>
-        <p>Weekly musings from the programme’s courses</p>
+        <p>Weekly musings from the programme</p>
       </div>
       <div className={styles.reflections}>{reflections}</div>
     </Container>
