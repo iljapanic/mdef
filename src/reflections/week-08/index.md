@@ -45,9 +45,7 @@ I attached the mouse underneath the palm of my left hand using a small wooden pl
 
 I instantly realised that I would have to explicitly indicate to others that I’m not interested in speaking with them which made me quite uncomfortable. As a result of this awry feeling, I tried to keep my scrolling discreet or random when encountering others. It was interesting to contrast the experience with our behaviour on social media where we scroll over things that do not interest us with absolutely no sense of guilt or consideration for the person on the other end.
 
-In the end, due to my reluctance to *scroll away from social interactions*, the prototype has served primarily as a mnemonic device that helped me be more conscious of my attention span and level of concentration. The result was a sort of consciously performed motoric tic.
-
-
+In the end, due to my reluctance to *scroll away from social interactions*, the prototype has served primarily as a mnemonic device that helped me be more conscious of my attention span and level of concentration. The result was a sort of consciously performed motoric twitch.
 
 
 
