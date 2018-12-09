@@ -21,4 +21,60 @@ published: false
 - lack of plans and common visions
 - mental structures
 - beyond dystopia/utopia dichotomies -> *protopias*
-- 
+
+
+
+
+
+## Day 2
+
+### archaeology of futures
+
+- history of futures
+- importance of images of futures
+- MAYA - mostly advanced yet accepted
+- pre-modern and non-western ancient futures
+- the future, as we understand it, is a modern concept
+
+
+
+
+
+## Day 3
+
+
+
+extended present - the oldest way to engage with futures with a scientific approach
+
+
+
+we don’t make or trust predictions
+
+forecasting, not predictions
+
+futures becomes plural as a consequence of forecast
+
+
+
+importance of finding out what we do **not** know 
+
+
+
+a **trend** is a measurement of change over time
+
+- needs to be qunatifiable
+- there needs to be a time frequency, ideally as regular as possible
+
+
+
+
+
+
+
+
+
+### what is the future
+
+
+
+### what is future studies
