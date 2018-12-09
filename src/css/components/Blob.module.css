@@ -1,0 +1,72 @@
+@import '../utils/variables.css';
+
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.container:after {
+  content: 'MDEF';
+  position: absolute;
+  display: block;
+  top: 48%;
+  left: 45%;
+  color: white;
+  font-family: var(--font-mono);
+  font-weight: var(--fw-mono-bold);
+  letter-spacing: 1px;
+}
+
+svg {
+  max-width: 100%;
+}
+
+svg,
+svg circle {
+  fill: var(--color-primary);
+}
+@keyframes from0to360 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#Circle1 {
+  animation: from0to360 1s linear infinite;
+  cx: 300;
+  cy: 290;
+  r: 200;
+  transform-origin: 290px 300px;
+}
+@keyframes from360to0 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+#Circle2 {
+  animation: from360to0 2s linear infinite;
+  cx: 300;
+  cy: 310;
+  r: 200;
+  transform-origin: 310px 300px;
+}
+#Circle3 {
+  animation: from0to360 3s linear infinite;
+  cx: 290;
+  cy: 300;
+  r: 200;
+  transform-origin: 300px 290px;
+}
+#Circle4 {
+  animation: from360to0 2.5s linear infinite;
+  cx: 310;
+  cy: 300;
+  r: 200;
+  transform-origin: 300px 310px;
+}
