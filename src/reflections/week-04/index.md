@@ -89,7 +89,7 @@ By being able to synthesise ideas from different fields and disciplines I feel l
 
 I used Ariel’s graphic which traces how his career has evolved over the years as an inspiration to create a following rough projection of where I was and where I want to be in the next 10 years in relation to types professional activities I am engaged in:
 
-![10 year professional projection](projection.jpg "A 10 year projection of professional activities")
+![10 year professional projection](projection.png "A 10 year projection of professional activities")
 
 A first step towards fulfilling my vision is improving in areas that I currently lack in. Therefore I have put together a following shortlist of goals and aspirations for the near future:
 
