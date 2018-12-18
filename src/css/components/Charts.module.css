@@ -8,12 +8,18 @@
   right: 0;
   width: 100%;
   display: block;
-  font-size: 0.7rem;
-  font-family: var(--font-mono);
 }
 
 .back a {
   text-decoration: none;
+  color: var(--gray-100);
+  font-weight: var(--fw-mono-bold);
+  background-color: var(--gray-800);
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.65rem;
+  font-family: var(--font-mono);
 }
 
 /* charts */

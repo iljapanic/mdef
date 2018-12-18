@@ -1,2 +1,36 @@
+@import '../utils/variables.css';
+
 .container {
+  padding: 0.5rem 1rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+}
+
+.title h1 {
+  width: 15%;
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+}
+
+.links {
+  width: 70%;
+  text-align: center;
+}
+
+.links a {
+  margin-right: 1rem;
+}
+
+.links a:last-of-type {
+  margin-right: 0;
+}
+
+.plants {
+  width: 15%;
 }

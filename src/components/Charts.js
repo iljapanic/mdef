@@ -201,43 +201,34 @@ class Charts extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className={css.back}>
-          <Link to="/dialogues">Back to a dialogue</Link>
+      <div className={css.charts}>
+        <div className={css.chart}>
+          <Line height={150} data={this.state.humidity} options={this.state.chartOptions.options} />
+          <h2>
+            <IconHumidity /> Air Humidity
+          </h2>
         </div>
-        <div className={css.charts}>
-          <div className={css.chart}>
-            <Line
-              height={150}
-              data={this.state.humidity}
-              options={this.state.chartOptions.options}
-            />
-            <h2>
-              <IconHumidity /> Air Humidity
-            </h2>
-          </div>
-          <div className={css.chart}>
-            <Line height={150} data={this.state.touch} options={this.state.chartOptions.options} />
-            <h2>
-              <IconTouch /> Touch
-            </h2>
-          </div>
-          <div className={css.chart}>
-            <Line height={150} data={this.state.light} options={this.state.chartOptions.options} />
-            <h2>
-              <IconLight /> Light
-            </h2>
-          </div>
-          <div className={css.chart}>
-            <Line
-              height={150}
-              data={this.state.temperature}
-              options={this.state.chartOptions.options}
-            />
-            <h2>
-              <IconTemperature /> Temperature
-            </h2>
-          </div>
+        <div className={css.chart}>
+          <Line height={150} data={this.state.touch} options={this.state.chartOptions.options} />
+          <h2>
+            <IconTouch /> Touch
+          </h2>
+        </div>
+        <div className={css.chart}>
+          <Line height={150} data={this.state.light} options={this.state.chartOptions.options} />
+          <h2>
+            <IconLight /> Light
+          </h2>
+        </div>
+        <div className={css.chart}>
+          <Line
+            height={150}
+            data={this.state.temperature}
+            options={this.state.chartOptions.options}
+          />
+          <h2>
+            <IconTemperature /> Temperature
+          </h2>
         </div>
       </div>
     );

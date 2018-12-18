@@ -30,6 +30,9 @@
 
   --color-marker: rgba(255, 255, 0, 0.35);
 
+  --green: #8bc53f;
+  --green-dark: #557925;
+
   /* font */
   --font-serif: 'adobe-caslon-pro', serif;
   --font-sans: 'futura-pt', 'Helvetica Neue', 'Arial', sans-serif;
