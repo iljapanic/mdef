@@ -4,7 +4,6 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Dialogues from '../../components/Dialogues';
-import { BookDialogues } from '../../components/Book';
 
 import css from '../../css/pages/exploration.module.css';
 
@@ -12,9 +11,11 @@ import themesCloud from '../../images/dialogues/themes.svg';
 
 export default ({ data }) => {
   const genesisImage = data.genesisImage.childImageSharp.fluid;
-  const books = data.allDialoguesReferencesJson.edges.map(edge => (
-    <BookDialogues key={edge.node.id} book={edge.node} />
-  ));
+  const plantArt = data.plantArt.childImageSharp.fluid;
+  const filament = data.filament.childImageSharp.fluid;
+  const filament2 = data.filament2.childImageSharp.fluid;
+  const nomadic = data.nomadic.childImageSharp.fluid;
+  const nomadic2 = data.nomadic2.childImageSharp.fluid;
 
   return (
     <Dialogues>
@@ -52,7 +53,62 @@ export default ({ data }) => {
           <img src={themesCloud} alt="project themes" />
         </div>
 
-        <div className={css.references}>{books}</div>
+        <div className={css.inspiration}>
+          <h2 className="ta-center">Inspiration</h2>
+
+          <div className={css.plantArt}>
+            <figure>
+              <Img fluid={plantArt} />
+              <figcaption>
+                Visualising electric signals of plants [
+                <a
+                  href="https://github.com/robbiebarrat/plant-art"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  source
+                </a>
+                ]
+              </figcaption>
+            </figure>
+          </div>
+
+          <div className={css.filament}>
+            <div className={css.split}>
+              <Img fluid={filament} />
+              <Img fluid={filament2} />
+            </div>
+            <figcaption>
+              3D printing with mycelium filament [
+              <a
+                href="https://3dprint.com/7279/3d-print-fungus-mycelium/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                source
+              </a>
+              ]
+            </figcaption>
+          </div>
+
+          <div className={css.nomadic}>
+            <div className={css.split}>
+              <Img fluid={nomadic2} />
+              <Img fluid={nomadic} />
+            </div>
+            <figcaption>
+              Nomadic plants in search of waste to feed on [
+              <a
+                href="https://3dprint.com/7279/3d-print-fungus-mycelium/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                http://plantasnomadas.com/
+              </a>
+              ]
+            </figcaption>
+          </div>
+        </div>
       </div>
     </Dialogues>
   );
@@ -67,22 +123,40 @@ export const query = graphql`
         }
       }
     }
+    plantArt: file(name: { eq: "plant-art" }, dir: { regex: "/dialogues/" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    filament: file(name: { eq: "3d" }, dir: { regex: "/dialogues/" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    filament2: file(name: { eq: "3d-2" }, dir: { regex: "/dialogues/" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
 
-    allDialoguesReferencesJson(sort: { fields: year, order: ASC }) {
-      edges {
-        node {
-          id
-          title
-          author
-          year
-          goodreads
-          image {
-            childImageSharp {
-              fluid(maxWidth: 280) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+    nomadic: file(name: { eq: "nomadic" }, dir: { regex: "/dialogues/" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    nomadic2: file(name: { eq: "nomadic2" }, dir: { regex: "/dialogues/" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
         }
       }
     }

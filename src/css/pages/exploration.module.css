@@ -1,7 +1,7 @@
 @import '../utils/variables.css';
 
 .exploration {
-  margin-top: 2.5rem;
+  margin: 2.5rem auto;
 }
 
 .quote {
@@ -56,4 +56,31 @@
 .body p {
   font-family: var(--font-mono);
   font-size: 0.75rem;
+}
+
+.inspiration {
+  margin-top: 4rem;
+}
+
+.inspiration figcaption {
+  font-size: 0.7rem;
+  margin-top: 0.75rem;
+}
+
+.plantArt {
+  margin-top: 3rem;
+}
+
+.filament {
+  margin-top: 5rem;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.nomadic {
+  margin-top: 5rem;
 }
