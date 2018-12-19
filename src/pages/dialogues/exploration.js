@@ -73,24 +73,6 @@ export default ({ data }) => {
             </figure>
           </div>
 
-          <div className={css.filament}>
-            <div className={css.split}>
-              <Img fluid={filament} />
-              <Img fluid={filament2} />
-            </div>
-            <figcaption>
-              3D printing with mycelium filament [
-              <a
-                href="https://3dprint.com/7279/3d-print-fungus-mycelium/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                source
-              </a>
-              ]
-            </figcaption>
-          </div>
-
           <div className={css.nomadic}>
             <div className={css.split}>
               <Img fluid={nomadic2} />
@@ -104,6 +86,24 @@ export default ({ data }) => {
                 rel="noopener noreferrer"
               >
                 http://plantasnomadas.com/
+              </a>
+              ]
+            </figcaption>
+          </div>
+
+          <div className={css.filament}>
+            <div className={css.split}>
+              <Img fluid={filament} />
+              <Img fluid={filament2} />
+            </div>
+            <figcaption>
+              3D printing with mycelium filament [
+              <a
+                href="https://3dprint.com/7279/3d-print-fungus-mycelium/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                source
               </a>
               ]
             </figcaption>
