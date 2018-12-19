@@ -23,35 +23,39 @@ firebase.initializeApp(firebaseConfig);
 
 var numberOfRecords = 20;
 
-const chartOptions = {
-  legend: {
-    display: false
-  },
-  scales: {
-    xAxes: [
-      {
-        ticks: {
-          display: false
-        },
-        gridLines: {
-          display: false
+function getChartOptions(maxY) {
+  const chartOptions = {
+    legend: {
+      display: false
+    },
+    scales: {
+      xAxes: [
+        {
+          ticks: {
+            display: false
+          },
+          gridLines: {
+            display: false
+          }
         }
-      }
-    ],
-    yAxes: [
-      {
-        ticks: {
-          beginAtZero: true
-          // min: 0,
-          // max: 300
-        },
-        gridLines: {
-          display: false
+      ],
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+            min: 0,
+            max: maxY
+          },
+          gridLines: {
+            display: false
+          }
         }
-      }
-    ]
-  }
-};
+      ]
+    }
+  };
+
+  return chartOptions;
+}
 
 class Charts extends React.Component {
   constructor() {
@@ -201,25 +205,25 @@ class Charts extends React.Component {
     return (
       <div className={css.charts}>
         <div className={css.chart}>
-          <Line height={150} data={this.state.humidity} options={chartOptions} />
+          <Line height={150} data={this.state.humidity} options={getChartOptions(90)} />
           <h2>
             <IconHumidity /> Air Humidity
           </h2>
         </div>
         <div className={css.chart}>
-          <Line height={150} data={this.state.touch} options={chartOptions} />
+          <Line height={150} data={this.state.touch} options={getChartOptions(100)} />
           <h2>
             <IconTouch /> Touch
           </h2>
         </div>
         <div className={css.chart}>
-          <Line height={150} data={this.state.light} options={chartOptions} />
+          <Line height={150} data={this.state.light} options={getChartOptions(1000)} />
           <h2>
             <IconLight /> Light
           </h2>
         </div>
         <div className={css.chart}>
-          <Line height={150} data={this.state.temperature} options={chartOptions} />
+          <Line height={150} data={this.state.temperature} options={getChartOptions(40)} />
           <h2>
             <IconTemperature /> Temperature
           </h2>
