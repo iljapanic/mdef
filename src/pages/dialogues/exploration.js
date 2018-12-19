@@ -8,9 +8,10 @@ import { BookDialogues } from '../../components/Book';
 
 import css from '../../css/pages/exploration.module.css';
 
+import themesCloud from '../../images/dialogues/themes.svg';
+
 export default ({ data }) => {
   const genesisImage = data.genesisImage.childImageSharp.fluid;
-  const fungiImage = data.fungiImage.childImageSharp.fluid;
   const books = data.allDialoguesReferencesJson.edges.map(edge => (
     <BookDialogues key={edge.node.id} book={edge.node} />
   ));
@@ -22,7 +23,7 @@ export default ({ data }) => {
       </Helmet>
 
       <div className={css.exploration}>
-        <div className={css.left}>
+        <div className={css.genesis}>
           <div className={css.image}>
             <Img fluid={genesisImage} />
           </div>
@@ -35,17 +36,20 @@ export default ({ data }) => {
           </div>
         </div>
 
-        <div className={css.right}>
-          <div className={css.body}>
-            <h2>Exploring meta-consciousness</h2>
-            <p>
-              It was the Extended Intelligence course that nudged me to explore notions of
-              intelligence beyond the human realm.
-            </p>
-          </div>
-          <div className={css.image}>
-            <Img fluid={fungiImage} />
-          </div>
+        <div className={css.quote}>
+          <blockquote className={css.quoteText}>
+            “I see the mycelium as the Earth’s natural Internet, a consciousness with which we might
+            be able to communicate. Through cross-species interfacing, we may one day exchange
+            information with these sentient cellular networks. Because these externalized
+            neurological nets sense any impression upon them, from footsteps to falling tree
+            branches, they could relay enormous amounts of data regarding the movements of all
+            organisms through the landscape.”
+          </blockquote>
+          <span className={css.author}>— Paul Stamets, Mycelium Running (2005)</span>
+        </div>
+
+        <div className={css.themes}>
+          <img src={themesCloud} alt="project themes" />
         </div>
 
         <div className={css.references}>{books}</div>
@@ -63,13 +67,7 @@ export const query = graphql`
         }
       }
     }
-    fungiImage: file(name: { eq: "fungi" }, dir: { regex: "/dialogues/" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
+
     allDialoguesReferencesJson(sort: { fields: year, order: ASC }) {
       edges {
         node {

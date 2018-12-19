@@ -4,30 +4,45 @@
   margin-top: 2.5rem;
 }
 
+.quote {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.quoteText {
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--gray-800);
+  line-height: 1.85;
+}
+
+.author {
+  color: var(--gray-600);
+  font-family: var(--font-sans);
+  font-weight: var(--fw-sans-base);
+}
+
+.themes {
+  text-align: center;
+}
+
+.themes img {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
 @media (--desktop) {
-  .left,
-  .right {
-    display: grid;
-    grid-gap: 1rem;
-    align-items: center;
-    margin-bottom: 5rem;
-  }
-
-  .left {
-    grid-template-columns: auto 400px;
-  }
-
-  .right {
-    grid-template-columns: 400px auto;
-    text-align: right;
-  }
-
   .image img {
     width: 100%;
   }
 
+  .genesis {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+
   .body {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 

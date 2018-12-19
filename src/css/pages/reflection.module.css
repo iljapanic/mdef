@@ -1,0 +1,32 @@
+@import '../utils/variables.css';
+
+.reflection {
+  max-width: 840px;
+  margin: 2.5rem auto;
+}
+
+.body h2 {
+  font-family: var(--font-mono);
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: var(--fw-mono-bold);
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.body p {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.planty {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 400px auto;
+  grid-gap: 1rem;
+  align-items: center;
+}
+
+.planty .body {
+  margin-top: 6rem;
+}
