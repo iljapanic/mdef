@@ -23,6 +23,36 @@ firebase.initializeApp(firebaseConfig);
 
 var numberOfRecords = 20;
 
+const chartOptions = {
+  legend: {
+    display: false
+  },
+  scales: {
+    xAxes: [
+      {
+        ticks: {
+          display: false
+        },
+        gridLines: {
+          display: false
+        }
+      }
+    ],
+    yAxes: [
+      {
+        ticks: {
+          beginAtZero: true
+          // min: 0,
+          // max: 300
+        },
+        gridLines: {
+          display: false
+        }
+      }
+    ]
+  }
+};
+
 class Charts extends React.Component {
   constructor() {
     super();
@@ -98,37 +128,6 @@ class Charts extends React.Component {
             borderWidth: 3
           }
         ]
-      },
-      chartOptions: {
-        options: {
-          legend: {
-            display: false
-          },
-          scales: {
-            xAxes: [
-              {
-                ticks: {
-                  display: false
-                },
-                gridLines: {
-                  display: false
-                }
-              }
-            ],
-            yAxes: [
-              {
-                ticks: {
-                  beginAtZero: true
-                  // min: 0,
-                  // max: 300
-                },
-                gridLines: {
-                  display: false
-                }
-              }
-            ]
-          }
-        }
       }
     };
   }
@@ -162,14 +161,14 @@ class Charts extends React.Component {
         newState.push({
           id: item,
           humidity: items[item].humidity,
-          touch: items[item].touch,
+          touch: items[item].touchMapped,
           light: items[item].light,
           temperature: items[item].temperature,
           moisture: items[item].moisture,
           timestamp: dayjs.unix(items[item].timestamp).format('H:mm D.MM.YYYY')
         });
         newHumidityData.push(items[item].humidity);
-        newTouchData.push(items[item].touch);
+        newTouchData.push(items[item].touchMapped);
         newLightData.push(items[item].light);
         newTemperatureData.push(items[item].temperature);
         newMoistureData.push(items[item].moisture);
@@ -202,29 +201,25 @@ class Charts extends React.Component {
     return (
       <div className={css.charts}>
         <div className={css.chart}>
-          <Line height={150} data={this.state.humidity} options={this.state.chartOptions.options} />
+          <Line height={150} data={this.state.humidity} options={chartOptions} />
           <h2>
             <IconHumidity /> Air Humidity
           </h2>
         </div>
         <div className={css.chart}>
-          <Line height={150} data={this.state.touch} options={this.state.chartOptions.options} />
+          <Line height={150} data={this.state.touch} options={chartOptions} />
           <h2>
             <IconTouch /> Touch
           </h2>
         </div>
         <div className={css.chart}>
-          <Line height={150} data={this.state.light} options={this.state.chartOptions.options} />
+          <Line height={150} data={this.state.light} options={chartOptions} />
           <h2>
             <IconLight /> Light
           </h2>
         </div>
         <div className={css.chart}>
-          <Line
-            height={150}
-            data={this.state.temperature}
-            options={this.state.chartOptions.options}
-          />
+          <Line height={150} data={this.state.temperature} options={chartOptions} />
           <h2>
             <IconTemperature /> Temperature
           </h2>
