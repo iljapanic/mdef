@@ -16,6 +16,7 @@ export default ({ data }) => {
   const filament2 = data.filament2.childImageSharp.fluid;
   const nomadic = data.nomadic.childImageSharp.fluid;
   const nomadic2 = data.nomadic2.childImageSharp.fluid;
+  const startrek = data.startrek.childImageSharp.fluid;
 
   return (
     <Dialogues>
@@ -91,6 +92,21 @@ export default ({ data }) => {
             </figcaption>
           </div>
 
+          <div className={css.startrek}>
+            <Img fluid={startrek} />
+            <figcaption>
+              Traversing the universe through mycelial networks [
+              <a
+                href="https://www.tor.com/2018/02/21/mycelium-running-star-trek-discovery/"
+                taget="_blank"
+                rel="noopener noreferrer"
+              >
+                source
+              </a>
+              ]
+            </figcaption>
+          </div>
+
           <div className={css.filament}>
             <div className={css.split}>
               <Img fluid={filament} />
@@ -154,6 +170,14 @@ export const query = graphql`
     }
 
     nomadic2: file(name: { eq: "nomadic2" }, dir: { regex: "/dialogues/" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    startrek: file(name: { eq: "startrek" }, dir: { regex: "/dialogues/" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
