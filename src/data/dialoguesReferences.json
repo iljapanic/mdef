@@ -1,0 +1,23 @@
+[
+	{
+		"title": "Plant Intelligence and the Imaginal Realm: Beyond the Doors of Perception into the Dreaming of Earth",
+		"year": "2014",
+		"author": "Stephen Harrod Buhner",
+		"image": "../images/booksDialogues/plant-intelligence.jpg",
+		"goodreads": "https://www.goodreads.com/book/show/18223784-plant-intelligence-and-the-imaginal-realm"
+  },
+  {
+		"title": "The Hidden Life of Trees: What They Feel, How They Communicate – Discoveries from a Secret World",
+		"year": "2016",
+		"author": "Peter Wohlleben",
+		"image": "../images/booksDialogues/hidden-life-of-trees.jpg",
+		"goodreads": "https://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees"
+  },
+  {
+		"title": "Mycelium Running: How Mushrooms Can Help Save the World",
+		"year": "2005",
+		"author": "Paul Stamets",
+		"image": "../images/booksDialogues/mycelium-running.jpg",
+		"goodreads": "https://www.goodreads.com/book/show/239395.Mycelium_Running"
+	}
+]

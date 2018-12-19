@@ -1,0 +1,47 @@
+@import '../utils/variables.css';
+
+.plants {
+  margin-top: 2rem;
+}
+
+.plants .images {
+  max-width: 840px;
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: 404px auto;
+}
+
+.plants img {
+  display: block;
+  width: 100%;
+}
+
+.plants img:first-of-type {
+  grid-row: span 3;
+}
+
+.plants .body {
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body h2 {
+  font-family: var(--font-mono);
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: var(--fw-mono-bold);
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.body p {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.kit {
+  margin: 3rem auto;
+  max-width: 840px;
+}

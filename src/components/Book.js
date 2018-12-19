@@ -38,3 +38,29 @@ const Book = ({ book }) => {
 };
 
 export default Book;
+
+export const BookDialogues = ({ book }) => {
+  const title = book.title;
+  const author = book.author;
+  const year = book.year;
+  const cover = book.image.childImageSharp.fluid;
+  const goodreads = book.goodreads;
+
+  return (
+    <article className={`${styles.book} ${styles.bookDialogues}`}>
+      <div className={styles.cover} data-year={year}>
+        <a href={goodreads} target="_blank" rel="noopener noreferrer">
+          <Img fluid={cover} />
+        </a>
+      </div>
+      <div className={styles.meta}>
+        <h3 className={styles.title}>
+          <a href={goodreads} target="_blank" rel="noopener noreferrer">
+            {title}
+          </a>
+        </h3>
+        <div className={styles.author}>{author}</div>
+      </div>
+    </article>
+  );
+};

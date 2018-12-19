@@ -1,6 +1,5 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
-import { Link } from 'gatsby';
 import firebase from 'firebase';
 import dayjs from 'dayjs';
 

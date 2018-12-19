@@ -1,36 +1,153 @@
 @import '../utils/variables.css';
 
-.container {
-  padding: 0.5rem 1rem;
-}
-
-.nav {
+.slide1 {
+  height: 85vh;
+  position: relative;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 0.25rem;
 }
 
-.title h1 {
-  width: 15%;
-  font-size: 0.7rem;
-  font-family: var(--font-mono);
+.slide1 .inner {
+  width: 100%;
 }
 
-.links {
-  width: 70%;
+.slide1 .inner h2 {
+  font-size: 0.9rem;
+  font-family: var(--font-mono);
+  margin-top: 1.75rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.slide2 {
+  margin: 5rem auto;
   text-align: center;
 }
 
-.links a {
-  margin-right: 1rem;
+.slide2 .quote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--gray-700);
+  line-height: 1.75;
 }
 
-.links a:last-of-type {
-  margin-right: 0;
+.slide2 .author {
+  color: var(--gray-500);
 }
 
-.plants {
-  width: 15%;
+.slide3 {
+  margin-top: 3rem;
 }
+
+/* connections illustration */
+
+.connections {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.connections svg {
+  height: 103%;
+  vertical-align: middle;
+}
+
+@keyframes drawOne {
+  from {
+    stroke-dasharray: 364.42657470703125;
+    stroke-dashoffset: 364.42657470703125;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.connections #line1 {
+  stroke-dasharray: 364.42657470703125;
+  stroke-dashoffset: 364.42657470703125;
+  animation-name: drawOne;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes drawTwo {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dasharray: 394.57318115234375;
+    stroke-dashoffset: 394.57318115234375;
+  }
+}
+
+.connections #line2 {
+  stroke-dasharray: 394.57318115234375;
+  stroke-dashoffset: 394.57318115234375;
+  animation-name: drawTwo;
+  animation-duration: 2s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes drawThree {
+  from {
+    stroke-dasharray: 356.9423828125;
+    stroke-dashoffset: 356.9423828125;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.connections #line3 {
+  stroke-dasharray: 356.9423828125;
+  stroke-dashoffset: 356.9423828125;
+
+  animation-name: drawThree;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/*
+.connections #line-1 {
+  stroke-dasharray: 364.42657470703125;
+  stroke-dashoffset: 364.42657470703125;
+}
+
+.connections #line-2 {
+  stroke-dasharray: 394.57318115234375;
+  stroke-dashoffset: 394.57318115234375;
+}
+
+.connections #line-3 {
+  stroke-dasharray: 356.9423828125;
+  stroke-dashoffset: 356.9423828125;
+}
+
+.connections #people.color,
+.connections #technology.color,
+.connections #nature.color {
+  stroke: var(--green-dark);
+}
+
+.connections #line-1.draw,
+.connections #line-2.draw,
+.connections #line-3.draw {
+  stroke-dashoffset: 0;
+  visibility: visible;
+  opacity: 1;
+} */

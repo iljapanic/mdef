@@ -5,14 +5,14 @@ import { Helmet } from 'react-helmet';
 import Dialogues from '../../components/Dialogues';
 import Charts from '../../components/Charts';
 
-// images
-import favicon from '../../images/favicon.png';
-
 // index.js
 export default ({ children }) => {
   return (
     <Dialogues>
       <Charts />
+      <Helmet>
+        <title>Plant Monitor</title>
+      </Helmet>
     </Dialogues>
   );
 };
