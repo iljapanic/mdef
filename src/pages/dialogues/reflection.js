@@ -28,19 +28,6 @@ export default ({ data }) => {
             </p>
           </div>
         </div>
-        <div className={css.planty}>
-          <div className={css.image}>
-            <Img fluid={plantyImage} />
-          </div>
-          <div className={css.body}>
-            <h2>Living with a plant</h2>
-            <p>
-              As part of the Living with Ideas course I walked around Barcelona with a plant hanging
-              around my neck with a wire attach to my earlob. It made my question my own
-              relationship with plants and nature.
-            </p>
-          </div>
-        </div>
       </div>
     </Dialogues>
   );
