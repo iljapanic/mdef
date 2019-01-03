@@ -59,11 +59,14 @@ class PostTemplate extends React.Component {
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
     const readingTime = post.timeToRead;
-    // const author = this.props.data.site.siteMetadata.author;
+    var people = ''
+    
+    if (meta.people) {
+      people = meta.people.map((person, index) => (
+        <Person key={index} name={person.name} website={person.website} />
+      ));
+    }
 
-    const people = meta.people.map((person, index) => (
-      <Person key={index} name={person.name} website={person.website} />
-    ));
 
     return (
       <Container>
