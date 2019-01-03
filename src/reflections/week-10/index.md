@@ -3,7 +3,7 @@ title: "10. An Introduction to Futures"
 slug: "10-an-introduction-to-futures"
 date: "2018-12-03"
 endDate: "2018-12-09"
-lastUpdated: "2018-12-03"
+lastUpdated: "2018-12-26"
 people:
   - name: Elisabet Román
     website: http://elisabetrosello.com/
