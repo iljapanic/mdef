@@ -107,3 +107,14 @@ a.no-underline {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+
+/* large image box */
+.large-image {
+  text-align: left;
+  max-width: var(--w-figure);
+  margin: 1.5rem 0;
+}
+
+.large-image img {
+  width: 100%;
+}
