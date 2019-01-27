@@ -20,7 +20,7 @@ Originally, I have only connected a single plant but during the presentations, b
 
 [Visit display website](https://mdef.gitlab.io/ilja.panic/dialogues) (optimised for tablet viewing as part of the display)
 
-SCREENSHOTS
+![](dialogues-ui.jpg "A preview of the display website")
 
 
 ## The Internet of Plants
@@ -33,9 +33,6 @@ Two themes that repeatedly occurred accross discussions were that of vegetal per
 
 *How can we bridge the disparate temporal and spatial scales in human-plant interactions?*
 
-connect isolated plants
-
-![](pot-connection.jpg ‘Can we make isolated household and urban plants talk to each other?’)
 
 
 ## Going beyond fungi
