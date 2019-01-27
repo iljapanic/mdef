@@ -133,6 +133,11 @@
   margin-bottom: 0.25rem;
 }
 
+.post code {
+  background-color: var(--gray-200);
+  font-size: 85%;
+}
+
 /* footer area */
 .footer {
   width: 100%;
