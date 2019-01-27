@@ -7,7 +7,6 @@ import Dialogues from '../../components/Dialogues';
 import css from '../../css/pages/reflection.module.css';
 
 export default ({ data }) => {
-  const plantyImage = data.plantyImage.childImageSharp.fluid;
   const fungiImage = data.fungiImage.childImageSharp.fluid;
 
   return (
@@ -35,13 +34,6 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    plantyImage: file(name: { eq: "planty" }, dir: { regex: "/dialogues/" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
     fungiImage: file(name: { eq: "fungi" }, dir: { regex: "/dialogues/" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
