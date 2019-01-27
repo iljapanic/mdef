@@ -133,7 +133,7 @@
   margin-bottom: 0.25rem;
 }
 
-.post code {
+.post p code {
   background-color: var(--gray-200);
   font-size: 85%;
 }
