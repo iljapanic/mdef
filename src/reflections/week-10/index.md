@@ -7,7 +7,8 @@ lastUpdated: "2018-12-26"
 people:
   - name: Elisabet Román
     website: http://elisabetrosello.com/
-published: false
+published: true
+hero: "hero.jpg"
 ---
 
 
