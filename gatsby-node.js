@@ -36,7 +36,7 @@ exports.createPages = ({ actions, graphql }) => {
           reject(result.errors);
         }
 
-        // create Note pages
+        // create Reflections pages
 
         const reflections = result.data.allMarkdownRemark.edges;
 
