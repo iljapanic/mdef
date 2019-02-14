@@ -85,10 +85,12 @@ class PostTemplate extends React.Component {
                   <dd>
                     {meta.date} – {meta.endDate}
                   </dd>
-                  <dt>Tutors</dt>
-                  <dd>
-                    <ul>{people}</ul>
-                  </dd>
+                  {people.length > 0 && <dt>Tutors</dt>}
+                  {people.length > 0 && (
+                    <dd>
+                      <ul>{people}</ul>
+                    </dd>
+                  )}
                   <dt>Reading time</dt>
                   <dd>{readingTime} minutes</dd>
                   <dt>Contents</dt>
