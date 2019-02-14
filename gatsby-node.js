@@ -56,5 +56,53 @@ exports.createPages = ({ actions, graphql }) => {
         });
       })
     );
+
+    resolve(
+      graphql(`
+        {
+          allMarkdownRemark(
+            sort: { order: DESC, fields: [frontmatter___date] }
+            limit: 1000
+            filter: {
+              frontmatter: { published: { eq: true } }
+              fileAbsolutePath: { regex: "/fabacademy/" }
+            }
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  slug
+                  title
+                }
+              }
+            }
+          }
+        }
+      `).then(result => {
+        if (result.errors) {
+          console.log(result.errors);
+          reject(result.errors);
+        }
+
+        // create Reflections pages
+
+        const fabacademy = result.data.allMarkdownRemark.edges;
+
+        _.each(fabacademy, (post, index) => {
+          const previous = index === fabacademy.length - 1 ? null : fabacademy[index + 1].node;
+          const next = index === 0 ? null : fabacademy[index - 1].node;
+
+          createPage({
+            path: `fabacademy/${post.node.frontmatter.slug}`,
+            component: postTemplate,
+            context: {
+              slug: post.node.frontmatter.slug,
+              previous,
+              next
+            }
+          });
+        });
+      })
+    );
   });
 };

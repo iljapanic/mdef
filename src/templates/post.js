@@ -59,14 +59,13 @@ class PostTemplate extends React.Component {
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
     const readingTime = post.timeToRead;
-    var people = ''
-    
+    var people = '';
+
     if (meta.people) {
       people = meta.people.map((person, index) => (
         <Person key={index} name={person.name} website={person.website} />
       ));
     }
-
 
     return (
       <Container>
@@ -125,10 +124,7 @@ export const pageQuery = graphql`
         email
       }
     }
-    markdownRemark(
-      frontmatter: { slug: { eq: $slug } }
-      fileAbsolutePath: { regex: "/reflections/" }
-    ) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       id
       html
       timeToRead
