@@ -1,6 +1,6 @@
 ---
-title: "09. Engaging Narratives"
-slug: "09-engaging-narratives"
+title: "Engaging Narratives"
+slug: "engaging-narratives"
 date: "2018-11-26"
 endDate: "2018-12-02"
 lastUpdated: "2018-12-10"

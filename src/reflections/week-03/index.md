@@ -1,6 +1,6 @@
 ---
-title: "03. Design for the Real Digital World"
-slug: "03-design-for-the-real-digital-world"
+title: "Design for the Real Digital World"
+slug: "design-for-the-real-digital-world"
 hero: "hero.jpg"
 date: "2018-10-15"
 endDate: "2018-10-21"

@@ -1,6 +1,6 @@
 ---
-title: "08. Living with ideas"
-slug: "08-living-with-ideas"
+title: "Living with ideas"
+slug: "living-with-ideas"
 date: "2018-11-19"
 endDate: "2018-11-25"
 lastUpdated: "2018-12-03"
@@ -9,7 +9,7 @@ people:
   - name: Angella Mackey
     website: https://www.angellamackey.com/
   - name: David NG McCallum
-    website: https://www.sintheta.org/ 
+    website: https://www.sintheta.org/
 published: true
 ---
 
@@ -61,7 +61,7 @@ As a final exercise we had to materialise our ideas for a final project. My focu
 
 *What does the forest talk about?*
 
-*Do plants gossip? Do they tell jokes?* 
+*Do plants gossip? Do they tell jokes?*
 
 *What would plants tell us if they could talk?*
 

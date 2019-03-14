@@ -1,7 +1,7 @@
 ---
-title: "01. MDEF Bootcamp"
+title: "MDEF Bootcamp"
 hero: hero.jpg
-slug: "01-mdef-bootcamp"
+slug: "mdef-bootcamp"
 date: "2018-10-01"
 endDate: "2018-10-07"
 lastUpdated: "2018-10-26"

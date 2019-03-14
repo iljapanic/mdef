@@ -1,7 +1,7 @@
 ---
-title: "02. Biology Zero"
+title: "Biology Zero"
 hero: "hero.jpg"
-slug: "02-biology-zero"
+slug: "biology-zero"
 date: "2018-10-08"
 endDate: "2018-10-14"
 lastUpdated: "2018-10-26"

@@ -1,6 +1,6 @@
 ---
-title: "06. Designing with Extended Intelligence"
-slug: "06-designing-with-extended-intelligence"
+title: "Designing with Extended Intelligence"
+slug: "designing-with-extended-intelligence"
 date: "2018-11-05"
 endDate: "2018-11-11"
 lastUpdated: "2018-11-20"
@@ -104,7 +104,7 @@ Discussions about developing ethical codes and regulating AI are all the rage at
 
 At first, such an approach might seem adequate and fair. But no matter how many people we survey, such ethical code will inherently be arbitrary and riddled with biases specific to given programmers and the culture they are embedded in. Nevertheless, when it comes to self-driving cars, even a profoundly flawed moral code will still likely result in a dramatic decrease in traffic accidents. Same can probably be said about AI weapons which will likely lead to hyper-localised conflicts and reduction of civilian casualties.
 
-I am in no way advocating for the development of autonomous killing machines. It is just to show that by following a strict rationalist logic, humanity will be better of with AI taking over control of our lives, including in a scenario where it takes over the world and establishes an AI-cracy. Sure, we would live in some sort of perverse hyper-stimulating Huxley-an simulacrum where all of our deepest desires are fulfilled through brain-machine interfaces and bioengineering. But on the flip side, we eradicated hunger, warfare and most forms of human suffering. 
+I am in no way advocating for the development of autonomous killing machines. It is just to show that by following a strict rationalist logic, humanity will be better of with AI taking over control of our lives, including in a scenario where it takes over the world and establishes an AI-cracy. Sure, we would live in some sort of perverse hyper-stimulating Huxley-an simulacrum where all of our deepest desires are fulfilled through brain-machine interfaces and bioengineering. But on the flip side, we eradicated hunger, warfare and most forms of human suffering.
 
 Most people would agree that is not the future they want to live in. But actions speak louder than words. We need a spiritual revolution, not an AI one.
 

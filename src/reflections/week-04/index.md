@@ -1,6 +1,6 @@
 ---
-title: "04. Exploring Hybrid Profiles in Design"
-slug: "04-exploring-hybrid-profiles-in-design"
+title: "Exploring Hybrid Profiles in Design"
+slug: "exploring-hybrid-profiles-in-design"
 hero: "hero.jpg"
 date: "2018-10-22"
 endDate: "2018-10-28"

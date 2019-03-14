@@ -1,6 +1,6 @@
 ---
-title: "07. The Way Things Work"
-slug: "07-the-way-things-work"
+title: "The Way Things Work"
+slug: "the-way-things-work"
 hero: "hero.jpg"
 date: "2018-11-12"
 endDate: "2018-11-18"
@@ -27,7 +27,7 @@ The course has made us look at *objects as interfaces* – a majority of consume
 
 ![Guts of an old Epson printer](printer.jpg 'Guts of an old Epson printer')
 
-When our devices stop working we are accustomed to take them to an ‘authorized’ repair shop or throw them away and buy new ones. Other times, the device is completely functional, but we just feel the desire to own the latest versions. 
+When our devices stop working we are accustomed to take them to an ‘authorized’ repair shop or throw them away and buy new ones. Other times, the device is completely functional, but we just feel the desire to own the latest versions.
 
 <figure>
 
