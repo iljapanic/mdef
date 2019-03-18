@@ -4,7 +4,7 @@ hero: hero.jpg
 slug: "material-driven-design"
 date: "2019-01-24"
 endDate: "2019-02-21"
-lastUpdated: "2019-03-03"
+lastUpdated: "2019-03-16"
 people:
   - name: Mette Bak-Andersen
     website: https://twitter.com/MetteBakAnd
@@ -84,7 +84,7 @@ Following is a summary of the various resin mixtures:
 
 As I was experimenting I quickly became fond of the aesthetic and surface finish of the different mixtures that took a shape of the small aluminum forms that I have used . Therefore, for the purposes of presenting the results, I decided to laser cut a simple tray that fit the rounded samples along with a compartment for raw resin samples.
 
-![](final-presentation.jpg "a presentation tray") 
+![](final-presentation.jpg "a presentation tray")
 
 I mixed the remaining resin with ash and poured the mixture in a primitive mold. However, due to my lack of knowledge on how to properly make molds, my initial attempt to create a solid object failed. Also, I have used too much Vaseline, which resulted in a rather sticky substance that I have re-purposed to form a sort of a blob. Although accidental, the final Vaseline-infused substance was very flexible, resulting in well-performing material.
 
@@ -96,6 +96,6 @@ I mixed the remaining resin with ash and poured the mixture in a primitive mold.
 
 ## The resin futures
 
-Due to time constraints and limited availability of hand-picked resin I was not able to push the limits of my chosen material. In the process of experimenting and presenting the initial outcomes I have gained new knowledge that will affect my future work with this material. First, I would like to try [a better method for purifying the resin and filtering out the debris](https://www.instructables.com/id/How-to-resinate-clean-tree-resin/) in order to obtain a more clear base material. Secondly, I would like to mix the resin with a more viscous substance to create a less brittle and more malleable material. For that purpose, I will focus on wax, ideally bees wax, which neatly complements the resin due to its natural origin.  
+Due to time constraints and limited availability of hand-picked resin I was not able to push the limits of my chosen material. In the process of experimenting and presenting the initial outcomes I have gained new knowledge that will affect my future work with this material. First, I would like to try [a better method for purifying the resin and filtering out the debris](https://www.instructables.com/id/How-to-resinate-clean-tree-resin/) in order to obtain a more clear base material. Secondly, I would like to mix the resin with a more viscous substance to create a less brittle and more malleable material. For that purpose, I will focus on wax, ideally bees wax, which neatly complements the resin due to its natural origin.
 
 I would love to incorporate resin as one of the materials in my final project due to its function as a protective agent for trees.
