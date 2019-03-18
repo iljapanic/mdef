@@ -5,7 +5,7 @@ hero: "hero.jpg"
 date: "2019-01-15"
 endDate: "2019-01-21"
 lastUpdated: "2019-02-03"
-published: true
+published: false
 ---
 
 
@@ -24,7 +24,7 @@ justified criticism, not so much different back home
 
 ## A matter of scale
 
-strong community identification stemming from communist heritage 
+strong community identification stemming from communist heritage
 
 
 
