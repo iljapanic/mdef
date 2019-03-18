@@ -8,6 +8,4 @@ hero: "hero.jpg"
 published: true
 ---
 
-
-
 ## Choosing software
