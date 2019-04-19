@@ -103,15 +103,12 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 //   })
 // }
 
-
-
-
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-
     const postTemplate = path.resolve(`./src/templates/post.js`);
+    const postAcademyTemplate = path.resolve(`./src/templates/postAcademy.js`);
 
     resolve(
       graphql(`
@@ -182,8 +179,8 @@ exports.createPages = ({ actions, graphql }) => {
           const next = index === 0 ? null : fabacademy[index - 1].node;
 
           createPage({
-            path: `fabacademy/${post.node.frontmatter.slug}`,
-            component: postTemplate,
+            path: `minilab/${post.node.frontmatter.slug}`,
+            component: postAcademyTemplate,
             context: {
               slug: post.node.frontmatter.slug,
               previous,

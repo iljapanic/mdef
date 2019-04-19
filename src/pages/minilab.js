@@ -10,11 +10,9 @@ import FabLink from '../components/FabLink';
 import styles from '../css/pages/reflections.module.css';
 
 export default ({ data }) => {
-  const pageTitle = 'Fabacademy';
-  const allReflections = data.allMarkdownRemark.edges;
-  const reflections = allReflections.map(edge => (
-    <FabLink key={edge.node.id} reflection={edge.node} />
-  ));
+  const pageTitle = 'MiniLab';
+  const allPosts = data.allMarkdownRemark.edges;
+  const posts = allPosts.map(edge => <FabLink key={edge.node.id} post={edge.node} />);
 
   return (
     <Container>
@@ -23,9 +21,9 @@ export default ({ data }) => {
       </Helmet>
       <div className="page-title">
         <h1>{pageTitle}</h1>
-        <p>Weekly Fab Academy documentation</p>
+        <p>A series of Fab Academy experiments and explorations</p>
       </div>
-      <div className={styles.reflections}>{reflections}</div>
+      <div className={styles.reflections}>{posts}</div>
     </Container>
   );
 };
@@ -33,7 +31,7 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      sort: { order: ASC, fields: [frontmatter___date] }
+      sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
       filter: {
         frontmatter: { published: { eq: true } }
@@ -49,6 +47,7 @@ export const query = graphql`
             endDate(formatString: "D MMMM YYYY")
             slug
             title
+            methods
             hero {
               childImageSharp {
                 fluid(maxWidth: 1200) {

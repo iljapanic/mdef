@@ -3,23 +3,25 @@ import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 
 // css
-import css from '../css/components/ReflectionLink.module.css';
+import css from '../css/components/FabLink.module.css';
 
-const FabLink = ({ reflection }) => {
-  const title = reflection.frontmatter.title;
-  const slug = reflection.frontmatter.slug;
-  const startDate = reflection.frontmatter.date;
-  const endDate = reflection.frontmatter.endDate;
+const FabLink = ({ post }) => {
+  const title = post.frontmatter.title;
+  const slug = post.frontmatter.slug;
+  const startDate = post.frontmatter.date;
+  const endDate = post.frontmatter.endDate;
   const period = startDate + ' – ' + endDate;
-  const heroImage = reflection.frontmatter.hero.childImageSharp.fluid;
+  const heroImage = post.frontmatter.hero.childImageSharp.fluid;
+  const methods = post.frontmatter.methods.map((method, index) => <li key={index}>{method}</li>);
 
   return (
-    <article className={css.reflection}>
-      <Link to={`fabacademy/` + slug + `/`} className={css.inner} title="Read more">
+    <article className={css.post}>
+      <Link to={`minilab/` + slug + `/`} className={css.inner} title="Read more">
         <div className={css.body}>
           <div className={css.innerBody}>
             <h2 className={css.title}>{title}</h2>
             <p className={css.period}>{period}</p>
+            <ul className={css.methods}>{methods}</ul>
           </div>
         </div>
         <div className={css.cover}>

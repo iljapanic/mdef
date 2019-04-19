@@ -23,6 +23,7 @@ export default ({ children }) => (
   <nav className={styles.nav}>
     <ul>
       <ListLink to="/reflections/">Reflections</ListLink>
+      <ListLink to="/minilab/">MiniLab</ListLink>
       <li>
         <a
           href="https://iljapanic.gitlab.io/cyberbiomes/"
