@@ -101,14 +101,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-matomo`,
-      options: {
-        siteId: '1',
-        matomoUrl: 'https://analytics.infomatics.io',
-        siteUrl: 'https://mdef.gitlab.io/ilja.panic/'
-      }
-    },
-    {
       resolve: `gatsby-source-airtable`,
       options: {
         apiKey: process.env.GATSBY_AIRTABLE_API_KEY,
@@ -118,15 +110,17 @@ module.exports = {
             tableName: `Feed`,
             tableView: `Published`,
             queryName: `allFeeds`,
-            tableLinks: `Tags`,
-            mapping: { Notes: 'text/markdown' }
+            mapping: {
+              Notes: `text/markdown`
+            },
+            tableLinks: [`Tags`]
           },
           {
             baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
             tableName: `Tags`,
             tableView: `Sorted`,
             queryName: `allTags`,
-            tableLinks: `Feed`
+            tableLinks: [`Feed`]
           }
         ]
       }
