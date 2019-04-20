@@ -43,7 +43,7 @@
     "gatsby-transformer-json": "2.1.11",
     "gatsby-transformer-remark": "2.3.8",
     "gatsby-transformer-sharp": "2.1.18",
-    "lodash": "4.17.11",
+    "lodash": "^4.17.11",
     "p5": "0.8.0",
     "path": "0.12.7",
     "postcss-calc": "7.0.1",

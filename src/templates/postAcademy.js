@@ -55,7 +55,8 @@ class PostTemplate extends React.Component {
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
     const readingTime = post.timeToRead;
-    const methods = meta.methods.map((method, index) => <li key={index}>{method}</li>);
+    const methodsSorted = meta.methods.sort();
+    const methods = methodsSorted.map((method, index) => <li key={index}>{method}</li>);
 
     var files = '';
     if (meta.files) {

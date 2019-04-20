@@ -12,7 +12,8 @@ const FabLink = ({ post }) => {
   const endDate = post.frontmatter.endDate;
   const period = startDate + ' – ' + endDate;
   const heroImage = post.frontmatter.hero.childImageSharp.fluid;
-  const methods = post.frontmatter.methods.map((method, index) => <li key={index}>{method}</li>);
+  const methodsSorted = post.frontmatter.methods.sort();
+  const methods = methodsSorted.map((method, index) => <li key={index}>{method}</li>);
 
   return (
     <article className={css.post}>
