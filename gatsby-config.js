@@ -10,33 +10,6 @@ module.exports = {
     author: `Ilja A. Panic`
   },
   plugins: [
-    `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [
-          require(`postcss-import`),
-          require(`postcss-custom-selectors`),
-          require(`postcss-custom-media`),
-          require(`postcss-css-variables`),
-          require(`postcss-color-function`),
-          require(`postcss-hexrgba`),
-          require(`postcss-calc`),
-          require(`autoprefixer`)
-        ]
-      }
-    },
-    {
-      resolve: `gatsby-plugin-web-font-loader`,
-      options: {
-        typekit: {
-          id: 'qal5cyi'
-        },
-        google: {
-          families: ['Merriweather', 'PT Mono', 'Merriweather Sans', 'Open Sans']
-        }
-      }
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -72,10 +45,15 @@ module.exports = {
         name: `content`
       }
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-relative-images`
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -96,8 +74,31 @@ module.exports = {
           `gatsby-remark-smartypants`,
           `gatsby-remark-embed-video`,
           `gatsby-remark-responsive-iframe`
-          // `gatsby-remark-component`
         ]
+      }
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [
+          require(`postcss-import`),
+          require(`postcss-custom-selectors`),
+          require(`postcss-custom-media`),
+          require(`postcss-css-variables`),
+          require(`postcss-color-function`),
+          require(`postcss-hexrgba`),
+          require(`postcss-calc`),
+          require(`autoprefixer`)
+        ]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+        typekit: {
+          id: 'qal5cyi'
+        }
       }
     },
     {
@@ -126,8 +127,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-twitter`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`
   ]
 };

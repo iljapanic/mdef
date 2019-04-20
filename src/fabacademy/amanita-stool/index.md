@@ -4,7 +4,7 @@ slug: 'amanita-stool'
 date: '2019-03-25'
 endDate: '2019-03-31'
 lastUpdated: '2019-04-18'
-hero: 'hero.jpg'
+hero: './hero.jpg'
 methods:
   - Laser Cutting
   - CNC Milling

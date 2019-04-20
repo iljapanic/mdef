@@ -1,10 +1,10 @@
 ---
-title: "Design Dialogues"
-slug: "design-dialogues"
-date: "2018-12-17"
-endDate: "2018-12-23"
-lastUpdated: "2018-12-26"
-hero: "hero.jpg"
+title: 'Design Dialogues'
+slug: 'design-dialogues'
+date: '2018-12-17'
+endDate: '2018-12-23'
+lastUpdated: '2018-12-26'
+hero: './hero.jpg'
 published: true
 ---
 
@@ -20,8 +20,7 @@ Originally, I have only connected a single plant but during the presentations, b
 
 [Visit display website](https://mdef.gitlab.io/ilja.panic/dialogues) (optimised for tablet viewing as part of the display)
 
-![](dialogues-ui.jpg "A preview of the display website")
-
+![](dialogues-ui.jpg 'A preview of the display website')
 
 ## The Internet of Plants
 
@@ -31,9 +30,7 @@ To that end I intend to explore the notion of plants as an human-Earth interface
 
 Two themes that repeatedly occurred accross discussions were that of vegetal perception of time and isolation of plants in cities and households. Therefore the main challenges for my project are discovering potential methods for translating plant-time into human-time and finding means of interconnecting plants that do not share the same substrate.
 
-*How can we bridge the disparate temporal and spatial scales in human-plant interactions?*
-
-
+_How can we bridge the disparate temporal and spatial scales in human-plant interactions?_
 
 ## Going beyond fungi
 
@@ -42,9 +39,3 @@ Since the beginning of the term my ideas for the final project were revolving ar
 The primary goal of my final project is to design an artefact, with both physical and digital representations, that will amplify the idea that nature and everything in it is intelligent and sentient. Besides a delightful plant-human interaction, the overarching aim is to provoke an emphatic response that would make people reflect on our relationship towards other living organisms on this planet.
 
 On a more pragmatic note, this emphatic device would ideally also include an interface that would provide people with actionable insights regarding the overal wellbeing of their household plants.
-
-
-
-
-
-

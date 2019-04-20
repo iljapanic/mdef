@@ -1,10 +1,10 @@
 ---
-title: "Biology Zero"
-hero: "hero.jpg"
-slug: "biology-zero"
-date: "2018-10-08"
-endDate: "2018-10-14"
-lastUpdated: "2018-10-26"
+title: 'Biology Zero'
+hero: './hero.jpg'
+slug: 'biology-zero'
+date: '2018-10-08'
+endDate: '2018-10-14'
+lastUpdated: '2018-10-26'
 people:
   - name: Nuria Conde-Pueyo
     website: https://iaac.net/people/nuria-conde-pueyo/
@@ -25,7 +25,6 @@ This week can be summarised as an in-depth crash course in synthetic biology wit
 
 [Mette B. Andersen](https://twitter.com/mettebakand) from [Material Design Lab](http://materialdesignlab.dk/) in Copenhagen gave us an impactful primer on what constitutes a meaningful and sustainable design process through her exploration of designers’ relationship with various materials. Thora H. Arnardottir and Jessica Dias, two of the three [Bio Babes](https://www.instagram.com/bio.babes/), presented us with an inspiring showcase of speculative and provocative designs.
 
-
 ## Human-driven evolution
 
 The few group discussions we had felt particularly stimulating, and I found them to be the most valuable component of the course. Naturally, one of the most heated discussions revolved around ethics of genetic modification of crops and implications of Anthropocene. Nuria made an interesting point when she referred to millennia of plant cultivation through agriculture as a form of genetic modification arguing that modern methods are just faster and more precise. She, of course, implied that this is an over-simplification and that she does not agree with some of the practices of multinational corporations like Monsanto.
@@ -43,12 +42,11 @@ Going beyond imaginary speculations, we also touched upon more immediate possibi
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">John Hancock, one of the oldest and largest North American life insurers, will stop underwriting traditional life insurance and instead sell only interactive policies that track fitness and health data through wearable devices</p>&mdash; Horace Dediu (@asymco) <a href="https://twitter.com/asymco/status/1042417290396852224?ref_src=twsrc%5Etfw">September 19, 2018</a></blockquote>
 
-There are thorny issues of economic inequality being translated into biological inequality that were not sufficiently addressed in the group discussions. Some may argue that this transition is already occurring through uneven access to the latest perks of medical technology and superior dietary habits. This theme will increasingly surface to the mainstream discourse in the coming years but the time to address those issues is already overdue as eloquently argued by Yuval N. Harari in [*Homo Deus*](https://www.goodreads.com/book/show/31138556-homo-deus) and [*21 Lessons for the 21 Century*](https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century).
+There are thorny issues of economic inequality being translated into biological inequality that were not sufficiently addressed in the group discussions. Some may argue that this transition is already occurring through uneven access to the latest perks of medical technology and superior dietary habits. This theme will increasingly surface to the mainstream discourse in the coming years but the time to address those issues is already overdue as eloquently argued by Yuval N. Harari in [_Homo Deus_](https://www.goodreads.com/book/show/31138556-homo-deus) and [_21 Lessons for the 21 Century_](https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century).
 
 One of the main takeaways of our discussions was that the pace of scientific progress seems to be stifled by ethical considerations rather than technological capabilities. We could likely already start growing superhuman babies in labs today, but no country is ready to make the jump at the moment or at least not in a public view. If we are to avoid some of the more dire scenarios we need to start having those discussions now before a rogue nation or opportunistic businessmen take a driver’s seat of human evolution.
 
-![](red-fish.jpg "A final discussion near the Red Fish restaurant building designed by IAAC")
-
+![](red-fish.jpg 'A final discussion near the Red Fish restaurant building designed by IAAC')
 
 ## Skewed science
 
@@ -56,7 +54,7 @@ Throughout the course, we had to navigate two fundamentally different approaches
 
 There is a tendency to see science as somehow detached from the dominant economic system. But seeing the lab first-hand makes it clear that science today is very much revolving around money and skewed incentives. The smartest people in the world are toying around with exuberantly expensive machines to provide only incremental advances in the context of existential threats facing our planet today. The combined monetary value of all the machines in a single room depicted bellow could probably provide for the basic human needs of citizens of a small African country.
 
-![](PRRB.jpg "A room at PRRB with the most expensive machinery in the building")
+![](PRRB.jpg 'A room at PRRB with the most expensive machinery in the building')
 
 There does not seem to be a unified narrative for developing practical solutions for a sustainable advancement of humankind. The shift in the mindset seems to be slowly occurring but is mostly contained to one-off projects and PR-oriented initiatives rather than a sustained effort from a scientific community at large. My aim is not to bash on scientists. Despite my remarks, the investments in science still pale in comparison with expenditures on warfare and on obscene spending habits of wealthy nations. My interest lays more in underlying cultural assumptions and perceptions of what constitutes meaningful science.
 
@@ -66,7 +64,7 @@ The question is how can we use the might and knowledge of the global scientific 
 
 The science today is predominantly based on rigid methods predicated on a positivist view of the world that attempts to objectify every aspect of human existence, including our own consciousness. Science is a mere projection of reality, albeit a relatively accurate one. And while it does seem to reasonably explain many things, it cannot escape the observer effect — the fact that we change our reality by the mere attempt to observe it. This makes the scientific method severely limited by our own imperfect senses. We blindly believe what we see in our man-made microscopes and when we are not sure, we try to look closer by building a more powerful microscope.
 
-*How would science look according to a bee or a bat?*
+_How would science look according to a bee or a bat?_
 
 The science today operates at a level of detail that is beyond what a regular traveler on the spaceship Earth can, or should, comprehend. Here I was reminded of Mette's comments on why it is crucial for designers to touch and feel materials they use in their creations. Maybe scientists could put more effort into touching and feeling the objects they are observing before they dive deeper into them?
 
@@ -76,7 +74,7 @@ DIY Bio Hacking community offers an alternative vision of science that is modell
 
 Such projects tend to be speculative and playful in nature with an underlying goal of making science and biology more accessible and relevant to everyday humans:
 
-> *“Scientific literacy empowers everyone who possesses it to be active contributors to their own health care, the quality of their food, water, and air, their very interactions with their own bodies and the complex world around them.”*
+> _“Scientific literacy empowers everyone who possesses it to be active contributors to their own health care, the quality of their food, water, and air, their very interactions with their own bodies and the complex world around them.”_
 >
 > – Meredith L. Patterson, [A Biopunk Manifesto](https://maradydd.livejournal.com/496085.html) (2008)
 
@@ -89,12 +87,9 @@ Much of the DIY biohacking revolves around exploring and cultivating various mic
 <figcaption>An indigenous approach to mathematical order</figcaption>
 </figure>
 
-
 Two microorganisms in particular have caught my attention. First is slime mould that seems to spread much like the way humans build train networks. And second is mycelium which is an equivalent of nature’s internet and can be used to address many of humanity’s ills, [including our declining population of bees](https://www.nature.com/articles/s41598-018-32194-8) that we rely on for our food.
 
-
-![](slime.jpg "An aesthetically pleasing organic structures of slime mould [microbialart.com]")
-
+![](slime.jpg 'An aesthetically pleasing organic structures of slime mould [microbialart.com]')
 
 <figure>
 
@@ -103,8 +98,6 @@ Two microorganisms in particular have caught my attention. First is slime mould 
 <figcaption>What we can learn from slime mould</figcaption>
 </figure>
 
-
-
 <figure>
 
 `youtube: https://www.youtube.com/watch?v=cwLviP7KaAc`
@@ -112,16 +105,11 @@ Two microorganisms in particular have caught my attention. First is slime mould 
 <figcaption>Paul Stamets on an incredible versatility of fungi</figcaption>
 </figure>
 
-
-
-
-
-
 ## Experiment design
 
 Taking inspiration from the previous sections I have devised a following scientific experiment as part of the course assignment.
 
-Hypothesis: *Mushrooms and mycelial derivatives can to a certain extent fulfil a significant percentage of daily dietary requirements for a family of four.*
+Hypothesis: _Mushrooms and mycelial derivatives can to a certain extent fulfil a significant percentage of daily dietary requirements for a family of four._
 
 Methodology:
 
@@ -137,9 +125,6 @@ Methodology:
 10. Distribute the kit to every family in the world.
 11. Connect the global mycelium network with our internet network.
 12. Enable real-time exchange of information and nutrients throughout the global Intracelium network.
-
-
-
 
 ## Takeaways
 

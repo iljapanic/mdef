@@ -4,7 +4,7 @@ slug: 'mycotowers'
 date: '2019-04-01'
 endDate: '2019-04-09'
 lastUpdated: '2019-04-18'
-hero: 'hero.jpg'
+hero: './hero.jpg'
 methods:
   - 3D Printing
   - Molding & Casting
