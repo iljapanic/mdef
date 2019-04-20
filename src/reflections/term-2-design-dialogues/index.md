@@ -1,6 +1,6 @@
 ---
 title: 'Continuing the Dialogues'
-slug: 'design-dialogues-term-2'
+slug: 'continuing-the-dialogues'
 hero: './hero.jpg'
 date: '2019-04-08'
 endDate: '2019-04-14'
