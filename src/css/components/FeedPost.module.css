@@ -15,6 +15,14 @@
   padding: 0.75rem 1rem;
 }
 
+.post blockquote {
+  color: var(--gray-600);
+  border-left: 3px solid var(--gray-200);
+  padding-left: 0.5rem;
+  margin-left: 0;
+  font-style: italic;
+}
+
 /* title */
 .title {
   font-size: var(--font-size-1);
