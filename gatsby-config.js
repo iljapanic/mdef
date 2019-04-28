@@ -108,20 +108,20 @@ module.exports = {
         tables: [
           {
             baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
-            tableName: `Feed`,
-            tableView: `Published`,
+            tableName: `feed`,
+            tableView: `published`,
             queryName: `allFeeds`,
             mapping: {
-              Notes: `text/markdown`
+              notes: `text/markdown`
             },
-            tableLinks: [`Tags`]
+            tableLinks: [`tags`]
           },
           {
             baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
-            tableName: `Tags`,
-            tableView: `Sorted`,
+            tableName: `tags`,
+            tableView: `sorted`,
             queryName: `allTags`,
-            tableLinks: [`Feed`]
+            tableLinks: [`feed`]
           }
         ]
       }

@@ -12,15 +12,15 @@ dayjs.extend(relativeTime);
 const Tag = props => <li className={styles.tag}>{props.tag}</li>;
 
 export default ({ post }) => {
-  const title = post.Title;
-  const relativeDate = dayjs(post.Timestamp).fromNow();
-  const url = post.URL;
+  const title = post.title;
+  const relativeDate = dayjs(post.timestamp).fromNow();
+  const url = post.url;
   var notesHtml = '';
-  const tagsData = post.Tags;
-  const tags = tagsData.map(tag => <Tag key={tag.id} tag={tag.data.Name} />);
+  const tagsData = post.tags;
+  const tags = tagsData.map(tag => <Tag key={tag.id} tag={tag.data.name} />);
 
-  if (post.Notes) {
-    notesHtml = post.Notes.childMarkdownRemark.html;
+  if (post.notes) {
+    notesHtml = post.notes.childMarkdownRemark.html;
   }
 
   return (

@@ -35,25 +35,25 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     allAirtable(
-      filter: { table: { eq: "Feed" } }
-      sort: { fields: data___Timestamp, order: DESC }
+      filter: { table: { eq: "feed" } }
+      sort: { fields: data___timestamp, order: DESC }
     ) {
       edges {
         node {
           id
           data {
-            Title
-            URL
-            Timestamp
-            Notes {
+            title
+            url
+            timestamp
+            notes {
               childMarkdownRemark {
                 html
               }
             }
-            Tags {
+            tags {
               id
               data {
-                Name
+                name
               }
             }
           }
