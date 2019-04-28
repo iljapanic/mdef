@@ -1,8 +1,8 @@
-image: node:latest
+image: node:10.15.3
 
 pages:
   script:
-  - npm install
+  - yarn install
   - node_modules/.bin/gatsby build --prefix-paths
   artifacts:
     paths:
