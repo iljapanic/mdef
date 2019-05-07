@@ -26,11 +26,11 @@ export default ({ children }) => (
       <ListLink to="/minilab/">MiniLab</ListLink>
       <li>
         <a
-          href="https://iljapanic.gitlab.io/biosemiosis/"
+          href="https://iljapanic.gitlab.io/cyberbiomes/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Biosemiosis <IconExternal />
+          Cyberbiomes <IconExternal />
         </a>
       </li>
       <ListLink to="/feed/">Feed</ListLink>
