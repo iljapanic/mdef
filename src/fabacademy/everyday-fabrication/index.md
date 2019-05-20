@@ -1,15 +1,13 @@
 ---
-title: 'Mycotowers'
-slug: 'mycotowers'
-date: '2019-04-01'
-endDate: '2019-04-09'
-lastUpdated: '2019-04-18'
+title: 'Everyday fabrication'
+slug: 'everyday-fabrication'
+date: '2019-02-01'
+endDate: '2019-02-30'
+lastUpdated: '2019-05-19'
 hero: './hero.jpg'
 methods:
   - 3D Printing
-  - Molding & Casting
-  - Networking & Communications
-  - Computer-Aided Design
+  - Computer-Controlled Cutting
 files:
   - name: Parametric Voronoi Tower [Grasshopper]
     filename: parametric-voronoi-tower.gh
@@ -27,3 +25,4 @@ published: true
 ## Electronics
 
 ## Putting everything together
+

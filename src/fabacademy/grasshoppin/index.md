@@ -1,14 +1,11 @@
 ---
-title: 'Mycotowers'
-slug: 'mycotowers'
+title: 'Grasshopin'
+slug: 'grasshoppin'
 date: '2019-04-01'
-endDate: '2019-04-09'
-lastUpdated: '2019-04-18'
+endDate: '2019-04-30'
+lastUpdated: '2019-03-30'
 hero: './hero.jpg'
 methods:
-  - 3D Printing
-  - Molding & Casting
-  - Networking & Communications
   - Computer-Aided Design
 files:
   - name: Parametric Voronoi Tower [Grasshopper]
@@ -27,3 +24,4 @@ published: true
 ## Electronics
 
 ## Putting everything together
+

@@ -6,8 +6,9 @@ endDate: '2019-03-31'
 lastUpdated: '2019-04-18'
 hero: './hero.jpg'
 methods:
-  - Laser Cutting
-  - CNC Milling
+  - Computer-Controlled Machining
+  - Computer-Controlled Cutting
+  - Computer-Aided Design
 files:
   - name: Parametric Voronoi Stool [Grasshopper]
     filename: parametric-voronoi-stool.gh
