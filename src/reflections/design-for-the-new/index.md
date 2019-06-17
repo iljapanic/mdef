@@ -13,5 +13,4 @@ people:
 published: true
 ---
 
-hello design for the newsss
-
+...
