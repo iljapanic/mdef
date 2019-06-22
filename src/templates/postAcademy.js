@@ -5,23 +5,14 @@ import Img from 'gatsby-image';
 import anchorJS from 'anchor-js';
 import tocbot from 'tocbot';
 
-// import rehypeReact from 'rehype-react';
 
 // components
 import Container from '../components/Container';
-// import LinkPreview from '../components/LinkPreview';
-// import Quote from '../components/Quote';
 
 // css
 import css from '../css/templates/post.module.css';
 import '../css/utils/footnotes.css';
 
-// const renderAst = new rehypeReact({
-//   createElement: React.createElement,
-//   components: {
-//     link: LinkPreview
-//   }
-// }).Compiler;
 
 class File extends React.Component {
   render() {
@@ -54,9 +45,6 @@ class PostTemplate extends React.Component {
     const meta = post.frontmatter;
     const postHtml = post.html;
     const heroImage = meta.hero.childImageSharp.fluid;
-    const readingTime = post.timeToRead;
-    const methodsSorted = meta.methods.sort();
-    const methods = methodsSorted.map((method, index) => <li key={index}>{method}</li>);
 
     var files = '';
     if (meta.files) {
@@ -82,12 +70,6 @@ class PostTemplate extends React.Component {
                   <dt>Period</dt>
                   <dd>
                     {meta.date} – {meta.endDate}
-                  </dd>
-                  <dt>Reading time</dt>
-                  <dd>{readingTime} minutes</dd>
-                  <dt>Methods</dt>
-                  <dd>
-                    <ul>{methods}</ul>
                   </dd>
                   <dt>Contents</dt>
                   <dd>
@@ -129,7 +111,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       id
       html
-      timeToRead
       frontmatter {
         date(formatString: "D MMMM")
         endDate(formatString: "D MMMM YYYY")
@@ -138,7 +119,6 @@ export const pageQuery = graphql`
           name
           filename
         }
-        methods
         slug
         title
         hero {

@@ -10,7 +10,7 @@ import FabLink from '../components/FabLink';
 import styles from '../css/pages/reflections.module.css';
 
 export default ({ data }) => {
-  const pageTitle = 'MiniLab';
+  const pageTitle = 'Fab Academy';
   const allPosts = data.allMarkdownRemark.edges;
   const posts = allPosts.map(edge => <FabLink key={edge.node.id} post={edge.node} />);
 
@@ -21,7 +21,7 @@ export default ({ data }) => {
       </Helmet>
       <div className="page-title">
         <h1>{pageTitle}</h1>
-        <p>A series of Fab Academy experiments and explorations</p>
+        <p>A crash course in digital fabrication</p>
       </div>
       <div className={styles.reflections}>{posts}</div>
     </Container>
@@ -47,7 +47,6 @@ export const query = graphql`
             endDate(formatString: "D MMMM YYYY")
             slug
             title
-            methods
             hero {
               childImageSharp {
                 fluid(maxWidth: 1200) {

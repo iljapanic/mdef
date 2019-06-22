@@ -1,14 +1,10 @@
 ---
-title: 'Amanita Stool'
-slug: 'amanita-stool'
-date: '2019-03-25'
-endDate: '2019-03-31'
-lastUpdated: '2019-04-18'
+title: 'Interfaces & Applications'
+slug: 'interfaces-and-applications'
+date: '2019-05-08'
+endDate: '2019-05-15'
+lastUpdated: '2019-06-22'
 hero: './hero.jpg'
-methods:
-  - Computer-Controlled Machining
-  - Computer-Controlled Cutting
-  - Computer-Aided Design
 files:
   - name: Parametric Voronoi Stool [Grasshopper]
     filename: parametric-voronoi-stool.gh

@@ -23,7 +23,10 @@ export default ({ children }) => (
   <nav className={styles.nav}>
     <ul>
       <ListLink to="/reflections/">Reflections</ListLink>
-      <ListLink to="/minilab/">MiniLab</ListLink>
+      <ListLink to="/fabacademy/">Fab Academy</ListLink>
+      <ListLink to="/feed/">Feed</ListLink>
+      <ListLink to="/bookshelf/">Bookshelf</ListLink>
+      <ListLink to="/about/">About</ListLink>
       <li>
         <a
           href="https://iljapanic.gitlab.io/cyberbiomes/"
@@ -33,9 +36,6 @@ export default ({ children }) => (
           Cyberbiomes <IconExternal />
         </a>
       </li>
-      <ListLink to="/feed/">Feed</ListLink>
-      <ListLink to="/bookshelf/">Bookshelf</ListLink>
-      <ListLink to="/about/">About</ListLink>
     </ul>
   </nav>
 );
