@@ -1,8 +1,8 @@
 ---
-title: ‘Computer-Controlled Machining’
-slug: ‘computer-controlled-machining’
-date: '2019-03-06’
-endDate: '2019-03-13’
+title: ‘Applications & Implications’
+slug: ‘applications-and-implications’
+date: '2019-04-10’
+endDate: '2019-04-17’
 lastUpdated: '2019-06-22'
 hero: './hero.jpg'
 files:

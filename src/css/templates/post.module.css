@@ -138,6 +138,13 @@
   font-size: 85%;
 }
 
+.post pre {
+  background-color: var(--gray-200);
+  font-size: 85%;
+  max-width: 100%;
+  max-width: var(--w-body);
+}
+
 /* footer area */
 .footer {
   width: 100%;
