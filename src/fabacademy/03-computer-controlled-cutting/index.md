@@ -7,7 +7,7 @@ lastUpdated: '2019-06-22'
 hero: './hero.jpg'
 files:
   - name: Parametric Voronoi Stool [Grasshopper]
-    filename: parametric-voronoi-stool.gh
+	filename: parametric-voronoi-stool.gh
 published: true
 ---
 
