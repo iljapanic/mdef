@@ -1,13 +1,13 @@
 ---
-title: ‘Computer-Controlled Machining’
-slug: ‘computer-controlled-machining’
-date: '2019-03-06’
-endDate: '2019-03-13’
+title: 'Computer-Controlled Machining'
+slug: 'computer-controlled-machining'
+date: '2019-03-06'
+endDate: '2019-03-13'
 lastUpdated: '2019-06-22'
 hero: './hero.jpg'
 files:
   - name: Parametric Voronoi Stool [Grasshopper]
-	filename: parametric-voronoi-stool.gh
+filename: parametric-voronoi-stool.gh
 published: true
 ---
 

@@ -133,16 +133,16 @@
   margin-bottom: 0.25rem;
 }
 
-.post p code {
+.post p code,
+.post li code {
   background-color: var(--gray-200);
-  font-size: 85%;
+  font-size: 75%;
 }
 
 .post pre {
   background-color: var(--gray-200);
-  font-size: 85%;
-  max-width: 100%;
-  max-width: var(--w-body);
+  font-size: 70%;
+  max-width: var(--w-figure);
 }
 
 /* footer area */
