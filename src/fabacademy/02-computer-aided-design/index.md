@@ -43,8 +43,27 @@ Following are some examples of the projects I have done using Grasshopper:
 
 ![][image-4]
 
+Some mind-boggling accidents:
+
+![][image-5]
+
+![][image-6]
+
+And some moving images:
+
+![][image-7]
+![][image-8]
+![][image-9]
+![][image-10]
+
 [1]: https://www.sketch.com/
 [image-1]: grasshopper-crystal-vase.jpg 'Crystal vase (for 3D printing with clay extruder)'
 [image-2]: grasshopper-amanita-stool.jpg 'Amanita stool (for CNC)'
 [image-3]: grasshopper-mycolamp.jpg 'Mycolamp (for 3D printing with BronzeFill)'
 [image-4]: grasshopper-mycotower.jpg 'Mycotower (for 3D printing with BronzeFill)'
+[image-5]: grasshopper-accident-1.jpg
+[image-6]: grasshopper-accident-2.jpg
+[image-7]: grasshopper-preview-1.gif
+[image-8]: grasshopper-preview-2.gif
+[image-9]: grasshopper-preview-3.gif
+[image-10]: grasshopper-preview-4.gif
