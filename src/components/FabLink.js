@@ -16,7 +16,7 @@ const FabLink = ({ post }) => {
 
   return (
     <article className={css.post}>
-      <Link to={`minilab/` + slug + `/`} className={css.inner} title="Read more">
+      <Link to={`fabacademy/` + slug + `/`} className={css.inner} title="Read more">
         <div className={css.body}>
           <div className={css.innerBody}>
             <h2 className={css.title}>{title}</h2>
