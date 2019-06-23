@@ -61,7 +61,7 @@ The piece ended up being shaped a bit like a mushroom, so I decided to give it o
 
 ## Bonus
 
-As part of my final exhibition I fabricated quite a large piece constisting and managed to make a nice timelapse of the CNC process:
+As part of my final exhibition I fabricated quite a large design with numerous pieces and managed to make a nice timelapse of the CNC process:
 
 <figure>
 

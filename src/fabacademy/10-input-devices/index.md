@@ -8,7 +8,7 @@ hero: './hero.jpg'
 files:
   - name: Parametric Voronoi Stool [Grasshopper]
     filename: parametric-voronoi-stool.gh
-published: true
+published: false
 ---
 
 ## Modelling
