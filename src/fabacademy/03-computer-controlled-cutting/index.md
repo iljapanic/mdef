@@ -27,6 +27,8 @@ I modelled the box in Rhino and used a [fingerjoint](https://github.com/egradman
 
 Time for laser cutting! I choose a piece of plywood to run the test cut on. I made a tiny square and laser cut it with different parameters until I got a satisfying result — a clean cut without flames or excessively burned edges. I then laser cut my box pieces.
 
+![](laser-preview.gif)
+
 ![](laser-box-2.jpg 'Cut pieces')
 
 Once I started assembling the box something didn't feel right. It took me a moment to realise that the edges of the joint are off by a few millimetres.
@@ -53,4 +55,13 @@ The design is not very intriguing or aesthetically pleasing. But the whole thing
 
 ![](laser-stand-3.jpg 'Laptop stand in action')
 
-## Other 
+## Other cuts
+
+
+A minimalistic holder for resin samples as part of the [Material Driven Design](/reflections/material-driven-design/) course:
+![](laser-holder.jpg 'Laser cut holder for resin samples')
+
+A test cut to asses the quality of design for a stool to be CNC-ed:
+
+![](laser-stool.jpg 'A test cut for assessing the quality of build')
+

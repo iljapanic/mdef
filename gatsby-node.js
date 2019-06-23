@@ -79,7 +79,7 @@ exports.createPages = ({ actions, graphql }) => {
           const next = index === 0 ? null : fabacademy[index - 1].node;
 
           createPage({
-            path: `minilab/${post.node.frontmatter.slug}`,
+            path: `fabacademy/${post.node.frontmatter.slug}`,
             component: postAcademyTemplate,
             context: {
               slug: post.node.frontmatter.slug,
