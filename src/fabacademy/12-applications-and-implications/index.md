@@ -4,7 +4,7 @@ slug: 'applications-and-implications'
 date: '2019-04-10'
 endDate: '2019-04-17'
 lastUpdated: '2019-06-22'
-hero: './hero.JPG'
+hero: './hero.jpg'
 published: true
 ---
 
