@@ -145,6 +145,14 @@
   max-width: var(--w-figure);
 }
 
+.post hr {
+  max-width: var(--w-figure);
+  margin: 3rem auto 3rem 0;
+  height: 1px;
+  border: none;
+  background-color: var(--gray-300);
+}
+
 /* footer area */
 .footer {
   width: 100%;
