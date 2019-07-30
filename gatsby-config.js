@@ -3,7 +3,7 @@ require('dotenv').config({
 });
 
 module.exports = {
-  pathPrefix: '/ilja.panic',
+  pathPrefix: '/2018/ilja.panic',
   siteMetadata: {
     name: `MDEF Diary`,
     email: `ilja.aleksandar.panic@iaac.net`,
