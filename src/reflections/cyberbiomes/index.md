@@ -8,7 +8,11 @@ lastUpdated: '2019-06-28'
 published: true
 ---
 
-![](logo.png)
+<figure>
+
+`vimeo: https://vimeo.com/342830019`
+
+</figure>
 
 > _The planet is dying because we are satisfied with our limited relationships in which control, denial, and abuse are tolerated. The status quo is that we have these petty relationships with each other, between nations, with ourselves and the natural world. Why should we bother? Because healthy relationships are not an esoteric goal. It is a matter of our very survival and the survival of most of the life upon this earth._
 >
